@@ -1,24 +1,42 @@
 {
-  "Subject": [
+  "Subject1": [
     {
-      "Subject": "English",
-      "image": ""
+      "Subject": "English"
+
     },
     {
-      "Subject": "Hindi",
-      "image": ""
+      "Subject": "Hindi"
+
     },
     {
-      "Subject": "Math",
-      "image": ""
+      "Subject": "Math"
+
     },
     {
-      "Subject": "Social Science",
-      "image": ""
+      "Subject": "Social Science"
+
     },
     {
-      "Subject": "Science",
-      "image": ""
+      "Subject": "Science"
+
+    }
+  ],
+  "Ranges": [
+    {
+      "Range": "1-3"
+    },
+    {
+     "Range": "4-6"
+    },
+    {
+      "Range": "7-9"
+    },
+    {
+      "Range": "10-12"
+    },
+    {
+      "Range": "12+ / B tech"
     }
   ]
 }
+

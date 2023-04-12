@@ -59,6 +59,7 @@ class startQuize2 : Fragment() {
         val itemAdapter = context?.let { QuizeAdapter(quizItems, it) }
         recyview.adapter = itemAdapter
 
+
 //        context?.let { loadData(it) }
 
         return view

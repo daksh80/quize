@@ -94,7 +94,7 @@ class Setting : Fragment() {
             }
     }
     private fun replaceFragment(fragment: Fragment){
-        getParentFragmentManager().beginTransaction().replace(R.id.fragment_container3,fragment).commit()
+        getParentFragmentManager().beginTransaction().replace(R.id.fragment_container3,fragment).addToBackStack("null").commit()
 
     }
 }

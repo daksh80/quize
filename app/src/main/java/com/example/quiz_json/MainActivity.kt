@@ -6,6 +6,7 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import com.example.quiz_json.Controllers.RangeStudent
 import com.example.quiz_json.Controllers.StartQuizController
 import com.example.quiz_json.databinding.ActivityMainBinding
 
@@ -31,6 +32,6 @@ class MainActivity : AppCompatActivity() {
         return super.onOptionsItemSelected(item)
     }
     private fun replaceFragment(fragment: Fragment){
-        supportFragmentManager.beginTransaction().replace(R.id.fragment_container3,fragment).commit()
+        supportFragmentManager.beginTransaction().replace(R.id.fragment_container3,fragment).addToBackStack("null").commit()
     }
 }
