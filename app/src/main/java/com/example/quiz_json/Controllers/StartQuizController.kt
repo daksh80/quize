@@ -10,19 +10,27 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.quiz_json.Model.SubjectModel
+import com.example.quiz_json.MyItemClickListener
 import com.example.quiz_json.R
 import com.example.quiz_json.SubjectAdapter
 import com.example.quiz_json.databinding.StartQuizBinding
 
-class StartQuizController : Fragment() {
+class StartQuizController : Fragment(), MyItemClickListener {
     lateinit var binding: StartQuizBinding
     lateinit var subjectModel: SubjectModel
+    lateinit var adapter: SubjectAdapter
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = StartQuizBinding.inflate(layoutInflater)
         subjectModel = SubjectModel()
+        adapter = context?.let { SubjectAdapter(subjectModel.subject(it), it) }!!
+        adapter.listener = this
+    }
 
-
+    override fun onItemClicked(item: SubjectModel.subject) {
+        Toast.makeText(context,"Hello onclick ${item.Subject}",Toast.LENGTH_LONG).show()
+        // implementation of onItemClicked function
     }
 
     @SuppressLint("MissingInflatedId")
@@ -32,14 +40,9 @@ class StartQuizController : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val view = inflater.inflate(R.layout.fragment_start_quize2, container, false)
-        val questions = subjectModel.subject(requireContext())
-
         val recyview1 = view.findViewById<RecyclerView>(R.id.rvquize)
         recyview1.layoutManager = LinearLayoutManager(requireContext())
-        val itemAdapter = SubjectAdapter(questions, requireContext())
-        recyview1.adapter = itemAdapter
-        return  view
+        recyview1.adapter = adapter
+        return view
     }
 }
-
-

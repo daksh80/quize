@@ -8,14 +8,14 @@ import android.widget.Button
 import android.widget.RadioButton
 import android.widget.TextView
 import androidx.fragment.app.Fragment
-import com.example.quiz_json.Model.QuestionModel
+import com.example.quiz_json.Model.AllQuestionModel
 import com.example.quiz_json.R
 import com.example.quiz_json.View.McqQuizView
 import com.example.quiz_json.databinding.McqQuizBinding
 
 class McqQuizController :Fragment() {
 
-    lateinit var question_model : QuestionModel
+    lateinit var question_model : AllQuestionModel
     lateinit var  booleanQuizView: McqQuizView
     lateinit var binding: McqQuizBinding
 
@@ -28,7 +28,7 @@ class McqQuizController :Fragment() {
 
         //setContentView(R.layout.mcq_quiz)
 
-        question_model = QuestionModel()   // instance of the class
+        question_model = AllQuestionModel()   // instance of the class
 
 
         booleanQuizView = McqQuizView()

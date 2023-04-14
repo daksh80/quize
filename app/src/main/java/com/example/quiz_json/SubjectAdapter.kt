@@ -4,8 +4,8 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.AdapterView
 import android.widget.TextView
-import android.widget.Toast
 import androidx.fragment.app.FragmentActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.example.quiz_json.Controllers.RangeStudent
@@ -14,7 +14,7 @@ import com.example.quiz_json.Model.SubjectModel
 class SubjectAdapter(val items: ArrayList<SubjectModel.subject>, val context: Context) :
     RecyclerView.Adapter<SubjectAdapter.ViewHolder>() {
 
-    var itemClicked: ((SubjectModel.subject) -> Unit)? = null
+    lateinit var listener: MyItemClickListener
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val itemView = LayoutInflater.from(parent.context)
@@ -25,6 +25,7 @@ class SubjectAdapter(val items: ArrayList<SubjectModel.subject>, val context: Co
                     val fragmentManager = (context as FragmentActivity).supportFragmentManager
                     val newFragment = RangeStudent()
                     fragmentManager.beginTransaction().replace(R.id.fragment_container3, newFragment).addToBackStack("subject_to_range_student").commit()
+                    items.clear()
             }
         }
     }
@@ -32,6 +33,10 @@ class SubjectAdapter(val items: ArrayList<SubjectModel.subject>, val context: Co
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val item = items[position]
         holder.textsub.text = item.Subject
+//        holder.itemView.setOnClickListener {
+//            listener?.onItemClicked(item)
+//        }
+
     }
 
     override fun getItemCount(): Int {

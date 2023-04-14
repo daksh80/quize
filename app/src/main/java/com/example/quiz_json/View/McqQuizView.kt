@@ -1,28 +1,28 @@
 package com.example.quiz_json.View
 
-import android.app.Fragment
 import android.content.Context
 import android.content.Intent
 import android.widget.Button
 import android.widget.RadioButton
 import android.widget.TextView
 import android.widget.Toast
-import androidx.core.content.ContextCompat.startActivity
-import com.example.quiz_json.Controllers.StartQuizController
 import com.example.quiz_json.MainActivity
-import com.example.quiz_json.Model.QuestionModel
+import com.example.quiz_json.Model.AllQuestionModel
 import com.example.quiz_json.R
 import com.example.quiz_json.databinding.McqQuizBinding
 
 class McqQuizView {
 
 
-    val myAnsers = Array<String?>(10) { null }
+    val myAnsers = Array<String?>(10){null}
+
+
+
     var count = 0
     var score = 0
 
     fun setdata(
-        questions: Array<QuestionModel.McqQuestion>,
+        questions: Array<AllQuestionModel.McqQuestion>,
         context: Context,
         question_text: TextView,
         option1: RadioButton,
@@ -86,7 +86,7 @@ class McqQuizView {
     }
 
     fun nextquestion(
-        questions: Array<QuestionModel.McqQuestion>,
+        questions: Array<AllQuestionModel.McqQuestion>,
         context: Context,
         question_text: TextView,
         option1: RadioButton,
@@ -122,7 +122,7 @@ class McqQuizView {
     }
 
     fun previousquestion(
-        questions: Array<QuestionModel.McqQuestion>,
+        questions: Array<AllQuestionModel.McqQuestion>,
         context: Context,
         question_text: TextView,
         option1: RadioButton,
