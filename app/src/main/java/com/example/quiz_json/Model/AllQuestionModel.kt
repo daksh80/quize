@@ -1,10 +1,18 @@
 package com.example.quiz_json.Model
 
 import android.content.Context
-import android.util.Log
+import android.os.Bundle
+import android.widget.Toast
+import androidx.core.os.bundleOf
+import androidx.core.os.persistableBundleOf
+import androidx.navigation.navArgument
+import com.example.quiz_json.Controllers.RangeStudent
+import com.example.quiz_json.Controllers.StartQuizController
+import com.example.quiz_json.Difficulty
 import org.json.JSONObject
 
-class AllQuestionModel() {
+class AllQuestionModel(private val bundle: Bundle) {
+
     data class McqQuestion(
         val question: String,
         val option1: String,
@@ -13,9 +21,11 @@ class AllQuestionModel() {
         val option4: String,
         val answer: String
     )
-
-
     fun getmcqquestions(context: Context): Array<McqQuestion> {
+        val args = Difficulty().arguments
+        val inputData1 = args?.get("Range")
+        val inputPos1 = args?.get("RangePos")
+        Toast.makeText(context,"helloposition ${inputData1.toString()} , ${inputPos1.toString()}",Toast.LENGTH_LONG).show()
 
         val jsonString = context.assets.open("subject.json").bufferedReader().use { it.readText() }
         val jsonObject = JSONObject(jsonString)
@@ -40,5 +50,9 @@ class AllQuestionModel() {
     // Example usage:
 // You can now use the `questions` array to display the questions in your app
 }
+
+
+
+
 
 

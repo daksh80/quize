@@ -5,7 +5,9 @@ import com.example.quiz_json.Model.SubjectModel
 interface MyItemClickListener {
 
 
-    fun onItemClicked(item: SubjectModel.subject)
+    fun onItemClicked(item: SubjectModel.subject, position: Int)
+
+
 }
 
 

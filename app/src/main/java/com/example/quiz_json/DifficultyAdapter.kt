@@ -12,18 +12,12 @@ import com.example.quiz_json.Model.SubjectModel
 
 class DifficultyAdapter(val items: ArrayList<SubjectModel.Difficulty>, val context: Context)  :
     RecyclerView.Adapter<DifficultyAdapter.ViewHolder>() {
+
+    lateinit var listener: DifficultyItemClickListner
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DifficultyAdapter.ViewHolder {
         val itemView = LayoutInflater.from(parent.context)
             .inflate(R.layout.difficulty, parent, false)
-        return ViewHolder(itemView).apply {
-            itemView.setOnClickListener {
-                val position = adapterPosition
-                val fragmentManager = (context as FragmentActivity).supportFragmentManager
-                val newFragment = Setting()
-                fragmentManager.beginTransaction().replace(R.id.fragment_container3, newFragment).addToBackStack("subject_to_range_student").commit()
-                items.clear()
-            }
-        }
+        return ViewHolder(itemView)
     }
 
     inner class ViewHolder(view: View) : RecyclerView.ViewHolder(view){
@@ -33,6 +27,9 @@ class DifficultyAdapter(val items: ArrayList<SubjectModel.Difficulty>, val conte
     override fun onBindViewHolder(holder: DifficultyAdapter.ViewHolder, position: Int) {
         val items = items.get(position)
         holder.Diff.text = items.Difficult
+        holder.itemView.setOnClickListener {
+            listener?.Difficulty(items,position)
+        }
 
     }
 

@@ -8,10 +8,8 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.quiz_json.*
 import com.example.quiz_json.Model.SubjectModel
-import com.example.quiz_json.MyItemClickListener
-import com.example.quiz_json.R
-import com.example.quiz_json.RangeAdapter
 import com.example.quiz_json.databinding.RangeStudentBinding
 
 // TODO: Rename parameter arguments, choose names that match
@@ -24,34 +22,44 @@ private const val ARG_PARAM2 = "param2"
  * Use the [RangeStudent.newInstance] factory method to
  * create an instance of this fragment.
  */
-class RangeStudent : Fragment()  {
+class RangeStudent : Fragment() , RangeItemClickListner {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
     lateinit var binding: RangeStudentBinding
     lateinit var ranges: SubjectModel
+    lateinit var adapter: RangeAdapter
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = RangeStudentBinding.inflate(layoutInflater)
         ranges = SubjectModel()
-
-
+        adapter = context?.let { RangeAdapter(ranges.Ranges(it), it) }!!
+        adapter.Ranlistener = this
     }
-
-
+    override fun rangeIntemClicked(items: SubjectModel.Ranges, position: Int) {
+        var bundle = Bundle()
+        bundle.putString("Range",items.Range)
+        bundle.putInt("RangePos",position)
+        val Range = Difficulty()
+        Range.arguments = bundle
+        replaceFragment(Range)
+    }
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_start_quize2, container, false)
-        val questions = ranges.Ranges(requireContext())
+        val args = this.arguments
+        val inputData = args?.get("Subject")
+        val inputPos = args?.get("SubjectPos")
+        Toast.makeText(context,"hello ${inputData.toString()} , ${inputPos.toString()}",Toast.LENGTH_LONG).show()
         val recyview1 = view.findViewById<RecyclerView>(R.id.rvquize)
         recyview1.layoutManager = LinearLayoutManager(requireContext())
-        val itemAdapter = RangeAdapter(questions,requireContext())
-        recyview1.adapter=itemAdapter
-        Toast.makeText(context,"${questions.size}",Toast.LENGTH_LONG).show()
+        recyview1.adapter=adapter
+
         return view
     }
 
@@ -74,4 +82,10 @@ class RangeStudent : Fragment()  {
                 }
             }
     }
+
+
+    fun replaceFragment(fragment: Fragment){
+        getParentFragmentManager().beginTransaction().replace(R.id.fragment_container3,fragment).addToBackStack("null").commit()
+    }
+
 }

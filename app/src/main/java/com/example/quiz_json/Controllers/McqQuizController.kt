@@ -27,8 +27,9 @@ class McqQuizController :Fragment() {
         binding = McqQuizBinding.inflate(layoutInflater)
 
         //setContentView(R.layout.mcq_quiz)
+        question_model = AllQuestionModel(Bundle())   // instance of the class
 
-        question_model = AllQuestionModel()   // instance of the class
+
 
 
         booleanQuizView = McqQuizView()

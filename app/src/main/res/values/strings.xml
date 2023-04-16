@@ -19,4 +19,13 @@
     <string name="subject">Subject</string>
     <string name="Range">Range</string>
     <string name="Difficulty">Difficulty</string>
+    <string name="Login">Login</string>
+    <string name="Login_id">Login Id:-</string>
+    <string name="login_details">Please Enter your Email id:-</string>
+    <string name="password">Password:-</string>
+    <string name="password_details">Please Enter Your Password</string>
+    <string name="Submit">Submit</string>
+    <string name="Signuptxt">New User !! :)</string>
+    <string name="Signup">SignUp</string>
+    <string name="logintxt">Existing User !! :)</string>
 </resources>
