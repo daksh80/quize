@@ -34,20 +34,20 @@ class QuestionModel {
         val answer: String
     )
 
-    fun getmcqquestions(context: Context): Array<McqQuestion> {
-        val jsonString = context.assets.open("mcq_quiz_questions.json").bufferedReader().use { it.readText() }
-        val json = JSONObject(jsonString)
-        val questionsJson = json.getJSONArray("questions")
-        Log.d("MainActivity", questionsJson[0].toString())
-        val questions = Array(questionsJson.length()) { i ->
-            val questionJson = questionsJson.getJSONObject(i)
-            McqQuestion(questionJson.getString("question"), questionJson.getString("Option1"), questionJson.getString("Option2"), questionJson.getString("Option3"), questionJson.getString("Option4") , questionJson.getString("correctIndex"))
-        }
-        Toast.makeText(context, "No.of questions are ${questions.size}", Toast.LENGTH_SHORT).show()
-
-        return questions
-
-    }
+//    fun getmcqquestions(context: Context): Array<McqQuestion> {
+//        val jsonString = context.assets.open("mcq_quiz_questions.json").bufferedReader().use { it.readText() }
+//        val json = JSONObject(jsonString)
+//        val questionsJson = json.getJSONArray("questions")
+//        Log.d("MainActivity", questionsJson[0].toString())
+//        val questions = Array(questionsJson.length()) { i ->
+//            val questionJson = questionsJson.getJSONObject(i)
+//            McqQuestion(questionJson.getString("question"), questionJson.getString("Option1"), questionJson.getString("Option2"), questionJson.getString("Option3"), questionJson.getString("Option4") , questionJson.getString("correctIndex"))
+//        }
+//        Toast.makeText(context, "No.of questions are ${questions.size}", Toast.LENGTH_SHORT).show()
+//
+//        return questions
+//
+//    }
 
     data class QuizItem(var score: Int, var totalQuestions: Int, var percentage: Int)
 

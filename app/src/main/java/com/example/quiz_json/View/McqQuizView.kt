@@ -6,12 +6,11 @@ import android.widget.Button
 import android.widget.RadioButton
 import android.widget.TextView
 import android.widget.Toast
-import com.example.quiz_json.MainActivity
+import com.example.quiz_json.Controllers.McqQuizController
 import com.example.quiz_json.Model.AllQuestionModel
-import com.example.quiz_json.R
-import com.example.quiz_json.databinding.McqQuizBinding
+import com.example.quiz_json.ScoreCard
 
-class McqQuizView {
+class McqQuizView :  McqQuizController() {
 
 
     val myAnsers = Array<String?>(10){null}
@@ -31,57 +30,69 @@ class McqQuizView {
         option4: RadioButton,
         question_number: TextView,
         next_question: Button
-    )
-    {
-        question_text.text= questions[count].question
+    ) {
+        question_text.text = questions[count].question
         option1.text = questions[count].option1
         option2.text = questions[count].option2
         option3.text = questions[count].option3
         option4.text = questions[count].option4
-        question_number.text = (count+1).toString()
+        question_number.text = (count + 1).toString()
 
 
         option1.setOnClickListener {
-            nextquestion(questions, context, question_text, option1, option2, option3, option4,question_number)
+            nextquestion(
+                questions,
+                context,
+                question_text,
+                option1,
+                option2,
+                option3,
+                option4,
+                question_number
+            )
             myAnsers[count] = option1.text as String
         }
 
         option2.setOnClickListener {
-            nextquestion(questions, context, question_text, option1, option2, option3, option4,question_number)
+            nextquestion(
+                questions,
+                context,
+                question_text,
+                option1,
+                option2,
+                option3,
+                option4,
+                question_number
+            )
             myAnsers[count] = option2.text as String
         }
         option3.setOnClickListener {
-            nextquestion(questions, context, question_text, option1, option2, option3, option4,question_number)
+            nextquestion(
+                questions,
+                context,
+                question_text,
+                option1,
+                option2,
+                option3,
+                option4,
+                question_number
+            )
             myAnsers[count] = option3.text as String
         }
         option4.setOnClickListener {
-            nextquestion(questions, context, question_text, option1, option2, option3, option4,question_number)
+            nextquestion(
+                questions,
+                context,
+                question_text,
+                option1,
+                option2,
+                option3,
+                option4,
+                question_number
+            )
             myAnsers[count] = option4.text as String
         }
 
-
-
-
-
-//        next_question.setOnClickListener {
-//            if(count<10) {
-//                nextquestion(questions, context, question_text, option1, option2, option3, option4,question_number)
-//            }
-//            else
-//            {
-//
-//                val intent = Intent(context, StartQuizController::class.java)
-////                intent.putExtra("Score",score)
-//                context.startActivity(intent)
-//                Toast.makeText(context,"Check your scores here",Toast.LENGTH_SHORT).show()
-//
-//            }
-//        }
-//        previous_question.setOnClickListener {
-//            if(count>0) {
-//                previousquestion(questions, context, question_text, option1, option2, option3, option4,question_number)
-//            }
-//        }
 
     }
 
@@ -112,9 +123,7 @@ class McqQuizView {
                 if (questions[i].answer == myAnsers[i]) score++
             }
             Toast.makeText(context, "$score", Toast.LENGTH_LONG).show()
-            val intent = Intent(context, MainActivity::class.java)
            // intent.putExtra("score",score)
-            context.startActivity(intent)
             Toast.makeText(context, "Check your scores here ${score}", Toast.LENGTH_LONG).show()
             saveData(score, context, count)
         }

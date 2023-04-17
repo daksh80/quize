@@ -28,4 +28,5 @@
     <string name="Signuptxt">New User !! :)</string>
     <string name="Signup">SignUp</string>
     <string name="logintxt">Existing User !! :)</string>
+    <string name="zero">0</string>
 </resources>

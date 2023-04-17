@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.quiz_json.Model.AllQuestionModel
 import com.example.quiz_json.Model.SubjectModel
 import com.example.quiz_json.databinding.DifficultyBinding
 
@@ -38,9 +39,20 @@ class Difficulty : Fragment(), DifficultyItemClickListner {
 
     }
     override fun Difficulty(item: SubjectModel.Difficulty,position: Int) {
+        val args = this.arguments
+        val Subject = args?.get("Subject")
+        val SubjectPos = args?.get("SubjectPos")
+       // Toast.makeText(context,"MCQQuiZQ Controller ${Subject.toString()} , ${SubjectPos.toString()}",Toast.LENGTH_LONG).show()
+        val Range = args?.get("Range")
+        val RangePos = args?.get("RangePos")
+      //  Toast.makeText(context,"test ${Range.toString()} , ${RangePos.toString()}",Toast.LENGTH_LONG).show()
         var bundle = Bundle()
         bundle.putString("Diff",item.Difficult)
         bundle.putInt("DiffPos",position)
+        bundle.putString("Range",Range.toString())
+        bundle.putString("RangePos",RangePos.toString())
+        bundle.putString("Subject", Subject.toString())
+        bundle.putString("SubjectPos", SubjectPos.toString())
         val Diff = Setting()
         Diff.arguments = bundle
         replaceFragment(Diff)
@@ -53,10 +65,6 @@ class Difficulty : Fragment(), DifficultyItemClickListner {
     ): View? {
         // Inflate the layout for this fragment
         val view =  inflater.inflate(R.layout.fragment_start_quize2, container, false)
-        val args = this.arguments
-        val inputData1 = args?.get("Range")
-        val inputPos1 = args?.get("RangePos")
-        Toast.makeText(context,"helloposition ${inputData1.toString()} , ${inputPos1.toString()}",Toast.LENGTH_LONG).show()
         val recyview1 = view.findViewById<RecyclerView>(R.id.rvquize)
         recyview1.layoutManager = LinearLayoutManager(requireContext())
         recyview1.adapter = adapter

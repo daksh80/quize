@@ -39,9 +39,16 @@ class RangeStudent : Fragment() , RangeItemClickListner {
         adapter.Ranlistener = this
     }
     override fun rangeIntemClicked(items: SubjectModel.Ranges, position: Int) {
+        val args = this.arguments
+        val Subject = args?.get("Subject")
+        val SubjectPos = args?.get("SubjectPos")
+       // Toast.makeText(context,"MCQQuiZQ Controller ${Subject.toString()} , ${SubjectPos.toString()}",Toast.LENGTH_LONG).show()
+
         var bundle = Bundle()
         bundle.putString("Range",items.Range)
         bundle.putInt("RangePos",position)
+        bundle.putString("Subject", Subject.toString())
+        bundle.putString("SubjectPos", SubjectPos.toString())
         val Range = Difficulty()
         Range.arguments = bundle
         replaceFragment(Range)
@@ -52,10 +59,6 @@ class RangeStudent : Fragment() , RangeItemClickListner {
     ): View? {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_start_quize2, container, false)
-        val args = this.arguments
-        val inputData = args?.get("Subject")
-        val inputPos = args?.get("SubjectPos")
-        Toast.makeText(context,"hello ${inputData.toString()} , ${inputPos.toString()}",Toast.LENGTH_LONG).show()
         val recyview1 = view.findViewById<RecyclerView>(R.id.rvquize)
         recyview1.layoutManager = LinearLayoutManager(requireContext())
         recyview1.adapter=adapter

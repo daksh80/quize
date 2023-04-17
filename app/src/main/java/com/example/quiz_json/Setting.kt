@@ -25,13 +25,11 @@ class Setting : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
+    lateinit var mcqQuiz : McqQuizController
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        arguments?.let {
-            param1 = it.getString(ARG_PARAM1)
-            param2 = it.getString(ARG_PARAM2)
-        }
+
     }
 
     override fun onCreateView(
@@ -61,10 +59,23 @@ class Setting : Fragment() {
                 replaceFragment(BooleanQuizController())
             }
             if (test_type == "mcq") {
-//                val intent = Intent(this, McqQuizController::class.java)
-//                startActivity(intent)
-//                Toast.makeText(this,"Welcome to MCQ test",Toast.LENGTH_SHORT).show()
-                replaceFragment(McqQuizController())
+                var bundle = Bundle()
+                val args = this.arguments
+                val Subject = args?.get("Subject")
+                val SubjectPos = args?.get("SubjectPos")
+                val Range = args?.get("Range")
+                val RangePos = args?.get("RangePos")
+                val Difficulty = args?.get("Diff")
+                val DifficultyPos = args?.get("DiffPos")
+                bundle.putString("Diff",Difficulty.toString())
+                bundle.putString("DiffPos",DifficultyPos.toString())
+                bundle.putString("Range",Range.toString())
+                bundle.putString("RangePos",RangePos.toString())
+                bundle.putString("Subject", Subject.toString())
+                bundle.putString("SubjectPos", SubjectPos.toString())
+                mcqQuiz = McqQuizController()
+                mcqQuiz.arguments = bundle
+                replaceFragment(mcqQuiz)
             }
             if(test_type == "null") {
                 Toast.makeText(context,"Please make a selection", Toast.LENGTH_SHORT).show()
