@@ -10,6 +10,10 @@ import android.widget.RadioButton
 import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProvider
+import com.example.quiz_json.Data.UserScore
+import com.example.quiz_json.Data.UserScoreViewModel
 import com.example.quiz_json.Difficulty
 import com.example.quiz_json.Model.AllQuestionModel
 import com.example.quiz_json.Model.SubjectModel
@@ -30,6 +34,7 @@ open class McqQuizController :Fragment() {
     lateinit var RangePos1 : String
     lateinit var Difficulty1: String
     lateinit var DifficultyPos1 : String
+    private lateinit var UserScoreViewModel1: UserScoreViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -70,6 +75,10 @@ open class McqQuizController :Fragment() {
         val option4 = view.findViewById<RadioButton>(R.id.option4)
         val previous_question = view.findViewById<Button>(R.id.previous)
         val next_question = view.findViewById<Button>(R.id.next)
+        UserScoreViewModel1 = ViewModelProvider(this).get(UserScoreViewModel::class.java)
+        val user = UserScore(0,"a","b","c","d","e","f")
+        UserScoreViewModel1.addUser(user)
+
         val questions = getmcqquestions()  // calling the function using the instance
         context?.let {
             booleanQuizView.setdata(questions,

@@ -84,7 +84,7 @@ class Setting : Fragment() {
         val args = this.arguments
         val inputData1 = args?.get("Diff")
         val inputPos1 = args?.get("DiffPos")
-        Toast.makeText(context,"helloposition ${inputData1.toString()} , ${inputPos1.toString()}",Toast.LENGTH_LONG).show()
+//        Toast.makeText(context,"helloposition ${inputData1.toString()} , ${inputPos1.toString()}",Toast.LENGTH_LONG).show()
 
         return view
     }

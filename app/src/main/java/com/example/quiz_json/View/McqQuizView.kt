@@ -1,12 +1,19 @@
 package com.example.quiz_json.View
 
+import android.app.Application
 import android.content.Context
 import android.content.Intent
 import android.widget.Button
 import android.widget.RadioButton
 import android.widget.TextView
 import android.widget.Toast
+import androidx.lifecycle.LiveData
 import com.example.quiz_json.Controllers.McqQuizController
+import com.example.quiz_json.Data.UserScore
+import com.example.quiz_json.Data.UserScoreDao
+import com.example.quiz_json.Data.UserScoreDatabase
+import com.example.quiz_json.Data.UserScoreRepository
+import com.example.quiz_json.MainActivity
 import com.example.quiz_json.Model.AllQuestionModel
 import com.example.quiz_json.ScoreCard
 
@@ -14,6 +21,8 @@ class McqQuizView :  McqQuizController() {
 
 
     val myAnsers = Array<String?>(10){null}
+
+
 
 
 
@@ -124,6 +133,8 @@ class McqQuizView :  McqQuizController() {
             }
             Toast.makeText(context, "$score", Toast.LENGTH_LONG).show()
            // intent.putExtra("score",score)
+            val intent = Intent(context, ScoreCard::class.java)
+            context.startActivity(intent)
             Toast.makeText(context, "Check your scores here ${score}", Toast.LENGTH_LONG).show()
             saveData(score, context, count)
         }

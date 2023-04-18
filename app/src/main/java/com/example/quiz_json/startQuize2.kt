@@ -52,6 +52,7 @@ class startQuize2 : Fragment() {
             QuestionModel.QuizItem( 0, 0, 0)
         )
 
+
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_start_quize2, container, false)
        val recyview = view.findViewById<RecyclerView>(R.id.rvquize)
