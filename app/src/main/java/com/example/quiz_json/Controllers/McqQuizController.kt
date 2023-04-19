@@ -1,7 +1,7 @@
 package com.example.quiz_json.Controllers
 
-import android.content.Context
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -14,14 +14,11 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.example.quiz_json.Data.UserScore
 import com.example.quiz_json.Data.UserScoreViewModel
-import com.example.quiz_json.Difficulty
 import com.example.quiz_json.Model.AllQuestionModel
-import com.example.quiz_json.Model.SubjectModel
 import com.example.quiz_json.R
 import com.example.quiz_json.View.McqQuizView
 import com.example.quiz_json.databinding.McqQuizBinding
 import org.json.JSONObject
-import kotlin.properties.Delegates
 
 open class McqQuizController :Fragment() {
 
@@ -48,7 +45,7 @@ open class McqQuizController :Fragment() {
         Subject1 = Subject.toString()
         val SubjectPos = args?.get("SubjectPos")
         SubjectPos1=SubjectPos.toString()
-       // Toast.makeText(context,"MCQ ${Subject1} , ${SubjectPos1}",Toast.LENGTH_LONG).show()
+        // Toast.makeText(context,"MCQ ${Subject1} , ${SubjectPos1}",Toast.LENGTH_LONG).show()
         val Range = args?.get("Range")
         Range1 = Range.toString()
         val RangePos = args?.get("RangePos")
@@ -58,7 +55,7 @@ open class McqQuizController :Fragment() {
         Difficulty1 = Difficulty.toString()
         val DifficultyPos = args?.get("DiffPos")
         DifficultyPos1=DifficultyPos.toString()
-       // Toast.makeText(context,"test ${Difficulty.toString()} , ${DifficultyPos.toString()}",Toast.LENGTH_LONG).show()
+        // Toast.makeText(context,"test ${Difficulty.toString()} , ${DifficultyPos.toString()}",Toast.LENGTH_LONG).show()
 
 
     }
@@ -76,17 +73,21 @@ open class McqQuizController :Fragment() {
         val previous_question = view.findViewById<Button>(R.id.previous)
         val next_question = view.findViewById<Button>(R.id.next)
         UserScoreViewModel1 = ViewModelProvider(this).get(UserScoreViewModel::class.java)
-        val user = UserScore(0,"a","b","c","d","e","f")
-        UserScoreViewModel1.addUser(user)
+        getmcqquestions();
+        UserScoreViewModel1.readAllData.observe(viewLifecycleOwner, Observer {it1->
+            val questions = it1
+            Log.e(tag,"${it1}")
+            Toast.makeText(context,"loeoedlfsnvjf${it1}",Toast.LENGTH_LONG).show()
+            context?.let {
+                booleanQuizView.setdata(questions,
+                    it,question_text,option1,option2,option3,option4,previous_question,next_question)
+            }
+        })
+         // calling the function using the instance
 
-        val questions = getmcqquestions()  // calling the function using the instance
-        context?.let {
-            booleanQuizView.setdata(questions,
-                it,question_text,option1,option2,option3,option4,previous_question,next_question)
-        }
         return  view
     }
-    fun getmcqquestions(): Array<AllQuestionModel.McqQuestion> {
+    fun getmcqquestions() {
 
 
         val jsonString = requireContext().assets.open("subject.json").bufferedReader().use { it.readText() }
@@ -98,16 +99,19 @@ open class McqQuizController :Fragment() {
 
         val booleanQuestions = Array(levelArray.length()) { i ->
             val jsonObj = levelArray.getJSONObject(i)
-            AllQuestionModel.McqQuestion(
-                jsonObj.getString("question"),
-                jsonObj.getString("Option1"),
-                jsonObj.getString("Option2"),
-                jsonObj.getString("Option3"),
-                jsonObj.getString("Option4"),
-                jsonObj.getString("correctIndex")
-            )
+            val user = UserScore(i,jsonObj.getString("question"),jsonObj.getString("Option1"),jsonObj.getString("Option2"),jsonObj.getString("Option3"),jsonObj.getString("Option4"), jsonObj.getString("correctIndex"))
+            UserScoreViewModel1.addUser(user)
+//            AllQuestionModel.McqQuestion(
+//                jsonObj.getString("question"),
+//                jsonObj.getString("Option1"),
+//                jsonObj.getString("Option2"),
+//                jsonObj.getString("Option3"),
+//                jsonObj.getString("Option4"),
+//                jsonObj.getString("correctIndex")
+//            )
         }
-        return booleanQuestions
+
+//        return booleanQuestions
     }
 
 }

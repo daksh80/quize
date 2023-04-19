@@ -1,19 +1,14 @@
 package com.example.quiz_json.View
 
-import android.app.Application
 import android.content.Context
 import android.content.Intent
 import android.widget.Button
 import android.widget.RadioButton
 import android.widget.TextView
 import android.widget.Toast
-import androidx.lifecycle.LiveData
+import androidx.lifecycle.ViewModelProvider
 import com.example.quiz_json.Controllers.McqQuizController
-import com.example.quiz_json.Data.UserScore
-import com.example.quiz_json.Data.UserScoreDao
-import com.example.quiz_json.Data.UserScoreDatabase
-import com.example.quiz_json.Data.UserScoreRepository
-import com.example.quiz_json.MainActivity
+import com.example.quiz_json.Data.*
 import com.example.quiz_json.Model.AllQuestionModel
 import com.example.quiz_json.ScoreCard
 
@@ -21,6 +16,10 @@ class McqQuizView :  McqQuizController() {
 
 
     val myAnsers = Array<String?>(10){null}
+    private lateinit var UserScoreViewModel1: UserScoreViewModel
+
+
+
 
 
 
@@ -30,7 +29,7 @@ class McqQuizView :  McqQuizController() {
     var score = 0
 
     fun setdata(
-        questions: Array<AllQuestionModel.McqQuestion>,
+        questions: List<UserScore>,
         context: Context,
         question_text: TextView,
         option1: RadioButton,
@@ -40,6 +39,7 @@ class McqQuizView :  McqQuizController() {
         question_number: TextView,
         next_question: Button
     ) {
+
         question_text.text = questions[count].question
         option1.text = questions[count].option1
         option2.text = questions[count].option2
@@ -106,7 +106,7 @@ class McqQuizView :  McqQuizController() {
     }
 
     fun nextquestion(
-        questions: Array<AllQuestionModel.McqQuestion>,
+        questions: List<UserScore>,
         context: Context,
         question_text: TextView,
         option1: RadioButton,
@@ -137,12 +137,15 @@ class McqQuizView :  McqQuizController() {
             context.startActivity(intent)
             Toast.makeText(context, "Check your scores here ${score}", Toast.LENGTH_LONG).show()
             saveData(score, context, count)
+
+//            UserScoreViewModel1 = ViewModelProvider(this).get(UserScoreViewModel::class.java)
+//            UserScoreViewModel1.deleteAllUser()
         }
 
     }
 
     fun previousquestion(
-        questions: Array<AllQuestionModel.McqQuestion>,
+        questions: List<UserScore>,
         context: Context,
         question_text: TextView,
         option1: RadioButton,
@@ -175,3 +178,5 @@ class McqQuizView :  McqQuizController() {
     }
 
 }
+
+

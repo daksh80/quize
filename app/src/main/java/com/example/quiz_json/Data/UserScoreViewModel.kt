@@ -21,4 +21,11 @@ class UserScoreViewModel(application: Application): AndroidViewModel(application
             repository.addUser(userScore)
         }
     }
+
+
+    fun deleteAllUser(){
+        viewModelScope.launch(Dispatchers.IO){
+            repository.deleteAllData()
+        }
+    }
 }

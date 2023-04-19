@@ -5,7 +5,6 @@ import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import kotlinx.coroutines.selects.select
 
 @Dao
 interface UserScoreDao {
@@ -15,4 +14,9 @@ interface UserScoreDao {
 
     @Query("SELECT * FROM Score_History ORDER BY id ASC")
     fun readAllData(): LiveData<List<UserScore>>
+
+    @Query("DELETE FROM Score_History")
+    suspend fun DeleteAllData()
+
+
 }

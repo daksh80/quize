@@ -8,4 +8,9 @@ class UserScoreRepository(private val UserScoreDao : UserScoreDao) {
     suspend fun addUser(userScore : UserScore){
         UserScoreDao.addScore(userScore)
     }
+
+
+    suspend fun deleteAllData(){
+        UserScoreDao.DeleteAllData()
+    }
 }

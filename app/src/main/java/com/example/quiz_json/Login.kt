@@ -13,7 +13,9 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import androidx.databinding.DataBindingUtil.setContentView
+import androidx.lifecycle.ViewModelProvider
 import com.example.quiz_json.Controllers.StartQuizController
+import com.example.quiz_json.Data.UserScoreViewModel
 import com.example.quiz_json.databinding.LoginBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
@@ -35,6 +37,7 @@ class Login : Fragment() {
     private var param2: String? = null
     lateinit var binding: LoginBinding
     private lateinit var auth: FirebaseAuth;
+    private lateinit var UserScoreViewModel1: UserScoreViewModel
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -55,6 +58,8 @@ class Login : Fragment() {
         val password = view.findViewById<EditText>(R.id.Editpassword)
         val submitbtn = view.findViewById<Button>(R.id.loginidbtn)
         val signuptxt = view.findViewById<TextView>(R.id.signuptxt)
+        UserScoreViewModel1 = ViewModelProvider(this).get(UserScoreViewModel::class.java)
+        UserScoreViewModel1.deleteAllUser()
 
         submitbtn.setOnClickListener {
              val EditText = login.text.toString()

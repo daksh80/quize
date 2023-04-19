@@ -10,7 +10,7 @@
                "Diff": "Basic",
                "Basic" : [
                  {
-                   "question": "What is the scientific name of a butterfly?",
+                   "question": "What is the scientific name of a butterfly?[Basic 1-3 ]",
                    "Option1": "Apis",
                    "Option2":"Coleoptera",
                    "Option3":"Formicidae",
@@ -18,7 +18,7 @@
                    "correctIndex": "Formicidae"
                  },
                  {
-                   "question": "How hot is the surface of the sun?",
+                   "question": "How hot is the surface of the sun?[Basic 1-3 ]",
                    "Option1":"1,233 K",
                    "Option2":"5,778 K",
                    "Option3":"12,130 K",
@@ -26,7 +26,7 @@
                    "correctIndex": "1,233 K"
                  },
                  {
-                   "question": "Who are the actors in The Internship?",
+                   "question": "Who are the actors in The Internship?[Basic 1-3 ]",
                    "Option1": "Ben Stiller, Jonah Hill",
                    "Option2": "Courteney Cox, Matt LeBlanc",
                    "Option3": "Kaley Cuoco, Jim Parsons",
@@ -34,7 +34,7 @@
                    "correctIndex": "Kaley Cuoco, Jim Parsons"
                  },
                  {
-                   "question": "What is the capital of Spain?",
+                   "question": "What is the capital of Spain?[Basic 1-3 ]",
                    "Option1": "Berlin",
                    "Option2": "Buenos Aires",
                    "Option3": "Madrid",
@@ -42,7 +42,7 @@
                    "correctIndex": "Buenos Aires"
                  },
                  {
-                   "question": "What are the school colors of the University of Texas at Austin?",
+                   "question": "What are the school colors of the University of Texas at Austin?[Basic 1-3 ]",
                    "Option1": "Black, Red",
                    "Option2": "Blue, Orange",
                    "Option3": "White, Burnt Orange",
@@ -50,7 +50,7 @@
                    "correctIndex": "Blue, Orange"
                  },
                  {
-                   "question": "What is 70 degrees Fahrenheit in Celsius?",
+                   "question": "What is 70 degrees Fahrenheit in Celsius?[Basic 1-3 ]",
                    "Option1": "18.8889",
                    "Option2": "20",
                    "Option3": "21.1111",
@@ -58,7 +58,7 @@
                    "correctIndex": "20"
                  },
                  {
-                   "question": "When was Mahatma Gandhi born?",
+                   "question": "When was Mahatma Gandhi born?[Basic 1-3 ]",
                    "Option1": "October 2, 1869",
                    "Option2": "December 15, 1872",
                    "Option3": "July 18, 1918",
@@ -66,7 +66,7 @@
                    "correctIndex": "October 2, 1869"
                  },
                  {
-                   "question": "How far is the moon from Earth?",
+                   "question": "How far is the moon from Earth?[Basic 1-3 ]",
                    "Option1": "7,918 miles (12,742 km)",
                    "Option2": "86,881 miles (139,822 km)",
                    "Option3": "238,400 miles (384,400 km)",
@@ -74,7 +74,7 @@
                    "correctIndex": "86,881 miles (139,822 km)"
                  },
                  {
-                   "question": "What is 65 times 52?",
+                   "question": "What is 65 times 52?[Basic 1-3 ]",
                    "Option1": "117",
                    "Option2": "3120",
                    "Option3": "3380",
@@ -82,7 +82,7 @@
                    "correctIndex": "3120"
                  },
                  {
-                   "question": "How tall is Mount Everest?",
+                   "question": "How tall is Mount Everest?[Basic 1-3 ]",
                    "Option1": "6,683 ft (2,037 m)",
                    "Option2": "7,918 ft (2,413 m)",
                    "Option3": "19,341 ft (5,895 m)",
@@ -90,7 +90,7 @@
                    "correctIndex": "19,341 ft (5,895 m)"
                  },
                  {
-                   "question": "When did The Avengers come out?",
+                   "question": "When did The Avengers come out?[Basic 1-3 ]",
                    "Option1": "May 2, 2008",
                    "Option2": "May 4, 2012",
                    "Option3": "May 3, 2013",
@@ -98,7 +98,7 @@
                    "correctIndex": "May 2, 2008"
                  },
                  {
-                   "question": "What is 48,879 in hexidecimal?",
+                   "question": "What is 48,879 in hexidecimal?[Basic 1-3 ]",
                    "Option1": "0x18C1",
                    "Option2": "0xBEEF",
                    "Option3": "0xDEAD",
@@ -111,7 +111,7 @@
                "Diff": "Medium",
                "Medium": [
                  {
-                   "question": "Which of the following is NOT a type of sentence?",
+                   "question": "Which of the following is NOT a type of sentence?[Medium 1-3 ]",
                    "Option1": "Declarative",
                    "Option2":"Interrogative",
                    "Option3":"Imperative",
@@ -119,7 +119,7 @@
                    "correctIndex": "Imperative"
                  },
                  {
-                   "question": "Which of the following is a synonym for 'diligent'?",
+                   "question": "Which of the following is a synonym for 'diligent'?[Medium 1-3 ]",
                    "Option1":"Lazy",
                    "Option2":"Hardworking",
                    "Option3":"Slow",
@@ -127,7 +127,7 @@
                    "correctIndex": "Lazy"
                  },
                  {
-                   "question": "What is the proper noun in the following sentence? 'The Eiffel Tower is in Paris.'",
+                   "question": "What is the proper noun in the following sentence? 'The Eiffel Tower is in Paris.'[Medium 1-3 ]",
                    "Option1": "The",
                    "Option2": "Eiffel",
                    "Option3": "Tower",
@@ -135,7 +135,7 @@
                    "correctIndex": "The"
                  },
                  {
-                   "question": "What is the past tense of the verb 'run'?",
+                   "question": "What is the past tense of the verb 'run'?[Medium 1-3 ]",
                    "Option1": "Runned",
                    "Option2": "Runneded",
                    "Option3": "Ran",
@@ -143,7 +143,7 @@
                    "correctIndex": "Ran"
                  },
                  {
-                   "question": "What are the school colors of the University of Texas at Austin?",
+                   "question": "What are the school colors of the University of Texas at Austin?[Medium 1-3 ]",
                    "Option1": "Black, Red",
                    "Option2": "Blue, Orange",
                    "Option3": "White, Burnt Orange",
@@ -151,7 +151,7 @@
                    "correctIndex": "Blue, Orange"
                  },
                  {
-                   "question": "Which of the following is a compound word?",
+                   "question": "Which of the following is a compound word?[Medium 1-3 ]",
                    "Option1": "Bird",
                    "Option2": "House",
                    "Option3": "Basketball",
@@ -159,7 +159,7 @@
                    "correctIndex": "House"
                  },
                  {
-                   "question": "What is the correct verb tense to use in the following sentence? 'I _____ my homework yesterday.'",
+                   "question": "What is the correct verb tense to use in the following sentence? 'I _____ my homework yesterday.'[Medium 1-3 ]",
                    "Option1": "Do",
                    "Option2": "Did",
                    "Option3": "Done",
@@ -167,7 +167,7 @@
                    "correctIndex": "Do"
                  },
                  {
-                   "question": "What is the plural form of the word 'child'?",
+                   "question": "What is the plural form of the word 'child'?[Medium 1-3 ]",
                    "Option1": "Childs",
                    "Option2": "Childen",
                    "Option3": "Children",
@@ -175,7 +175,7 @@
                    "correctIndex": "Children"
                  },
                  {
-                   "question": "Which of the following is a preposition?",
+                   "question": "Which of the following is a preposition?[Medium 1-3 ]",
                    "Option1": "And",
                    "Option2": "But",
                    "Option3": "Or",
@@ -183,7 +183,7 @@
                    "correctIndex": "Or"
                  },
                  {
-                   "question": "What is the adverb in the following sentence? 'She sings beautifully.'",
+                   "question": "What is the adverb in the following sentence? 'She sings beautifully.'[Medium 1-3 ]",
                    "Option1": "She",
                    "Option2": "Sings",
                    "Option3": "Beautifully",
@@ -191,7 +191,7 @@
                    "correctIndex": "Sings"
                  },
                  {
-                   "question": "Which of the following is an example of a simile?",
+                   "question": "Which of the following is an example of a simile?[Medium 1-3 ]",
                    "Option1": "The sun is a ball of fire.",
                    "Option2": "She runs as fast as a cheetah.",
                    "Option3": "The tree branches swayed in the wind.",
@@ -204,7 +204,7 @@
                "Diff": "Hard",
                "Hard": [
                  {
-                 "question": "Which of the following words means 'a fear of long words'?",
+                 "question": "Which of the following words means 'a fear of long words'?[Hard 1-3 ]",
                  "Option1": "Hippopotomonstrosesquippedaliophobia",
                  "Option2":"Sesquipedalophobia",
                  "Option3":"Phobophobia",
@@ -212,7 +212,7 @@
                  "correctIndex": "Hippopotomonstrosesquippedaliophobia"
                  },
                  {
-                   "question": "What is the correct possessive form of the name 'Jones'?",
+                   "question": "What is the correct possessive form of the name 'Jones'?[Hard 1-3 ]",
                    "Option1":"Jones",
                    "Option2":"Jone's",
                    "Option3":"Jones's",
@@ -220,7 +220,7 @@
                    "correctIndex": "Jones's"
                  },
                  {
-                   "question": "Which of the following is NOT an example of a rhetorical device?",
+                   "question": "Which of the following is NOT an example of a rhetorical device?[Hard 1-3 ]",
                    "Option1": "Metaphor",
                    "Option2": "Alliteration",
                    "Option3": "Onomatopoeia",
@@ -228,7 +228,7 @@
                    "correctIndex": "Synonym"
                  },
                  {
-                   "question": "What is the difference between 'few' and 'a few'?",
+                   "question": "What is the difference between 'few' and 'a few'?[Hard 1-3 ]",
                    "Option1": "There is no difference",
                    "Option2": "'Few' means none, while 'a few' means some",
                    "Option3": "'Few' means some, while 'a few' means many",
@@ -236,7 +236,7 @@
                    "correctIndex": "There is no difference"
                  },
                  {
-                   "question": "What is the plural form of the word 'goose'?",
+                   "question": "What is the plural form of the word 'goose'?[Hard 1-3 ]",
                    "Option1": "Gooses",
                    "Option2": "Goosen",
                    "Option3": "Geese",
@@ -244,7 +244,7 @@
                    "correctIndex": "Geese"
                  },
                  {
-                   "question": "Which of the following is a correlative conjunction?",
+                   "question": "Which of the following is a correlative conjunction?[Hard 1-3 ]",
                    "Option1": "And",
                    "Option2": "But",
                    "Option3": "Or",
@@ -252,7 +252,7 @@
                    "correctIndex": "Neither...nor"
                  },
                  {
-                   "question": "Which of the following is an example of an indirect object?",
+                   "question": "Which of the following is an example of an indirect object?[Hard 1-3 ]",
                    "Option1": "He gave her a book.",
                    "Option2": "She ran quickly to the store.",
                    "Option3": "The sun set behind the mountains",
@@ -260,7 +260,7 @@
                    "correctIndex": "He gave her a book."
                  },
                  {
-                   "question": "What is the plural form of the word 'child'?",
+                   "question": "What is the plural form of the word 'child'?[Hard 1-3 ]",
                    "Option1": "Childs",
                    "Option2": "Childen",
                    "Option3": "Children",
@@ -268,7 +268,7 @@
                    "correctIndex": "Children"
                  },
                  {
-                   "question": "Which of the following is a preposition?",
+                   "question": "Which of the following is a preposition?[Hard 1-3 ]",
                    "Option1": "And",
                    "Option2": "But",
                    "Option3": "Or",
@@ -276,7 +276,7 @@
                    "correctIndex": "Or"
                  },
                  {
-                   "question": "What is the adverb in the following sentence? 'She sings beautifully.'",
+                   "question": "What is the adverb in the following sentence? 'She sings beautifully.'[Hard 1-3 ]",
                    "Option1": "She",
                    "Option2": "Sings",
                    "Option3": "Beautifully",
@@ -284,7 +284,7 @@
                    "correctIndex": "Sings"
                  },
                  {
-                   "question": "Which of the following is an example of a simile?",
+                   "question": "Which of the following is an example of a simile?[Hard 1-3 ]",
                    "Option1": "The sun is a ball of fire.",
                    "Option2": "She runs as fast as a cheetah.",
                    "Option3": "The tree branches swayed in the wind.",
@@ -301,7 +301,7 @@
               "Diff": "Basic",
               "Basic": [
                 {
-                  "question": "Which of the following words means 'a fear of long words (B 4-6)'?",
+                  "question": "Which of the following words means 'a fear of long words (English Basic 4-6)'?",
                   "Option1": "Hippopotomonstrosesquippedaliophobia",
                   "Option2":"Sesquipedalophobia",
                   "Option3":"Phobophobia",
@@ -309,7 +309,7 @@
                   "correctIndex": "Hippopotomonstrosesquippedaliophobia"
                 },
                 {
-                  "question": "What is the correct possessive form of the name 'Jones'?",
+                  "question": "What is the correct possessive form of the name 'Jones'?(English Basic 4-6)",
                   "Option1":"Jones",
                   "Option2":"Jone's",
                   "Option3":"Jones's",
@@ -317,7 +317,7 @@
                   "correctIndex": "Jones's"
                 },
                 {
-                  "question": "Which of the following is NOT an example of a rhetorical device?",
+                  "question": "Which of the following is NOT an example of a rhetorical device?(English Basic 4-6)",
                   "Option1": "Metaphor",
                   "Option2": "Alliteration",
                   "Option3": "Onomatopoeia",
@@ -325,7 +325,7 @@
                   "correctIndex": "Synonym"
                 },
                 {
-                  "question": "What is the difference between 'few' and 'a few'?",
+                  "question": "What is the difference between 'few' and 'a few'?(English Basic 4-6)",
                   "Option1": "There is no difference",
                   "Option2": "'Few' means none, while 'a few' means some",
                   "Option3": "'Few' means some, while 'a few' means many",
@@ -333,7 +333,7 @@
                   "correctIndex": "There is no difference"
                 },
                 {
-                  "question": "What is the plural form of the word 'goose'?",
+                  "question": "What is the plural form of the word 'goose'?(English Basic 4-6)",
                   "Option1": "Gooses",
                   "Option2": "Goosen",
                   "Option3": "Geese",
@@ -341,7 +341,7 @@
                   "correctIndex": "Geese"
                 },
                 {
-                  "question": "Which of the following is a correlative conjunction?",
+                  "question": "Which of the following is a correlative conjunction?(English Basic 4-6)",
                   "Option1": "And",
                   "Option2": "But",
                   "Option3": "Or",
@@ -349,7 +349,7 @@
                   "correctIndex": "Neither...nor"
                 },
                 {
-                  "question": "Which of the following is an example of an indirect object?",
+                  "question": "Which of the following is an example of an indirect object?(English Basic 4-6)",
                   "Option1": "He gave her a book.",
                   "Option2": "She ran quickly to the store.",
                   "Option3": "The sun set behind the mountains",
@@ -357,7 +357,7 @@
                   "correctIndex": "He gave her a book."
                 },
                 {
-                  "question": "What is the plural form of the word 'child'?",
+                  "question": "What is the plural form of the word 'child'?(English Basic 4-6)",
                   "Option1": "Childs",
                   "Option2": "Childen",
                   "Option3": "Children",
@@ -365,7 +365,7 @@
                   "correctIndex": "Children"
                 },
                 {
-                  "question": "Which of the following is a preposition?",
+                  "question": "Which of the following is a preposition?(English Basic 4-6)",
                   "Option1": "And",
                   "Option2": "But",
                   "Option3": "Or",
@@ -373,7 +373,7 @@
                   "correctIndex": "Or"
                 },
                 {
-                  "question": "What is the adverb in the following sentence? 'She sings beautifully.'",
+                  "question": "What is the adverb in the following sentence? 'She sings beautifully.'(English Basic 4-6)",
                   "Option1": "She",
                   "Option2": "Sings",
                   "Option3": "Beautifully",
@@ -381,7 +381,7 @@
                   "correctIndex": "Sings"
                 },
                 {
-                  "question": "Which of the following is an example of a simile?",
+                  "question": "Which of the following is an example of a simile?(English Basic 4-6)",
                   "Option1": "The sun is a ball of fire.",
                   "Option2": "She runs as fast as a cheetah.",
                   "Option3": "The tree branches swayed in the wind.",
@@ -402,7 +402,7 @@
                   "correctIndex": "Formicidae"
                 },
                 {
-                  "question": "How hot is the surface of the sun?",
+                  "question": "How hot is the surface of the sun?(M 4-6)",
                   "Option1":"1,233 K",
                   "Option2":"5,778 K",
                   "Option3":"12,130 K",
@@ -410,7 +410,7 @@
                   "correctIndex": "1,233 K"
                 },
                 {
-                  "question": "Who are the actors in The Internship?",
+                  "question": "Who are the actors in The Internship?(M 4-6)",
                   "Option1": "Ben Stiller, Jonah Hill",
                   "Option2": "Courteney Cox, Matt LeBlanc",
                   "Option3": "Kaley Cuoco, Jim Parsons",
@@ -418,7 +418,7 @@
                   "correctIndex": "Kaley Cuoco, Jim Parsons"
                 },
                 {
-                  "question": "What is the capital of Spain?",
+                  "question": "What is the capital of Spain?(M 4-6)",
                   "Option1": "Berlin",
                   "Option2": "Buenos Aires",
                   "Option3": "Madrid",
@@ -426,7 +426,7 @@
                   "correctIndex": "Buenos Aires"
                 },
                 {
-                  "question": "What are the school colors of the University of Texas at Austin?",
+                  "question": "What are the school colors of the University of Texas at Austin?(M 4-6)",
                   "Option1": "Black, Red",
                   "Option2": "Blue, Orange",
                   "Option3": "White, Burnt Orange",
@@ -434,7 +434,7 @@
                   "correctIndex": "Blue, Orange"
                 },
                 {
-                  "question": "What is 70 degrees Fahrenheit in Celsius?",
+                  "question": "What is 70 degrees Fahrenheit in Celsius?(M 4-6)",
                   "Option1": "18.8889",
                   "Option2": "20",
                   "Option3": "21.1111",
@@ -442,7 +442,7 @@
                   "correctIndex": "20"
                 },
                 {
-                  "question": "When was Mahatma Gandhi born?",
+                  "question": "When was Mahatma Gandhi born?(M 4-6)",
                   "Option1": "October 2, 1869",
                   "Option2": "December 15, 1872",
                   "Option3": "July 18, 1918",
@@ -450,7 +450,7 @@
                   "correctIndex": "October 2, 1869"
                 },
                 {
-                  "question": "How far is the moon from Earth?",
+                  "question": "How far is the moon from Earth?(M 4-6)",
                   "Option1": "7,918 miles (12,742 km)",
                   "Option2": "86,881 miles (139,822 km)",
                   "Option3": "238,400 miles (384,400 km)",
@@ -458,7 +458,7 @@
                   "correctIndex": "86,881 miles (139,822 km)"
                 },
                 {
-                  "question": "What is 65 times 52?",
+                  "question": "What is 65 times 52?(M 4-6)",
                   "Option1": "117",
                   "Option2": "3120",
                   "Option3": "3380",
@@ -466,7 +466,7 @@
                   "correctIndex": "3120"
                 },
                 {
-                  "question": "How tall is Mount Everest?",
+                  "question": "How tall is Mount Everest?(M 4-6)",
                   "Option1": "6,683 ft (2,037 m)",
                   "Option2": "7,918 ft (2,413 m)",
                   "Option3": "19,341 ft (5,895 m)",
@@ -474,7 +474,7 @@
                   "correctIndex": "19,341 ft (5,895 m)"
                 },
                 {
-                  "question": "When did The Avengers come out?",
+                  "question": "When did The Avengers come out?(M 4-6)",
                   "Option1": "May 2, 2008",
                   "Option2": "May 4, 2012",
                   "Option3": "May 3, 2013",
@@ -482,7 +482,7 @@
                   "correctIndex": "May 2, 2008"
                 },
                 {
-                  "question": "What is 48,879 in hexidecimal?",
+                  "question": "What is 48,879 in hexidecimal?(M 4-6)",
                   "Option1": "0x18C1",
                   "Option2": "0xBEEF",
                   "Option3": "0xDEAD",
@@ -503,7 +503,7 @@
                   "correctIndex": "Imperative"
                 },
                 {
-                  "question": "Which of the following is a synonym for 'diligent'?",
+                  "question": "Which of the following is a synonym for 'diligent'?(H 4-6)",
                   "Option1":"Lazy",
                   "Option2":"Hardworking",
                   "Option3":"Slow",
@@ -511,7 +511,7 @@
                   "correctIndex": "Lazy"
                 },
                 {
-                  "question": "What is the proper noun in the following sentence? 'The Eiffel Tower is in Paris.'",
+                  "question": "What is the proper noun in the following sentence? 'The Eiffel Tower is in Paris.'(H 4-6)",
                   "Option1": "The",
                   "Option2": "Eiffel",
                   "Option3": "Tower",
@@ -519,7 +519,7 @@
                   "correctIndex": "The"
                 },
                 {
-                  "question": "What is the past tense of the verb 'run'?",
+                  "question": "What is the past tense of the verb 'run'?(H 4-6)",
                   "Option1": "Runned",
                   "Option2": "Runneded",
                   "Option3": "Ran",
@@ -527,7 +527,7 @@
                   "correctIndex": "Ran"
                 },
                 {
-                  "question": "What are the school colors of the University of Texas at Austin?",
+                  "question": "What are the school colors of the University of Texas at Austin?(H 4-6)",
                   "Option1": "Black, Red",
                   "Option2": "Blue, Orange",
                   "Option3": "White, Burnt Orange",
@@ -535,7 +535,7 @@
                   "correctIndex": "Blue, Orange"
                 },
                 {
-                  "question": "Which of the following is a compound word?",
+                  "question": "Which of the following is a compound word?(H 4-6)",
                   "Option1": "Bird",
                   "Option2": "House",
                   "Option3": "Basketball",
@@ -543,7 +543,7 @@
                   "correctIndex": "House"
                 },
                 {
-                  "question": "What is the correct verb tense to use in the following sentence? 'I _____ my homework yesterday.'",
+                  "question": "What is the correct verb tense to use in the following sentence? 'I _____ my homework yesterday.'(H 4-6)",
                   "Option1": "Do",
                   "Option2": "Did",
                   "Option3": "Done",
@@ -551,7 +551,7 @@
                   "correctIndex": "Do"
                 },
                 {
-                  "question": "What is the plural form of the word 'child'?",
+                  "question": "What is the plural form of the word 'child'?(H 4-6)",
                   "Option1": "Childs",
                   "Option2": "Childen",
                   "Option3": "Children",
@@ -559,7 +559,7 @@
                   "correctIndex": "Children"
                 },
                 {
-                  "question": "Which of the following is a preposition?",
+                  "question": "Which of the following is a preposition?(H 4-6)",
                   "Option1": "And",
                   "Option2": "But",
                   "Option3": "Or",
@@ -567,7 +567,7 @@
                   "correctIndex": "Or"
                 },
                 {
-                  "question": "What is the adverb in the following sentence? 'She sings beautifully.'",
+                  "question": "What is the adverb in the following sentence? 'She sings beautifully.'(H 4-6)",
                   "Option1": "She",
                   "Option2": "Sings",
                   "Option3": "Beautifully",
@@ -575,7 +575,7 @@
                   "correctIndex": "Sings"
                 },
                 {
-                  "question": "Which of the following is an example of a simile?",
+                  "question": "Which of the following is an example of a simile?(H 4-6)",
                   "Option1": "The sun is a ball of fire.",
                   "Option2": "She runs as fast as a cheetah.",
                   "Option3": "The tree branches swayed in the wind.",
@@ -601,7 +601,7 @@
                   "correctIndex": "Hippopotomonstrosesquippedaliophobia"
                 },
                 {
-                  "question": "What is the correct possessive form of the name 'Jones'?",
+                  "question": "What is the correct possessive form of the name 'Jones'?(B 7-9)",
                   "Option1":"Jones",
                   "Option2":"Jone's",
                   "Option3":"Jones's",
@@ -609,7 +609,7 @@
                   "correctIndex": "Jones's"
                 },
                 {
-                  "question": "Which of the following is NOT an example of a rhetorical device?",
+                  "question": "Which of the following is NOT an example of a rhetorical device?(B 7-9)",
                   "Option1": "Metaphor",
                   "Option2": "Alliteration",
                   "Option3": "Onomatopoeia",
@@ -617,7 +617,7 @@
                   "correctIndex": "Synonym"
                 },
                 {
-                  "question": "What is the difference between 'few' and 'a few'?",
+                  "question": "What is the difference between 'few' and 'a few'?(B 7-9)",
                   "Option1": "There is no difference",
                   "Option2": "'Few' means none, while 'a few' means some",
                   "Option3": "'Few' means some, while 'a few' means many",
@@ -625,7 +625,7 @@
                   "correctIndex": "There is no difference"
                 },
                 {
-                  "question": "What is the plural form of the word 'goose'?",
+                  "question": "What is the plural form of the word 'goose'?(B 7-9)",
                   "Option1": "Gooses",
                   "Option2": "Goosen",
                   "Option3": "Geese",
@@ -633,7 +633,7 @@
                   "correctIndex": "Geese"
                 },
                 {
-                  "question": "Which of the following is a correlative conjunction?",
+                  "question": "Which of the following is a correlative conjunction?(B 7-9)",
                   "Option1": "And",
                   "Option2": "But",
                   "Option3": "Or",
@@ -641,7 +641,7 @@
                   "correctIndex": "Neither...nor"
                 },
                 {
-                  "question": "Which of the following is an example of an indirect object?",
+                  "question": "Which of the following is an example of an indirect object?(B 7-9)",
                   "Option1": "He gave her a book.",
                   "Option2": "She ran quickly to the store.",
                   "Option3": "The sun set behind the mountains",
@@ -649,7 +649,7 @@
                   "correctIndex": "He gave her a book."
                 },
                 {
-                  "question": "What is the plural form of the word 'child'?",
+                  "question": "What is the plural form of the word 'child'?(B 7-9)",
                   "Option1": "Childs",
                   "Option2": "Childen",
                   "Option3": "Children",
@@ -657,7 +657,7 @@
                   "correctIndex": "Children"
                 },
                 {
-                  "question": "Which of the following is a preposition?",
+                  "question": "Which of the following is a preposition?(B 7-9)",
                   "Option1": "And",
                   "Option2": "But",
                   "Option3": "Or",
@@ -665,7 +665,7 @@
                   "correctIndex": "Or"
                 },
                 {
-                  "question": "What is the adverb in the following sentence? 'She sings beautifully.'",
+                  "question": "What is the adverb in the following sentence? 'She sings beautifully.'(B 7-9)",
                   "Option1": "She",
                   "Option2": "Sings",
                   "Option3": "Beautifully",
@@ -673,7 +673,7 @@
                   "correctIndex": "Sings"
                 },
                 {
-                  "question": "Which of the following is an example of a simile?",
+                  "question": "Which of the following is an example of a simile?(B 7-9)",
                   "Option1": "The sun is a ball of fire.",
                   "Option2": "She runs as fast as a cheetah.",
                   "Option3": "The tree branches swayed in the wind.",
@@ -694,7 +694,7 @@
                   "correctIndex": "Formicidae"
                 },
                 {
-                  "question": "How hot is the surface of the sun?",
+                  "question": "How hot is the surface of the sun?(M 7-9)",
                   "Option1":"1,233 K",
                   "Option2":"5,778 K",
                   "Option3":"12,130 K",
@@ -702,7 +702,7 @@
                   "correctIndex": "1,233 K"
                 },
                 {
-                  "question": "Who are the actors in The Internship?",
+                  "question": "Who are the actors in The Internship?(M 7-9)",
                   "Option1": "Ben Stiller, Jonah Hill",
                   "Option2": "Courteney Cox, Matt LeBlanc",
                   "Option3": "Kaley Cuoco, Jim Parsons",
@@ -710,7 +710,7 @@
                   "correctIndex": "Kaley Cuoco, Jim Parsons"
                 },
                 {
-                  "question": "What is the capital of Spain?",
+                  "question": "What is the capital of Spain?(M 7-9)",
                   "Option1": "Berlin",
                   "Option2": "Buenos Aires",
                   "Option3": "Madrid",
@@ -718,7 +718,7 @@
                   "correctIndex": "Buenos Aires"
                 },
                 {
-                  "question": "What are the school colors of the University of Texas at Austin?",
+                  "question": "What are the school colors of the University of Texas at Austin?(M 7-9)",
                   "Option1": "Black, Red",
                   "Option2": "Blue, Orange",
                   "Option3": "White, Burnt Orange",
@@ -726,7 +726,7 @@
                   "correctIndex": "Blue, Orange"
                 },
                 {
-                  "question": "What is 70 degrees Fahrenheit in Celsius?",
+                  "question": "What is 70 degrees Fahrenheit in Celsius?(M 7-9)",
                   "Option1": "18.8889",
                   "Option2": "20",
                   "Option3": "21.1111",
@@ -734,7 +734,7 @@
                   "correctIndex": "20"
                 },
                 {
-                  "question": "When was Mahatma Gandhi born?",
+                  "question": "When was Mahatma Gandhi born?(M 7-9)",
                   "Option1": "October 2, 1869",
                   "Option2": "December 15, 1872",
                   "Option3": "July 18, 1918",
@@ -742,7 +742,7 @@
                   "correctIndex": "October 2, 1869"
                 },
                 {
-                  "question": "How far is the moon from Earth?",
+                  "question": "How far is the moon from Earth?(M 7-9)",
                   "Option1": "7,918 miles (12,742 km)",
                   "Option2": "86,881 miles (139,822 km)",
                   "Option3": "238,400 miles (384,400 km)",
@@ -750,7 +750,7 @@
                   "correctIndex": "86,881 miles (139,822 km)"
                 },
                 {
-                  "question": "What is 65 times 52?",
+                  "question": "What is 65 times 52?(M 7-9)",
                   "Option1": "117",
                   "Option2": "3120",
                   "Option3": "3380",
@@ -758,7 +758,7 @@
                   "correctIndex": "3120"
                 },
                 {
-                  "question": "How tall is Mount Everest?",
+                  "question": "How tall is Mount Everest?(M 7-9)",
                   "Option1": "6,683 ft (2,037 m)",
                   "Option2": "7,918 ft (2,413 m)",
                   "Option3": "19,341 ft (5,895 m)",
@@ -766,7 +766,7 @@
                   "correctIndex": "19,341 ft (5,895 m)"
                 },
                 {
-                  "question": "When did The Avengers come out?",
+                  "question": "When did The Avengers come out?(M 7-9)",
                   "Option1": "May 2, 2008",
                   "Option2": "May 4, 2012",
                   "Option3": "May 3, 2013",
@@ -774,7 +774,7 @@
                   "correctIndex": "May 2, 2008"
                 },
                 {
-                  "question": "What is 48,879 in hexidecimal?",
+                  "question": "What is 48,879 in hexidecimal?(M 7-9)",
                   "Option1": "0x18C1",
                   "Option2": "0xBEEF",
                   "Option3": "0xDEAD",
@@ -795,7 +795,7 @@
                   "correctIndex": "Imperative"
                 },
                 {
-                  "question": "Which of the following is a synonym for 'diligent'?",
+                  "question": "Which of the following is a synonym for 'diligent'?(H 7-9)",
                   "Option1":"Lazy",
                   "Option2":"Hardworking",
                   "Option3":"Slow",
@@ -803,7 +803,7 @@
                   "correctIndex": "Lazy"
                 },
                 {
-                  "question": "What is the proper noun in the following sentence? 'The Eiffel Tower is in Paris.'",
+                  "question": "What is the proper noun in the following sentence? 'The Eiffel Tower is in Paris.'(H 7-9)",
                   "Option1": "The",
                   "Option2": "Eiffel",
                   "Option3": "Tower",
@@ -811,7 +811,7 @@
                   "correctIndex": "The"
                 },
                 {
-                  "question": "What is the past tense of the verb 'run'?",
+                  "question": "What is the past tense of the verb 'run'?(H 7-9)",
                   "Option1": "Runned",
                   "Option2": "Runneded",
                   "Option3": "Ran",
@@ -819,7 +819,7 @@
                   "correctIndex": "Ran"
                 },
                 {
-                  "question": "What are the school colors of the University of Texas at Austin?",
+                  "question": "What are the school colors of the University of Texas at Austin?(H 7-9)",
                   "Option1": "Black, Red",
                   "Option2": "Blue, Orange",
                   "Option3": "White, Burnt Orange",
@@ -827,7 +827,7 @@
                   "correctIndex": "Blue, Orange"
                 },
                 {
-                  "question": "Which of the following is a compound word?",
+                  "question": "Which of the following is a compound word?(H 7-9)",
                   "Option1": "Bird",
                   "Option2": "House",
                   "Option3": "Basketball",
@@ -835,7 +835,7 @@
                   "correctIndex": "House"
                 },
                 {
-                  "question": "What is the correct verb tense to use in the following sentence? 'I _____ my homework yesterday.'",
+                  "question": "What is the correct verb tense to use in the following sentence? 'I _____ my homework yesterday.'(H 7-9)",
                   "Option1": "Do",
                   "Option2": "Did",
                   "Option3": "Done",
@@ -843,7 +843,7 @@
                   "correctIndex": "Do"
                 },
                 {
-                  "question": "What is the plural form of the word 'child'?",
+                  "question": "What is the plural form of the word 'child'?(H 7-9)",
                   "Option1": "Childs",
                   "Option2": "Childen",
                   "Option3": "Children",
@@ -851,7 +851,7 @@
                   "correctIndex": "Children"
                 },
                 {
-                  "question": "Which of the following is a preposition?",
+                  "question": "Which of the following is a preposition?(H 7-9)",
                   "Option1": "And",
                   "Option2": "But",
                   "Option3": "Or",
@@ -859,7 +859,7 @@
                   "correctIndex": "Or"
                 },
                 {
-                  "question": "What is the adverb in the following sentence? 'She sings beautifully.'",
+                  "question": "What is the adverb in the following sentence? 'She sings beautifully.'(H 7-9)",
                   "Option1": "She",
                   "Option2": "Sings",
                   "Option3": "Beautifully",
@@ -867,7 +867,7 @@
                   "correctIndex": "Sings"
                 },
                 {
-                  "question": "Which of the following is an example of a simile?",
+                  "question": "Which of the following is an example of a simile?(H 7-9)",
                   "Option1": "The sun is a ball of fire.",
                   "Option2": "She runs as fast as a cheetah.",
                   "Option3": "The tree branches swayed in the wind.",
@@ -893,7 +893,7 @@
                   "correctIndex": "Hippopotomonstrosesquippedaliophobia"
                 },
                 {
-                  "question": "What is the correct possessive form of the name 'Jones'?",
+                  "question": "What is the correct possessive form of the name 'Jones'?(B 10-12)",
                   "Option1":"Jones",
                   "Option2":"Jone's",
                   "Option3":"Jones's",
@@ -901,7 +901,7 @@
                   "correctIndex": "Jones's"
                 },
                 {
-                  "question": "Which of the following is NOT an example of a rhetorical device?",
+                  "question": "Which of the following is NOT an example of a rhetorical device?(B 10-12)",
                   "Option1": "Metaphor",
                   "Option2": "Alliteration",
                   "Option3": "Onomatopoeia",
@@ -909,7 +909,7 @@
                   "correctIndex": "Synonym"
                 },
                 {
-                  "question": "What is the difference between 'few' and 'a few'?",
+                  "question": "What is the difference between 'few' and 'a few'?(B 10-12)",
                   "Option1": "There is no difference",
                   "Option2": "'Few' means none, while 'a few' means some",
                   "Option3": "'Few' means some, while 'a few' means many",
@@ -917,7 +917,7 @@
                   "correctIndex": "There is no difference"
                 },
                 {
-                  "question": "What is the plural form of the word 'goose'?",
+                  "question": "What is the plural form of the word 'goose'?(B 10-12)",
                   "Option1": "Gooses",
                   "Option2": "Goosen",
                   "Option3": "Geese",
@@ -925,7 +925,7 @@
                   "correctIndex": "Geese"
                 },
                 {
-                  "question": "Which of the following is a correlative conjunction?",
+                  "question": "Which of the following is a correlative conjunction?(B 10-12)",
                   "Option1": "And",
                   "Option2": "But",
                   "Option3": "Or",
@@ -933,7 +933,7 @@
                   "correctIndex": "Neither...nor"
                 },
                 {
-                  "question": "Which of the following is an example of an indirect object?",
+                  "question": "Which of the following is an example of an indirect object?(B 10-12)",
                   "Option1": "He gave her a book.",
                   "Option2": "She ran quickly to the store.",
                   "Option3": "The sun set behind the mountains",
@@ -941,7 +941,7 @@
                   "correctIndex": "He gave her a book."
                 },
                 {
-                  "question": "What is the plural form of the word 'child'?",
+                  "question": "What is the plural form of the word 'child'?(B 10-12)",
                   "Option1": "Childs",
                   "Option2": "Childen",
                   "Option3": "Children",
@@ -949,7 +949,7 @@
                   "correctIndex": "Children"
                 },
                 {
-                  "question": "Which of the following is a preposition?",
+                  "question": "Which of the following is a preposition?(B 10-12)",
                   "Option1": "And",
                   "Option2": "But",
                   "Option3": "Or",
@@ -957,7 +957,7 @@
                   "correctIndex": "Or"
                 },
                 {
-                  "question": "What is the adverb in the following sentence? 'She sings beautifully.'",
+                  "question": "What is the adverb in the following sentence? 'She sings beautifully.'(B 10-12)",
                   "Option1": "She",
                   "Option2": "Sings",
                   "Option3": "Beautifully",
@@ -965,7 +965,7 @@
                   "correctIndex": "Sings"
                 },
                 {
-                  "question": "Which of the following is an example of a simile?",
+                  "question": "Which of the following is an example of a simile?(B 10-12)",
                   "Option1": "The sun is a ball of fire.",
                   "Option2": "She runs as fast as a cheetah.",
                   "Option3": "The tree branches swayed in the wind.",
@@ -986,7 +986,7 @@
                   "correctIndex": "Formicidae"
                 },
                 {
-                  "question": "How hot is the surface of the sun?",
+                  "question": "How hot is the surface of the sun?(M 10-12)",
                   "Option1":"1,233 K",
                   "Option2":"5,778 K",
                   "Option3":"12,130 K",
@@ -994,7 +994,7 @@
                   "correctIndex": "1,233 K"
                 },
                 {
-                  "question": "Who are the actors in The Internship?",
+                  "question": "Who are the actors in The Internship?(M 10-12)",
                   "Option1": "Ben Stiller, Jonah Hill",
                   "Option2": "Courteney Cox, Matt LeBlanc",
                   "Option3": "Kaley Cuoco, Jim Parsons",
@@ -1002,7 +1002,7 @@
                   "correctIndex": "Kaley Cuoco, Jim Parsons"
                 },
                 {
-                  "question": "What is the capital of Spain?",
+                  "question": "What is the capital of Spain?(M 10-12)",
                   "Option1": "Berlin",
                   "Option2": "Buenos Aires",
                   "Option3": "Madrid",
@@ -1010,7 +1010,7 @@
                   "correctIndex": "Buenos Aires"
                 },
                 {
-                  "question": "What are the school colors of the University of Texas at Austin?",
+                  "question": "What are the school colors of the University of Texas at Austin?(M 10-12)",
                   "Option1": "Black, Red",
                   "Option2": "Blue, Orange",
                   "Option3": "White, Burnt Orange",
@@ -1018,7 +1018,7 @@
                   "correctIndex": "Blue, Orange"
                 },
                 {
-                  "question": "What is 70 degrees Fahrenheit in Celsius?",
+                  "question": "What is 70 degrees Fahrenheit in Celsius?(M 10-12)",
                   "Option1": "18.8889",
                   "Option2": "20",
                   "Option3": "21.1111",
@@ -1026,7 +1026,7 @@
                   "correctIndex": "20"
                 },
                 {
-                  "question": "When was Mahatma Gandhi born?",
+                  "question": "When was Mahatma Gandhi born?(M 10-12)",
                   "Option1": "October 2, 1869",
                   "Option2": "December 15, 1872",
                   "Option3": "July 18, 1918",
@@ -1034,7 +1034,7 @@
                   "correctIndex": "October 2, 1869"
                 },
                 {
-                  "question": "How far is the moon from Earth?",
+                  "question": "How far is the moon from Earth?(M 10-12)",
                   "Option1": "7,918 miles (12,742 km)",
                   "Option2": "86,881 miles (139,822 km)",
                   "Option3": "238,400 miles (384,400 km)",
@@ -1042,7 +1042,7 @@
                   "correctIndex": "86,881 miles (139,822 km)"
                 },
                 {
-                  "question": "What is 65 times 52?",
+                  "question": "What is 65 times 52?(M 10-12)",
                   "Option1": "117",
                   "Option2": "3120",
                   "Option3": "3380",
@@ -1050,7 +1050,7 @@
                   "correctIndex": "3120"
                 },
                 {
-                  "question": "How tall is Mount Everest?",
+                  "question": "How tall is Mount Everest?(M 10-12)",
                   "Option1": "6,683 ft (2,037 m)",
                   "Option2": "7,918 ft (2,413 m)",
                   "Option3": "19,341 ft (5,895 m)",
@@ -1058,7 +1058,7 @@
                   "correctIndex": "19,341 ft (5,895 m)"
                 },
                 {
-                  "question": "When did The Avengers come out?",
+                  "question": "When did The Avengers come out?(M 10-12)",
                   "Option1": "May 2, 2008",
                   "Option2": "May 4, 2012",
                   "Option3": "May 3, 2013",
@@ -1066,7 +1066,7 @@
                   "correctIndex": "May 2, 2008"
                 },
                 {
-                  "question": "What is 48,879 in hexidecimal?",
+                  "question": "What is 48,879 in hexidecimal?(M 10-12)",
                   "Option1": "0x18C1",
                   "Option2": "0xBEEF",
                   "Option3": "0xDEAD",
@@ -1087,7 +1087,7 @@
                   "correctIndex": "Imperative"
                 },
                 {
-                  "question": "Which of the following is a synonym for 'diligent'?",
+                  "question": "Which of the following is a synonym for 'diligent'?(H 10-12)",
                   "Option1":"Lazy",
                   "Option2":"Hardworking",
                   "Option3":"Slow",
@@ -1095,7 +1095,7 @@
                   "correctIndex": "Lazy"
                 },
                 {
-                  "question": "What is the proper noun in the following sentence? 'The Eiffel Tower is in Paris.'",
+                  "question": "What is the proper noun in the following sentence? 'The Eiffel Tower is in Paris.'(H 10-12)",
                   "Option1": "The",
                   "Option2": "Eiffel",
                   "Option3": "Tower",
@@ -1103,7 +1103,7 @@
                   "correctIndex": "The"
                 },
                 {
-                  "question": "What is the past tense of the verb 'run'?",
+                  "question": "What is the past tense of the verb 'run'?(H 10-12)",
                   "Option1": "Runned",
                   "Option2": "Runneded",
                   "Option3": "Ran",
@@ -1111,7 +1111,7 @@
                   "correctIndex": "Ran"
                 },
                 {
-                  "question": "What are the school colors of the University of Texas at Austin?",
+                  "question": "What are the school colors of the University of Texas at Austin?(H 10-12)",
                   "Option1": "Black, Red",
                   "Option2": "Blue, Orange",
                   "Option3": "White, Burnt Orange",
@@ -1119,7 +1119,7 @@
                   "correctIndex": "Blue, Orange"
                 },
                 {
-                  "question": "Which of the following is a compound word?",
+                  "question": "Which of the following is a compound word?(H 10-12)",
                   "Option1": "Bird",
                   "Option2": "House",
                   "Option3": "Basketball",
@@ -1127,7 +1127,7 @@
                   "correctIndex": "House"
                 },
                 {
-                  "question": "What is the correct verb tense to use in the following sentence? 'I _____ my homework yesterday.'",
+                  "question": "What is the correct verb tense to use in the following sentence? 'I _____ my homework yesterday.'(H 10-12)",
                   "Option1": "Do",
                   "Option2": "Did",
                   "Option3": "Done",
@@ -1135,7 +1135,7 @@
                   "correctIndex": "Do"
                 },
                 {
-                  "question": "What is the plural form of the word 'child'?",
+                  "question": "What is the plural form of the word 'child'?(H 10-12)",
                   "Option1": "Childs",
                   "Option2": "Childen",
                   "Option3": "Children",
@@ -1143,7 +1143,7 @@
                   "correctIndex": "Children"
                 },
                 {
-                  "question": "Which of the following is a preposition?",
+                  "question": "Which of the following is a preposition?(H 10-12)",
                   "Option1": "And",
                   "Option2": "But",
                   "Option3": "Or",
@@ -1151,7 +1151,7 @@
                   "correctIndex": "Or"
                 },
                 {
-                  "question": "What is the adverb in the following sentence? 'She sings beautifully.'",
+                  "question": "What is the adverb in the following sentence? 'She sings beautifully.'(H 10-12)",
                   "Option1": "She",
                   "Option2": "Sings",
                   "Option3": "Beautifully",
@@ -1159,7 +1159,7 @@
                   "correctIndex": "Sings"
                 },
                 {
-                  "question": "Which of the following is an example of a simile?",
+                  "question": "Which of the following is an example of a simile?(H 10-12)",
                   "Option1": "The sun is a ball of fire.",
                   "Option2": "She runs as fast as a cheetah.",
                   "Option3": "The tree branches swayed in the wind.",
@@ -1177,7 +1177,7 @@
               "Diff": "Basic",
               "Basic": [
                 {
-                  "question": "Which of the following words means 'a fear of long words (12+ / B tech)'?",
+                  "question": "Which of the following words means 'a fear of long words (12+ / B tech Basic)'?",
                   "Option1": "Hippopotomonstrosesquippedaliophobia",
                   "Option2":"Sesquipedalophobia",
                   "Option3":"Phobophobia",
@@ -1185,7 +1185,7 @@
                   "correctIndex": "Hippopotomonstrosesquippedaliophobia"
                 },
                 {
-                  "question": "What is the correct possessive form of the name 'Jones'?",
+                  "question": "What is the correct possessive form of the name 'Jones'?(12+ / B tech Basic)",
                   "Option1":"Jones",
                   "Option2":"Jone's",
                   "Option3":"Jones's",
@@ -1193,7 +1193,7 @@
                   "correctIndex": "Jones's"
                 },
                 {
-                  "question": "Which of the following is NOT an example of a rhetorical device?",
+                  "question": "Which of the following is NOT an example of a rhetorical device?(12+ / B tech Basic)",
                   "Option1": "Metaphor",
                   "Option2": "Alliteration",
                   "Option3": "Onomatopoeia",
@@ -1201,7 +1201,7 @@
                   "correctIndex": "Synonym"
                 },
                 {
-                  "question": "What is the difference between 'few' and 'a few'?",
+                  "question": "What is the difference between 'few' and 'a few'?(12+ / B tech Basic)",
                   "Option1": "There is no difference",
                   "Option2": "'Few' means none, while 'a few' means some",
                   "Option3": "'Few' means some, while 'a few' means many",
@@ -1209,7 +1209,7 @@
                   "correctIndex": "There is no difference"
                 },
                 {
-                  "question": "What is the plural form of the word 'goose'?",
+                  "question": "What is the plural form of the word 'goose'?(12+ / B tech Basic)",
                   "Option1": "Gooses",
                   "Option2": "Goosen",
                   "Option3": "Geese",
@@ -1217,7 +1217,7 @@
                   "correctIndex": "Geese"
                 },
                 {
-                  "question": "Which of the following is a correlative conjunction?",
+                  "question": "Which of the following is a correlative conjunction?(12+ / B tech Basic)",
                   "Option1": "And",
                   "Option2": "But",
                   "Option3": "Or",
@@ -1225,7 +1225,7 @@
                   "correctIndex": "Neither...nor"
                 },
                 {
-                  "question": "Which of the following is an example of an indirect object?",
+                  "question": "Which of the following is an example of an indirect object?(12+ / B tech Basic)",
                   "Option1": "He gave her a book.",
                   "Option2": "She ran quickly to the store.",
                   "Option3": "The sun set behind the mountains",
@@ -1233,7 +1233,7 @@
                   "correctIndex": "He gave her a book."
                 },
                 {
-                  "question": "What is the plural form of the word 'child'?",
+                  "question": "What is the plural form of the word 'child'?(12+ / B tech Basic)",
                   "Option1": "Childs",
                   "Option2": "Childen",
                   "Option3": "Children",
@@ -1241,7 +1241,7 @@
                   "correctIndex": "Children"
                 },
                 {
-                  "question": "Which of the following is a preposition?",
+                  "question": "Which of the following is a preposition?(12+ / B tech Basic)",
                   "Option1": "And",
                   "Option2": "But",
                   "Option3": "Or",
@@ -1249,7 +1249,7 @@
                   "correctIndex": "Or"
                 },
                 {
-                  "question": "What is the adverb in the following sentence? 'She sings beautifully.'",
+                  "question": "What is the adverb in the following sentence? 'She sings beautifully.'(12+ / B tech Basic)",
                   "Option1": "She",
                   "Option2": "Sings",
                   "Option3": "Beautifully",
@@ -1257,7 +1257,7 @@
                   "correctIndex": "Sings"
                 },
                 {
-                  "question": "Which of the following is an example of a simile?",
+                  "question": "Which of the following is an example of a simile?(12+ / B tech Basic)",
                   "Option1": "The sun is a ball of fire.",
                   "Option2": "She runs as fast as a cheetah.",
                   "Option3": "The tree branches swayed in the wind.",
@@ -1270,7 +1270,7 @@
               "Diff": "Medium",
               "Medium" : [
                 {
-                  "question": "What is the scientific name of a butterfly? (12+ / B tech)",
+                  "question": "What is the scientific name of a butterfly? (12+ / B tech Medium)",
                   "Option1": "Apis",
                   "Option2":"Coleoptera",
                   "Option3":"Formicidae",
@@ -1278,7 +1278,7 @@
                   "correctIndex": "Formicidae"
                 },
                 {
-                  "question": "How hot is the surface of the sun?",
+                  "question": "How hot is the surface of the sun?(12+ / B tech Medium)",
                   "Option1":"1,233 K",
                   "Option2":"5,778 K",
                   "Option3":"12,130 K",
@@ -1286,7 +1286,7 @@
                   "correctIndex": "1,233 K"
                 },
                 {
-                  "question": "Who are the actors in The Internship?",
+                  "question": "Who are the actors in The Internship?(12+ / B tech Medium)",
                   "Option1": "Ben Stiller, Jonah Hill",
                   "Option2": "Courteney Cox, Matt LeBlanc",
                   "Option3": "Kaley Cuoco, Jim Parsons",
@@ -1294,7 +1294,7 @@
                   "correctIndex": "Kaley Cuoco, Jim Parsons"
                 },
                 {
-                  "question": "What is the capital of Spain?",
+                  "question": "What is the capital of Spain?(12+ / B tech Medium)",
                   "Option1": "Berlin",
                   "Option2": "Buenos Aires",
                   "Option3": "Madrid",
@@ -1302,7 +1302,7 @@
                   "correctIndex": "Buenos Aires"
                 },
                 {
-                  "question": "What are the school colors of the University of Texas at Austin?",
+                  "question": "What are the school colors of the University of Texas at Austin?(12+ / B tech Medium)",
                   "Option1": "Black, Red",
                   "Option2": "Blue, Orange",
                   "Option3": "White, Burnt Orange",
@@ -1310,7 +1310,7 @@
                   "correctIndex": "Blue, Orange"
                 },
                 {
-                  "question": "What is 70 degrees Fahrenheit in Celsius?",
+                  "question": "What is 70 degrees Fahrenheit in Celsius?(12+ / B tech Medium)",
                   "Option1": "18.8889",
                   "Option2": "20",
                   "Option3": "21.1111",
@@ -1318,7 +1318,7 @@
                   "correctIndex": "20"
                 },
                 {
-                  "question": "When was Mahatma Gandhi born?",
+                  "question": "When was Mahatma Gandhi born?(12+ / B tech Medium)",
                   "Option1": "October 2, 1869",
                   "Option2": "December 15, 1872",
                   "Option3": "July 18, 1918",
@@ -1326,7 +1326,7 @@
                   "correctIndex": "October 2, 1869"
                 },
                 {
-                  "question": "How far is the moon from Earth?",
+                  "question": "How far is the moon from Earth?(12+ / B tech Medium)",
                   "Option1": "7,918 miles (12,742 km)",
                   "Option2": "86,881 miles (139,822 km)",
                   "Option3": "238,400 miles (384,400 km)",
@@ -1334,7 +1334,7 @@
                   "correctIndex": "86,881 miles (139,822 km)"
                 },
                 {
-                  "question": "What is 65 times 52?",
+                  "question": "What is 65 times 52?(12+ / B tech Medium)",
                   "Option1": "117",
                   "Option2": "3120",
                   "Option3": "3380",
@@ -1342,7 +1342,7 @@
                   "correctIndex": "3120"
                 },
                 {
-                  "question": "How tall is Mount Everest?",
+                  "question": "How tall is Mount Everest?(12+ / B tech Medium)",
                   "Option1": "6,683 ft (2,037 m)",
                   "Option2": "7,918 ft (2,413 m)",
                   "Option3": "19,341 ft (5,895 m)",
@@ -1350,7 +1350,7 @@
                   "correctIndex": "19,341 ft (5,895 m)"
                 },
                 {
-                  "question": "When did The Avengers come out?",
+                  "question": "When did The Avengers come out?(12+ / B tech Medium)",
                   "Option1": "May 2, 2008",
                   "Option2": "May 4, 2012",
                   "Option3": "May 3, 2013",
@@ -1358,7 +1358,7 @@
                   "correctIndex": "May 2, 2008"
                 },
                 {
-                  "question": "What is 48,879 in hexidecimal?",
+                  "question": "What is 48,879 in hexidecimal?(12+ / B tech Medium)",
                   "Option1": "0x18C1",
                   "Option2": "0xBEEF",
                   "Option3": "0xDEAD",
@@ -1371,7 +1371,7 @@
               "Diff": "Hard",
               "Hard": [
                 {
-                  "question": "Which of the following is NOT a type of sentence?(12+ / B tech)",
+                  "question": "Which of the following is NOT a type of sentence?(12+ / B tech Hard)",
                   "Option1": "Declarative",
                   "Option2":"Interrogative",
                   "Option3":"Imperative",
@@ -1379,7 +1379,7 @@
                   "correctIndex": "Imperative"
                 },
                 {
-                  "question": "Which of the following is a synonym for 'diligent'?",
+                  "question": "Which of the following is a synonym for 'diligent'?(12+ / B tech Hard)",
                   "Option1":"Lazy",
                   "Option2":"Hardworking",
                   "Option3":"Slow",
@@ -1387,7 +1387,7 @@
                   "correctIndex": "Lazy"
                 },
                 {
-                  "question": "What is the proper noun in the following sentence? 'The Eiffel Tower is in Paris.'",
+                  "question": "What is the proper noun in the following sentence? 'The Eiffel Tower is in Paris.'(12+ / B tech Hard)",
                   "Option1": "The",
                   "Option2": "Eiffel",
                   "Option3": "Tower",
@@ -1395,7 +1395,7 @@
                   "correctIndex": "The"
                 },
                 {
-                  "question": "What is the past tense of the verb 'run'?",
+                  "question": "What is the past tense of the verb 'run'?(12+ / B tech Hard)",
                   "Option1": "Runned",
                   "Option2": "Runneded",
                   "Option3": "Ran",
@@ -1403,7 +1403,7 @@
                   "correctIndex": "Ran"
                 },
                 {
-                  "question": "What are the school colors of the University of Texas at Austin?",
+                  "question": "What are the school colors of the University of Texas at Austin?(12+ / B tech Hard)",
                   "Option1": "Black, Red",
                   "Option2": "Blue, Orange",
                   "Option3": "White, Burnt Orange",
@@ -1411,7 +1411,7 @@
                   "correctIndex": "Blue, Orange"
                 },
                 {
-                  "question": "Which of the following is a compound word?",
+                  "question": "Which of the following is a compound word?(12+ / B tech Hard)",
                   "Option1": "Bird",
                   "Option2": "House",
                   "Option3": "Basketball",
@@ -1419,7 +1419,7 @@
                   "correctIndex": "House"
                 },
                 {
-                  "question": "What is the correct verb tense to use in the following sentence? 'I _____ my homework yesterday.'",
+                  "question": "What is the correct verb tense to use in the following sentence? 'I _____ my homework yesterday.'(12+ / B tech Hard)",
                   "Option1": "Do",
                   "Option2": "Did",
                   "Option3": "Done",
@@ -1427,7 +1427,7 @@
                   "correctIndex": "Do"
                 },
                 {
-                  "question": "What is the plural form of the word 'child'?",
+                  "question": "What is the plural form of the word 'child'?(12+ / B tech Hard)",
                   "Option1": "Childs",
                   "Option2": "Childen",
                   "Option3": "Children",
@@ -1435,7 +1435,7 @@
                   "correctIndex": "Children"
                 },
                 {
-                  "question": "Which of the following is a preposition?",
+                  "question": "Which of the following is a preposition?(12+ / B tech Hard)",
                   "Option1": "And",
                   "Option2": "But",
                   "Option3": "Or",
@@ -1443,7 +1443,7 @@
                   "correctIndex": "Or"
                 },
                 {
-                  "question": "What is the adverb in the following sentence? 'She sings beautifully.'",
+                  "question": "What is the adverb in the following sentence? 'She sings beautifully.'(12+ / B tech Hard)",
                   "Option1": "She",
                   "Option2": "Sings",
                   "Option3": "Beautifully",
@@ -1451,7 +1451,7 @@
                   "correctIndex": "Sings"
                 },
                 {
-                  "question": "Which of the following is an example of a simile?",
+                  "question": "Which of the following is an example of a simile?(12+ / B tech Hard)",
                   "Option1": "The sun is a ball of fire.",
                   "Option2": "She runs as fast as a cheetah.",
                   "Option3": "The tree branches swayed in the wind.",
@@ -1472,65 +1472,1415 @@
           "Hindi": "1-3",
           "1-3" : [
             {
-              "Diff": "Basic"
+              "Diff": "Basic",
+              "Basic": [
+                {
+                "question": "हिंदी का वर्तनी विधि क्या है?(Basic 1-3 Hindi)",
+                "Option1": "देवनागरी",
+                "Option2":"कैदी",
+                "Option3":"रोमन",
+                "Option4":"फारसी",
+                "correctIndex": "देवनागरी"
+              },
+                {
+                  "question": "हिंदी भाषा का उद्गम कौन से वंश से हुआ?(Basic 1-3 Hindi)",
+                  "Option1":"शंख",
+                  "Option2":"यवन",
+                  "Option3":"कुशाण",
+                  "Option4":"साक",
+                  "correctIndex": "साक"
+                },
+                {
+                  "question": "हिंदी में सर्वनाम कितने प्रकार के होते हैं?(Basic 1-3 Hindi)",
+                  "Option1": "तीन",
+                  "Option2": "चार",
+                  "Option3": "पाँच",
+                  "Option4": "छः",
+                  "correctIndex": "तीन"
+                },
+                {
+                  "question": "हिंदी भाषा का मुख्य विषय क्या है?(Basic 1-3 Hindi)",
+                  "Option1": "अभिव्यक्ति",
+                  "Option2": "संगीत",
+                  "Option3": "खेल",
+                  "Option4": "राजनीति",
+                  "correctIndex": "अभिव्यक्ति"
+                },
+                {
+                  "question": "हिंदी भाषा में कुछ अक्षर जोड़कर कौन-से अर्थ बनते हैं?(Basic 1-3 Hindi)",
+                  "Option1": "सन्ने-धन्ने",
+                  "Option2": "रख-देख",
+                  "Option3": "खिस्सा-फिस्सा",
+                  "Option4": "खूब-सूबा",
+                  "correctIndex": "खिस्सा-फिस्सा"
+                },
+                {
+                  "question": "Which of the following is a compound word?(Basic 1-3 Hindi)",
+                  "Option1": "Bird",
+                  "Option2": "House",
+                  "Option3": "Basketball",
+                  "Option4": "Table",
+                  "correctIndex": "House"
+                },
+                {
+                  "question": "हिंदी भाषा में कितने स्वर होते हैं?(Basic 1-3 Hindi)",
+                  "Option1": "11",
+                  "Option2": "12",
+                  "Option3": "13",
+                  "Option4": "14",
+                  "correctIndex": "11"
+                },
+                {
+                  "question": "हिंदी भाषा में अशुद्ध वाक्य निर्माण में कौनसा तत्व दुरुपयोग करता है?(Basic 1-3 Hindi)",
+                  "Option1": "सर्वनाम",
+                  "Option2": "विशेषण",
+                  "Option3": "क्रिया",
+                  "Option4": "संज्ञा",
+                  "correctIndex": "संज्ञा"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा लिंग होता है जो केवल पुरुष जातियों के नामों के लिए प्रयुक्त होता है?(Basic 1-3 Hindi)",
+                  "Option1": "पुल्लिंग",
+                  "Option2": "स्त्रीलिंग",
+                  "Option3": "नपुंसकलिंग",
+                  "Option4": "इनमें से कोई नहीं",
+                  "correctIndex": "पुल्लिंग"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा समास नहीं होता है?(Basic 1-3 Hindi)",
+                  "Option1": "तत्सम",
+                  "Option2": "तद्भव",
+                  "Option3": "द्वंद्व",
+                  "Option4": "कर्मधारय",
+                  "correctIndex": "कर्मधारय"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा संज्ञा शब्द सार्वजनिक स्थानों, सड़कों आदि के नामों में प्रयुक्त होता है?(Basic 1-3 Hindi)",
+                  "Option1": "विशेषण",
+                  "Option2": "संज्ञा",
+                  "Option3": "सर्वनाम",
+                  "Option4": "क्रिया",
+                  "correctIndex": "संज्ञा."
+                }
+              ]
             },
             {
-              "Diff": "Medium"
+              "Diff": "Medium",
+              "Medium": [
+                {
+                  "question": "हिंदी का वर्तनी विधि क्या है?(Medium 1-3 Hindi)",
+                  "Option1": "देवनागरी",
+                  "Option2":"कैदी",
+                  "Option3":"रोमन",
+                  "Option4":"फारसी",
+                  "correctIndex": "देवनागरी"
+                },
+                {
+                  "question": "हिंदी भाषा का उद्गम कौन से वंश से हुआ?(Medium 1-3 Hindi)",
+                  "Option1":"शंख",
+                  "Option2":"यवन",
+                  "Option3":"कुशाण",
+                  "Option4":"साक",
+                  "correctIndex": "साक"
+                },
+                {
+                  "question": "हिंदी में सर्वनाम कितने प्रकार के होते हैं?(Medium 1-3 Hindi)",
+                  "Option1": "तीन",
+                  "Option2": "चार",
+                  "Option3": "पाँच",
+                  "Option4": "छः",
+                  "correctIndex": "तीन"
+                },
+                {
+                  "question": "हिंदी भाषा का मुख्य विषय क्या है?(Medium 1-3 Hindi)",
+                  "Option1": "अभिव्यक्ति",
+                  "Option2": "संगीत",
+                  "Option3": "खेल",
+                  "Option4": "राजनीति",
+                  "correctIndex": "अभिव्यक्ति"
+                },
+                {
+                  "question": "हिंदी भाषा में कुछ अक्षर जोड़कर कौन-से अर्थ बनते हैं?(Medium 1-3 Hindi)",
+                  "Option1": "सन्ने-धन्ने",
+                  "Option2": "रख-देख",
+                  "Option3": "खिस्सा-फिस्सा",
+                  "Option4": "खूब-सूबा",
+                  "correctIndex": "खिस्सा-फिस्सा"
+                },
+                {
+                  "question": "Which of the following is a compound word?(Medium 1-3 Hindi)",
+                  "Option1": "Bird",
+                  "Option2": "House",
+                  "Option3": "Basketball",
+                  "Option4": "Table",
+                  "correctIndex": "House"
+                },
+                {
+                  "question": "हिंदी भाषा में कितने स्वर होते हैं?(Medium 1-3 Hindi)",
+                  "Option1": "11",
+                  "Option2": "12",
+                  "Option3": "13",
+                  "Option4": "14",
+                  "correctIndex": "11"
+                },
+                {
+                  "question": "हिंदी भाषा में अशुद्ध वाक्य निर्माण में कौनसा तत्व दुरुपयोग करता है?(Medium 1-3 Hindi)",
+                  "Option1": "सर्वनाम",
+                  "Option2": "विशेषण",
+                  "Option3": "क्रिया",
+                  "Option4": "संज्ञा",
+                  "correctIndex": "संज्ञा"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा लिंग होता है जो केवल पुरुष जातियों के नामों के लिए प्रयुक्त होता है?(Medium 1-3 Hindi)",
+                  "Option1": "पुल्लिंग",
+                  "Option2": "स्त्रीलिंग",
+                  "Option3": "नपुंसकलिंग",
+                  "Option4": "इनमें से कोई नहीं",
+                  "correctIndex": "पुल्लिंग"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा समास नहीं होता है?(Medium 1-3 Hindi)",
+                  "Option1": "तत्सम",
+                  "Option2": "तद्भव",
+                  "Option3": "द्वंद्व",
+                  "Option4": "कर्मधारय",
+                  "correctIndex": "कर्मधारय"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा संज्ञा शब्द सार्वजनिक स्थानों, सड़कों आदि के नामों में प्रयुक्त होता है?(Medium 1-3 Hindi)",
+                  "Option1": "विशेषण",
+                  "Option2": "संज्ञा",
+                  "Option3": "सर्वनाम",
+                  "Option4": "क्रिया",
+                  "correctIndex": "संज्ञा."
+                }
+              ]
             },
             {
-              "Diff": "Hard"
+              "Diff": "Hard",
+              "Hard": [
+                {
+                  "question": "हिंदी का वर्तनी विधि क्या है?(Hard 1-3 Hindi)",
+                  "Option1": "देवनागरी",
+                  "Option2":"कैदी",
+                  "Option3":"रोमन",
+                  "Option4":"फारसी",
+                  "correctIndex": "देवनागरी"
+                },
+                {
+                  "question": "हिंदी भाषा का उद्गम कौन से वंश से हुआ?(Hard 1-3 Hindi)",
+                  "Option1":"शंख",
+                  "Option2":"यवन",
+                  "Option3":"कुशाण",
+                  "Option4":"साक",
+                  "correctIndex": "साक"
+                },
+                {
+                  "question": "हिंदी में सर्वनाम कितने प्रकार के होते हैं?(Hard 1-3 Hindi)",
+                  "Option1": "तीन",
+                  "Option2": "चार",
+                  "Option3": "पाँच",
+                  "Option4": "छः",
+                  "correctIndex": "तीन"
+                },
+                {
+                  "question": "हिंदी भाषा का मुख्य विषय क्या है?(Hard 1-3 Hindi)",
+                  "Option1": "अभिव्यक्ति",
+                  "Option2": "संगीत",
+                  "Option3": "खेल",
+                  "Option4": "राजनीति",
+                  "correctIndex": "अभिव्यक्ति"
+                },
+                {
+                  "question": "हिंदी भाषा में कुछ अक्षर जोड़कर कौन-से अर्थ बनते हैं?(Hard 1-3 Hindi)",
+                  "Option1": "सन्ने-धन्ने",
+                  "Option2": "रख-देख",
+                  "Option3": "खिस्सा-फिस्सा",
+                  "Option4": "खूब-सूबा",
+                  "correctIndex": "खिस्सा-फिस्सा"
+                },
+                {
+                  "question": "Which of the following is a compound word?(Hard 1-3 Hindi)",
+                  "Option1": "Bird",
+                  "Option2": "House",
+                  "Option3": "Basketball",
+                  "Option4": "Table",
+                  "correctIndex": "House"
+                },
+                {
+                  "question": "हिंदी भाषा में कितने स्वर होते हैं?(Hard 1-3 Hindi)",
+                  "Option1": "11",
+                  "Option2": "12",
+                  "Option3": "13",
+                  "Option4": "14",
+                  "correctIndex": "11"
+                },
+                {
+                  "question": "हिंदी भाषा में अशुद्ध वाक्य निर्माण में कौनसा तत्व दुरुपयोग करता है?(Hard 1-3 Hindi)",
+                  "Option1": "सर्वनाम",
+                  "Option2": "विशेषण",
+                  "Option3": "क्रिया",
+                  "Option4": "संज्ञा",
+                  "correctIndex": "संज्ञा"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा लिंग होता है जो केवल पुरुष जातियों के नामों के लिए प्रयुक्त होता है?(Hard 1-3 Hindi)",
+                  "Option1": "पुल्लिंग",
+                  "Option2": "स्त्रीलिंग",
+                  "Option3": "नपुंसकलिंग",
+                  "Option4": "इनमें से कोई नहीं",
+                  "correctIndex": "पुल्लिंग"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा समास नहीं होता है?(Hard 1-3 Hindi)",
+                  "Option1": "तत्सम",
+                  "Option2": "तद्भव",
+                  "Option3": "द्वंद्व",
+                  "Option4": "कर्मधारय",
+                  "correctIndex": "कर्मधारय"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा संज्ञा शब्द सार्वजनिक स्थानों, सड़कों आदि के नामों में प्रयुक्त होता है?(Hard 1-3 Hindi)",
+                  "Option1": "विशेषण",
+                  "Option2": "संज्ञा",
+                  "Option3": "सर्वनाम",
+                  "Option4": "क्रिया",
+                  "correctIndex": "संज्ञा."
+                }
+              ]
             }
           ]
         },
         {  "Hindi": "4-6",
           "4-6" : [
             {
-              "Diff": "Basic"
+              "Diff": "Basic",
+              "Basic": [
+                {
+                  "question": "हिंदी का वर्तनी विधि क्या है?(Basic 4-6 Hindi)",
+                  "Option1": "देवनागरी",
+                  "Option2":"कैदी",
+                  "Option3":"रोमन",
+                  "Option4":"फारसी",
+                  "correctIndex": "देवनागरी"
+                },
+                {
+                  "question": "हिंदी भाषा का उद्गम कौन से वंश से हुआ?(Basic 4-6 Hindi)",
+                  "Option1":"शंख",
+                  "Option2":"यवन",
+                  "Option3":"कुशाण",
+                  "Option4":"साक",
+                  "correctIndex": "साक"
+                },
+                {
+                  "question": "हिंदी में सर्वनाम कितने प्रकार के होते हैं?(Basic 4-6 Hindi)",
+                  "Option1": "तीन",
+                  "Option2": "चार",
+                  "Option3": "पाँच",
+                  "Option4": "छः",
+                  "correctIndex": "तीन"
+                },
+                {
+                  "question": "हिंदी भाषा का मुख्य विषय क्या है?(Basic 4-6 Hindi)",
+                  "Option1": "अभिव्यक्ति",
+                  "Option2": "संगीत",
+                  "Option3": "खेल",
+                  "Option4": "राजनीति",
+                  "correctIndex": "अभिव्यक्ति"
+                },
+                {
+                  "question": "हिंदी भाषा में कुछ अक्षर जोड़कर कौन-से अर्थ बनते हैं?(Basic 4-6 Hindi)",
+                  "Option1": "सन्ने-धन्ने",
+                  "Option2": "रख-देख",
+                  "Option3": "खिस्सा-फिस्सा",
+                  "Option4": "खूब-सूबा",
+                  "correctIndex": "खिस्सा-फिस्सा"
+                },
+                {
+                  "question": "Which of the following is a compound word?(Basic 4-6 Hindi)",
+                  "Option1": "Bird",
+                  "Option2": "House",
+                  "Option3": "Basketball",
+                  "Option4": "Table",
+                  "correctIndex": "House"
+                },
+                {
+                  "question": "हिंदी भाषा में कितने स्वर होते हैं?(Basic 4-6 Hindi)",
+                  "Option1": "11",
+                  "Option2": "12",
+                  "Option3": "13",
+                  "Option4": "14",
+                  "correctIndex": "11"
+                },
+                {
+                  "question": "हिंदी भाषा में अशुद्ध वाक्य निर्माण में कौनसा तत्व दुरुपयोग करता है?(Basic 4-6 Hindi)",
+                  "Option1": "सर्वनाम",
+                  "Option2": "विशेषण",
+                  "Option3": "क्रिया",
+                  "Option4": "संज्ञा",
+                  "correctIndex": "संज्ञा"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा लिंग होता है जो केवल पुरुष जातियों के नामों के लिए प्रयुक्त होता है?(Basic 4-6 Hindi)",
+                  "Option1": "पुल्लिंग",
+                  "Option2": "स्त्रीलिंग",
+                  "Option3": "नपुंसकलिंग",
+                  "Option4": "इनमें से कोई नहीं",
+                  "correctIndex": "पुल्लिंग"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा समास नहीं होता है?(Basic 4-6 Hindi)",
+                  "Option1": "तत्सम",
+                  "Option2": "तद्भव",
+                  "Option3": "द्वंद्व",
+                  "Option4": "कर्मधारय",
+                  "correctIndex": "कर्मधारय"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा संज्ञा शब्द सार्वजनिक स्थानों, सड़कों आदि के नामों में प्रयुक्त होता है?(Basic 4-6 Hindi)",
+                  "Option1": "विशेषण",
+                  "Option2": "संज्ञा",
+                  "Option3": "सर्वनाम",
+                  "Option4": "क्रिया",
+                  "correctIndex": "संज्ञा."
+                }
+              ]
             },
             {
-              "Diff": "Medium"
+              "Diff": "Medium",
+              "Medium": [
+                {
+                  "question": "हिंदी का वर्तनी विधि क्या है?(Medium 4-6 Hindi)",
+                  "Option1": "देवनागरी",
+                  "Option2":"कैदी",
+                  "Option3":"रोमन",
+                  "Option4":"फारसी",
+                  "correctIndex": "देवनागरी"
+                },
+                {
+                  "question": "हिंदी भाषा का उद्गम कौन से वंश से हुआ?(Medium 4-6 Hindi)",
+                  "Option1":"शंख",
+                  "Option2":"यवन",
+                  "Option3":"कुशाण",
+                  "Option4":"साक",
+                  "correctIndex": "साक"
+                },
+                {
+                  "question": "हिंदी में सर्वनाम कितने प्रकार के होते हैं?(Medium 4-6 Hindi)",
+                  "Option1": "तीन",
+                  "Option2": "चार",
+                  "Option3": "पाँच",
+                  "Option4": "छः",
+                  "correctIndex": "तीन"
+                },
+                {
+                  "question": "हिंदी भाषा का मुख्य विषय क्या है?(Medium 4-6 Hindi)",
+                  "Option1": "अभिव्यक्ति",
+                  "Option2": "संगीत",
+                  "Option3": "खेल",
+                  "Option4": "राजनीति",
+                  "correctIndex": "अभिव्यक्ति"
+                },
+                {
+                  "question": "हिंदी भाषा में कुछ अक्षर जोड़कर कौन-से अर्थ बनते हैं?(Medium 4-6 Hindi)",
+                  "Option1": "सन्ने-धन्ने",
+                  "Option2": "रख-देख",
+                  "Option3": "खिस्सा-फिस्सा",
+                  "Option4": "खूब-सूबा",
+                  "correctIndex": "खिस्सा-फिस्सा"
+                },
+                {
+                  "question": "Which of the following is a compound word?(Medium 4-6 Hindi)",
+                  "Option1": "Bird",
+                  "Option2": "House",
+                  "Option3": "Basketball",
+                  "Option4": "Table",
+                  "correctIndex": "House"
+                },
+                {
+                  "question": "हिंदी भाषा में कितने स्वर होते हैं?(Medium 4-6 Hindi)",
+                  "Option1": "11",
+                  "Option2": "12",
+                  "Option3": "13",
+                  "Option4": "14",
+                  "correctIndex": "11"
+                },
+                {
+                  "question": "हिंदी भाषा में अशुद्ध वाक्य निर्माण में कौनसा तत्व दुरुपयोग करता है?(Medium 4-6 Hindi)",
+                  "Option1": "सर्वनाम",
+                  "Option2": "विशेषण",
+                  "Option3": "क्रिया",
+                  "Option4": "संज्ञा",
+                  "correctIndex": "संज्ञा"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा लिंग होता है जो केवल पुरुष जातियों के नामों के लिए प्रयुक्त होता है?(Medium 4-6 Hindi)",
+                  "Option1": "पुल्लिंग",
+                  "Option2": "स्त्रीलिंग",
+                  "Option3": "नपुंसकलिंग",
+                  "Option4": "इनमें से कोई नहीं",
+                  "correctIndex": "पुल्लिंग"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा समास नहीं होता है?(Medium 4-6 Hindi)",
+                  "Option1": "तत्सम",
+                  "Option2": "तद्भव",
+                  "Option3": "द्वंद्व",
+                  "Option4": "कर्मधारय",
+                  "correctIndex": "कर्मधारय"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा संज्ञा शब्द सार्वजनिक स्थानों, सड़कों आदि के नामों में प्रयुक्त होता है?(Medium 4-6 Hindi)",
+                  "Option1": "विशेषण",
+                  "Option2": "संज्ञा",
+                  "Option3": "सर्वनाम",
+                  "Option4": "क्रिया",
+                  "correctIndex": "संज्ञा."
+                }
+              ]
             },
             {
-              "Diff": "Hard"
+              "Diff": "Hard",
+              "Hard": [
+                {
+                  "question": "हिंदी का वर्तनी विधि क्या है?(Hard 4-6 Hindi)",
+                  "Option1": "देवनागरी",
+                  "Option2":"कैदी",
+                  "Option3":"रोमन",
+                  "Option4":"फारसी",
+                  "correctIndex": "देवनागरी"
+                },
+                {
+                  "question": "हिंदी भाषा का उद्गम कौन से वंश से हुआ?(Hard 4-6 Hindi)",
+                  "Option1":"शंख",
+                  "Option2":"यवन",
+                  "Option3":"कुशाण",
+                  "Option4":"साक",
+                  "correctIndex": "साक"
+                },
+                {
+                  "question": "हिंदी में सर्वनाम कितने प्रकार के होते हैं?(Hard 4-6 Hindi)",
+                  "Option1": "तीन",
+                  "Option2": "चार",
+                  "Option3": "पाँच",
+                  "Option4": "छः",
+                  "correctIndex": "तीन"
+                },
+                {
+                  "question": "हिंदी भाषा का मुख्य विषय क्या है?(Hard 4-6 Hindi)",
+                  "Option1": "अभिव्यक्ति",
+                  "Option2": "संगीत",
+                  "Option3": "खेल",
+                  "Option4": "राजनीति",
+                  "correctIndex": "अभिव्यक्ति"
+                },
+                {
+                  "question": "हिंदी भाषा में कुछ अक्षर जोड़कर कौन-से अर्थ बनते हैं?(Hard 4-6 Hindi)",
+                  "Option1": "सन्ने-धन्ने",
+                  "Option2": "रख-देख",
+                  "Option3": "खिस्सा-फिस्सा",
+                  "Option4": "खूब-सूबा",
+                  "correctIndex": "खिस्सा-फिस्सा"
+                },
+                {
+                  "question": "Which of the following is a compound word?(Hard 4-6 Hindi)",
+                  "Option1": "Bird",
+                  "Option2": "House",
+                  "Option3": "Basketball",
+                  "Option4": "Table",
+                  "correctIndex": "House"
+                },
+                {
+                  "question": "हिंदी भाषा में कितने स्वर होते हैं?(Hard 4-6 Hindi)",
+                  "Option1": "11",
+                  "Option2": "12",
+                  "Option3": "13",
+                  "Option4": "14",
+                  "correctIndex": "11"
+                },
+                {
+                  "question": "हिंदी भाषा में अशुद्ध वाक्य निर्माण में कौनसा तत्व दुरुपयोग करता है?(Hard 4-6 Hindi)",
+                  "Option1": "सर्वनाम",
+                  "Option2": "विशेषण",
+                  "Option3": "क्रिया",
+                  "Option4": "संज्ञा",
+                  "correctIndex": "संज्ञा"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा लिंग होता है जो केवल पुरुष जातियों के नामों के लिए प्रयुक्त होता है?(Hard 4-6 Hindi)",
+                  "Option1": "पुल्लिंग",
+                  "Option2": "स्त्रीलिंग",
+                  "Option3": "नपुंसकलिंग",
+                  "Option4": "इनमें से कोई नहीं",
+                  "correctIndex": "पुल्लिंग"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा समास नहीं होता है?(Hard 4-6 Hindi)",
+                  "Option1": "तत्सम",
+                  "Option2": "तद्भव",
+                  "Option3": "द्वंद्व",
+                  "Option4": "कर्मधारय",
+                  "correctIndex": "कर्मधारय"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा संज्ञा शब्द सार्वजनिक स्थानों, सड़कों आदि के नामों में प्रयुक्त होता है?(Hard 4-6 Hindi)",
+                  "Option1": "विशेषण",
+                  "Option2": "संज्ञा",
+                  "Option3": "सर्वनाम",
+                  "Option4": "क्रिया",
+                  "correctIndex": "संज्ञा."
+                }
+              ]
             }
           ]
         },
         { "Hindi": "7-9",
           "7-9" : [
             {
-              "Diff": "Basic"
+              "Diff": "Basic",
+              "Basic": [
+                {
+                  "question": "हिंदी का वर्तनी विधि क्या है?(Basic 7-9 Hindi)",
+                  "Option1": "देवनागरी",
+                  "Option2":"कैदी",
+                  "Option3":"रोमन",
+                  "Option4":"फारसी",
+                  "correctIndex": "देवनागरी"
+                },
+                {
+                  "question": "हिंदी भाषा का उद्गम कौन से वंश से हुआ?(Basic 7-9 Hindi)",
+                  "Option1":"शंख",
+                  "Option2":"यवन",
+                  "Option3":"कुशाण",
+                  "Option4":"साक",
+                  "correctIndex": "साक"
+                },
+                {
+                  "question": "हिंदी में सर्वनाम कितने प्रकार के होते हैं?(Basic 7-9 Hindi)",
+                  "Option1": "तीन",
+                  "Option2": "चार",
+                  "Option3": "पाँच",
+                  "Option4": "छः",
+                  "correctIndex": "तीन"
+                },
+                {
+                  "question": "हिंदी भाषा का मुख्य विषय क्या है?(Basic 7-9 Hindi)",
+                  "Option1": "अभिव्यक्ति",
+                  "Option2": "संगीत",
+                  "Option3": "खेल",
+                  "Option4": "राजनीति",
+                  "correctIndex": "अभिव्यक्ति"
+                },
+                {
+                  "question": "हिंदी भाषा में कुछ अक्षर जोड़कर कौन-से अर्थ बनते हैं?(Basic 7-9 Hindi)",
+                  "Option1": "सन्ने-धन्ने",
+                  "Option2": "रख-देख",
+                  "Option3": "खिस्सा-फिस्सा",
+                  "Option4": "खूब-सूबा",
+                  "correctIndex": "खिस्सा-फिस्सा"
+                },
+                {
+                  "question": "Which of the following is a compound word?(Basic 7-9 Hindi)",
+                  "Option1": "Bird",
+                  "Option2": "House",
+                  "Option3": "Basketball",
+                  "Option4": "Table",
+                  "correctIndex": "House"
+                },
+                {
+                  "question": "हिंदी भाषा में कितने स्वर होते हैं?(Basic 7-9 Hindi)",
+                  "Option1": "11",
+                  "Option2": "12",
+                  "Option3": "13",
+                  "Option4": "14",
+                  "correctIndex": "11"
+                },
+                {
+                  "question": "हिंदी भाषा में अशुद्ध वाक्य निर्माण में कौनसा तत्व दुरुपयोग करता है?(Basic 7-9 Hindi)",
+                  "Option1": "सर्वनाम",
+                  "Option2": "विशेषण",
+                  "Option3": "क्रिया",
+                  "Option4": "संज्ञा",
+                  "correctIndex": "संज्ञा"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा लिंग होता है जो केवल पुरुष जातियों के नामों के लिए प्रयुक्त होता है?(Basic 7-9 Hindi)",
+                  "Option1": "पुल्लिंग",
+                  "Option2": "स्त्रीलिंग",
+                  "Option3": "नपुंसकलिंग",
+                  "Option4": "इनमें से कोई नहीं",
+                  "correctIndex": "पुल्लिंग"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा समास नहीं होता है?(Basic 7-9 Hindi)",
+                  "Option1": "तत्सम",
+                  "Option2": "तद्भव",
+                  "Option3": "द्वंद्व",
+                  "Option4": "कर्मधारय",
+                  "correctIndex": "कर्मधारय"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा संज्ञा शब्द सार्वजनिक स्थानों, सड़कों आदि के नामों में प्रयुक्त होता है?(Basic 7-9 Hindi)",
+                  "Option1": "विशेषण",
+                  "Option2": "संज्ञा",
+                  "Option3": "सर्वनाम",
+                  "Option4": "क्रिया",
+                  "correctIndex": "संज्ञा."
+                }
+              ]
             },
             {
-              "Diff": "Medium"
+              "Diff": "Medium",
+              "Medium": [
+                {
+                  "question": "हिंदी का वर्तनी विधि क्या है?(Medium 7-9 Hindi)",
+                  "Option1": "देवनागरी",
+                  "Option2":"कैदी",
+                  "Option3":"रोमन",
+                  "Option4":"फारसी",
+                  "correctIndex": "देवनागरी"
+                },
+                {
+                  "question": "हिंदी भाषा का उद्गम कौन से वंश से हुआ?(Medium 7-9 Hindi)",
+                  "Option1":"शंख",
+                  "Option2":"यवन",
+                  "Option3":"कुशाण",
+                  "Option4":"साक",
+                  "correctIndex": "साक"
+                },
+                {
+                  "question": "हिंदी में सर्वनाम कितने प्रकार के होते हैं?(Medium 7-9 Hindi)",
+                  "Option1": "तीन",
+                  "Option2": "चार",
+                  "Option3": "पाँच",
+                  "Option4": "छः",
+                  "correctIndex": "तीन"
+                },
+                {
+                  "question": "हिंदी भाषा का मुख्य विषय क्या है?(Medium 7-9 Hindi)",
+                  "Option1": "अभिव्यक्ति",
+                  "Option2": "संगीत",
+                  "Option3": "खेल",
+                  "Option4": "राजनीति",
+                  "correctIndex": "अभिव्यक्ति"
+                },
+                {
+                  "question": "हिंदी भाषा में कुछ अक्षर जोड़कर कौन-से अर्थ बनते हैं?(Medium 7-9 Hindi)",
+                  "Option1": "सन्ने-धन्ने",
+                  "Option2": "रख-देख",
+                  "Option3": "खिस्सा-फिस्सा",
+                  "Option4": "खूब-सूबा",
+                  "correctIndex": "खिस्सा-फिस्सा"
+                },
+                {
+                  "question": "Which of the following is a compound word?(Medium 7-9 Hindi)",
+                  "Option1": "Bird",
+                  "Option2": "House",
+                  "Option3": "Basketball",
+                  "Option4": "Table",
+                  "correctIndex": "House"
+                },
+                {
+                  "question": "हिंदी भाषा में कितने स्वर होते हैं?(Medium 7-9 Hindi)",
+                  "Option1": "11",
+                  "Option2": "12",
+                  "Option3": "13",
+                  "Option4": "14",
+                  "correctIndex": "11"
+                },
+                {
+                  "question": "हिंदी भाषा में अशुद्ध वाक्य निर्माण में कौनसा तत्व दुरुपयोग करता है?(Medium 7-9 Hindi)",
+                  "Option1": "सर्वनाम",
+                  "Option2": "विशेषण",
+                  "Option3": "क्रिया",
+                  "Option4": "संज्ञा",
+                  "correctIndex": "संज्ञा"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा लिंग होता है जो केवल पुरुष जातियों के नामों के लिए प्रयुक्त होता है?(Medium 7-9 Hindi)",
+                  "Option1": "पुल्लिंग",
+                  "Option2": "स्त्रीलिंग",
+                  "Option3": "नपुंसकलिंग",
+                  "Option4": "इनमें से कोई नहीं",
+                  "correctIndex": "पुल्लिंग"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा समास नहीं होता है?(Medium 7-9 Hindi)",
+                  "Option1": "तत्सम",
+                  "Option2": "तद्भव",
+                  "Option3": "द्वंद्व",
+                  "Option4": "कर्मधारय",
+                  "correctIndex": "कर्मधारय"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा संज्ञा शब्द सार्वजनिक स्थानों, सड़कों आदि के नामों में प्रयुक्त होता है?(Medium 7-9 Hindi)",
+                  "Option1": "विशेषण",
+                  "Option2": "संज्ञा",
+                  "Option3": "सर्वनाम",
+                  "Option4": "क्रिया",
+                  "correctIndex": "संज्ञा."
+                }
+              ]
             },
             {
-              "Diff": "Hard"
+              "Diff": "Hard",
+              "Hard": [
+                {
+                  "question": "हिंदी का वर्तनी विधि क्या है?(Hard 7-9 Hindi)",
+                  "Option1": "देवनागरी",
+                  "Option2":"कैदी",
+                  "Option3":"रोमन",
+                  "Option4":"फारसी",
+                  "correctIndex": "देवनागरी"
+                },
+                {
+                  "question": "हिंदी भाषा का उद्गम कौन से वंश से हुआ?(Hard 7-9 Hindi)",
+                  "Option1":"शंख",
+                  "Option2":"यवन",
+                  "Option3":"कुशाण",
+                  "Option4":"साक",
+                  "correctIndex": "साक"
+                },
+                {
+                  "question": "हिंदी में सर्वनाम कितने प्रकार के होते हैं?(Hard 7-9 Hindi)",
+                  "Option1": "तीन",
+                  "Option2": "चार",
+                  "Option3": "पाँच",
+                  "Option4": "छः",
+                  "correctIndex": "तीन"
+                },
+                {
+                  "question": "हिंदी भाषा का मुख्य विषय क्या है?(Hard 7-9 Hindi)",
+                  "Option1": "अभिव्यक्ति",
+                  "Option2": "संगीत",
+                  "Option3": "खेल",
+                  "Option4": "राजनीति",
+                  "correctIndex": "अभिव्यक्ति"
+                },
+                {
+                  "question": "हिंदी भाषा में कुछ अक्षर जोड़कर कौन-से अर्थ बनते हैं?(Hard 7-9 Hindi)",
+                  "Option1": "सन्ने-धन्ने",
+                  "Option2": "रख-देख",
+                  "Option3": "खिस्सा-फिस्सा",
+                  "Option4": "खूब-सूबा",
+                  "correctIndex": "खिस्सा-फिस्सा"
+                },
+                {
+                  "question": "Which of the following is a compound word?(Hard 7-9 Hindi)",
+                  "Option1": "Bird",
+                  "Option2": "House",
+                  "Option3": "Basketball",
+                  "Option4": "Table",
+                  "correctIndex": "House"
+                },
+                {
+                  "question": "हिंदी भाषा में कितने स्वर होते हैं?(Hard 7-9 Hindi)",
+                  "Option1": "11",
+                  "Option2": "12",
+                  "Option3": "13",
+                  "Option4": "14",
+                  "correctIndex": "11"
+                },
+                {
+                  "question": "हिंदी भाषा में अशुद्ध वाक्य निर्माण में कौनसा तत्व दुरुपयोग करता है?(Hard 7-9 Hindi)",
+                  "Option1": "सर्वनाम",
+                  "Option2": "विशेषण",
+                  "Option3": "क्रिया",
+                  "Option4": "संज्ञा",
+                  "correctIndex": "संज्ञा"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा लिंग होता है जो केवल पुरुष जातियों के नामों के लिए प्रयुक्त होता है?(Hard 7-9 Hindi)",
+                  "Option1": "पुल्लिंग",
+                  "Option2": "स्त्रीलिंग",
+                  "Option3": "नपुंसकलिंग",
+                  "Option4": "इनमें से कोई नहीं",
+                  "correctIndex": "पुल्लिंग"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा समास नहीं होता है?(Hard 7-9 Hindi)",
+                  "Option1": "तत्सम",
+                  "Option2": "तद्भव",
+                  "Option3": "द्वंद्व",
+                  "Option4": "कर्मधारय",
+                  "correctIndex": "कर्मधारय"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा संज्ञा शब्द सार्वजनिक स्थानों, सड़कों आदि के नामों में प्रयुक्त होता है?(Hard 7-9 Hindi)",
+                  "Option1": "विशेषण",
+                  "Option2": "संज्ञा",
+                  "Option3": "सर्वनाम",
+                  "Option4": "क्रिया",
+                  "correctIndex": "संज्ञा."
+                }
+              ]
             }
           ]
         },
         {  "Hindi": "10-12",
           "10-12" : [
             {
-              "Diff": "Basic"
+              "Diff": "Basic",
+              "Basic": [
+                {
+                  "question": "हिंदी का वर्तनी विधि क्या है?(Basic 10-12 Hindi)",
+                  "Option1": "देवनागरी",
+                  "Option2":"कैदी",
+                  "Option3":"रोमन",
+                  "Option4":"फारसी",
+                  "correctIndex": "देवनागरी"
+                },
+                {
+                  "question": "हिंदी भाषा का उद्गम कौन से वंश से हुआ?(Basic 10-12 Hindi)",
+                  "Option1":"शंख",
+                  "Option2":"यवन",
+                  "Option3":"कुशाण",
+                  "Option4":"साक",
+                  "correctIndex": "साक"
+                },
+                {
+                  "question": "हिंदी में सर्वनाम कितने प्रकार के होते हैं?(Basic 10-12 Hindi)",
+                  "Option1": "तीन",
+                  "Option2": "चार",
+                  "Option3": "पाँच",
+                  "Option4": "छः",
+                  "correctIndex": "तीन"
+                },
+                {
+                  "question": "हिंदी भाषा का मुख्य विषय क्या है?(Basic 10-12 Hindi)",
+                  "Option1": "अभिव्यक्ति",
+                  "Option2": "संगीत",
+                  "Option3": "खेल",
+                  "Option4": "राजनीति",
+                  "correctIndex": "अभिव्यक्ति"
+                },
+                {
+                  "question": "हिंदी भाषा में कुछ अक्षर जोड़कर कौन-से अर्थ बनते हैं?(Basic 10-12 Hindi)",
+                  "Option1": "सन्ने-धन्ने",
+                  "Option2": "रख-देख",
+                  "Option3": "खिस्सा-फिस्सा",
+                  "Option4": "खूब-सूबा",
+                  "correctIndex": "खिस्सा-फिस्सा"
+                },
+                {
+                  "question": "Which of the following is a compound word?(Basic 10-12 Hindi)",
+                  "Option1": "Bird",
+                  "Option2": "House",
+                  "Option3": "Basketball",
+                  "Option4": "Table",
+                  "correctIndex": "House"
+                },
+                {
+                  "question": "हिंदी भाषा में कितने स्वर होते हैं?(Basic 10-12 Hindi)",
+                  "Option1": "11",
+                  "Option2": "12",
+                  "Option3": "13",
+                  "Option4": "14",
+                  "correctIndex": "11"
+                },
+                {
+                  "question": "हिंदी भाषा में अशुद्ध वाक्य निर्माण में कौनसा तत्व दुरुपयोग करता है?(Basic 10-12 Hindi)",
+                  "Option1": "सर्वनाम",
+                  "Option2": "विशेषण",
+                  "Option3": "क्रिया",
+                  "Option4": "संज्ञा",
+                  "correctIndex": "संज्ञा"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा लिंग होता है जो केवल पुरुष जातियों के नामों के लिए प्रयुक्त होता है?(Basic 10-12 Hindi)",
+                  "Option1": "पुल्लिंग",
+                  "Option2": "स्त्रीलिंग",
+                  "Option3": "नपुंसकलिंग",
+                  "Option4": "इनमें से कोई नहीं",
+                  "correctIndex": "पुल्लिंग"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा समास नहीं होता है?(Basic 10-12 Hindi)",
+                  "Option1": "तत्सम",
+                  "Option2": "तद्भव",
+                  "Option3": "द्वंद्व",
+                  "Option4": "कर्मधारय",
+                  "correctIndex": "कर्मधारय"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा संज्ञा शब्द सार्वजनिक स्थानों, सड़कों आदि के नामों में प्रयुक्त होता है?(Basic 10-12 Hindi)",
+                  "Option1": "विशेषण",
+                  "Option2": "संज्ञा",
+                  "Option3": "सर्वनाम",
+                  "Option4": "क्रिया",
+                  "correctIndex": "संज्ञा."
+                }
+              ]
             },
             {
-              "Diff": "Medium"
+              "Diff": "Medium",
+              "Medium": [
+                {
+                  "question": "हिंदी का वर्तनी विधि क्या है?(Medium 10-12 Hindi)",
+                  "Option1": "देवनागरी",
+                  "Option2":"कैदी",
+                  "Option3":"रोमन",
+                  "Option4":"फारसी",
+                  "correctIndex": "देवनागरी"
+                },
+                {
+                  "question": "हिंदी भाषा का उद्गम कौन से वंश से हुआ?(Medium 10-12 Hindi)",
+                  "Option1":"शंख",
+                  "Option2":"यवन",
+                  "Option3":"कुशाण",
+                  "Option4":"साक",
+                  "correctIndex": "साक"
+                },
+                {
+                  "question": "हिंदी में सर्वनाम कितने प्रकार के होते हैं?(Medium 10-12 Hindi)",
+                  "Option1": "तीन",
+                  "Option2": "चार",
+                  "Option3": "पाँच",
+                  "Option4": "छः",
+                  "correctIndex": "तीन"
+                },
+                {
+                  "question": "हिंदी भाषा का मुख्य विषय क्या है?(Medium 10-12 Hindi)",
+                  "Option1": "अभिव्यक्ति",
+                  "Option2": "संगीत",
+                  "Option3": "खेल",
+                  "Option4": "राजनीति",
+                  "correctIndex": "अभिव्यक्ति"
+                },
+                {
+                  "question": "हिंदी भाषा में कुछ अक्षर जोड़कर कौन-से अर्थ बनते हैं?(Medium 10-12 Hindi)",
+                  "Option1": "सन्ने-धन्ने",
+                  "Option2": "रख-देख",
+                  "Option3": "खिस्सा-फिस्सा",
+                  "Option4": "खूब-सूबा",
+                  "correctIndex": "खिस्सा-फिस्सा"
+                },
+                {
+                  "question": "Which of the following is a compound word?(Medium 10-12 Hindi)",
+                  "Option1": "Bird",
+                  "Option2": "House",
+                  "Option3": "Basketball",
+                  "Option4": "Table",
+                  "correctIndex": "House"
+                },
+                {
+                  "question": "हिंदी भाषा में कितने स्वर होते हैं?(Medium 10-12 Hindi)",
+                  "Option1": "11",
+                  "Option2": "12",
+                  "Option3": "13",
+                  "Option4": "14",
+                  "correctIndex": "11"
+                },
+                {
+                  "question": "हिंदी भाषा में अशुद्ध वाक्य निर्माण में कौनसा तत्व दुरुपयोग करता है?(Medium 10-12 Hindi)",
+                  "Option1": "सर्वनाम",
+                  "Option2": "विशेषण",
+                  "Option3": "क्रिया",
+                  "Option4": "संज्ञा",
+                  "correctIndex": "संज्ञा"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा लिंग होता है जो केवल पुरुष जातियों के नामों के लिए प्रयुक्त होता है?(Medium 10-12 Hindi)",
+                  "Option1": "पुल्लिंग",
+                  "Option2": "स्त्रीलिंग",
+                  "Option3": "नपुंसकलिंग",
+                  "Option4": "इनमें से कोई नहीं",
+                  "correctIndex": "पुल्लिंग"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा समास नहीं होता है?(Medium 10-12 Hindi)",
+                  "Option1": "तत्सम",
+                  "Option2": "तद्भव",
+                  "Option3": "द्वंद्व",
+                  "Option4": "कर्मधारय",
+                  "correctIndex": "कर्मधारय"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा संज्ञा शब्द सार्वजनिक स्थानों, सड़कों आदि के नामों में प्रयुक्त होता है?(Medium 10-12 Hindi)",
+                  "Option1": "विशेषण",
+                  "Option2": "संज्ञा",
+                  "Option3": "सर्वनाम",
+                  "Option4": "क्रिया",
+                  "correctIndex": "संज्ञा."
+                }
+              ]
             },
             {
-              "Diff": "Hard"
+              "Diff": "Hard",
+              "Hard": [
+                {
+                  "question": "हिंदी का वर्तनी विधि क्या है?(Hard 10-12 Hindi)",
+                  "Option1": "देवनागरी",
+                  "Option2":"कैदी",
+                  "Option3":"रोमन",
+                  "Option4":"फारसी",
+                  "correctIndex": "देवनागरी"
+                },
+                {
+                  "question": "हिंदी भाषा का उद्गम कौन से वंश से हुआ?(Hard 10-12 Hindi)",
+                  "Option1":"शंख",
+                  "Option2":"यवन",
+                  "Option3":"कुशाण",
+                  "Option4":"साक",
+                  "correctIndex": "साक"
+                },
+                {
+                  "question": "हिंदी में सर्वनाम कितने प्रकार के होते हैं?(Hard10-12 Hindi)",
+                  "Option1": "तीन",
+                  "Option2": "चार",
+                  "Option3": "पाँच",
+                  "Option4": "छः",
+                  "correctIndex": "तीन"
+                },
+                {
+                  "question": "हिंदी भाषा का मुख्य विषय क्या है?(Hard 10-12 Hindi)",
+                  "Option1": "अभिव्यक्ति",
+                  "Option2": "संगीत",
+                  "Option3": "खेल",
+                  "Option4": "राजनीति",
+                  "correctIndex": "अभिव्यक्ति"
+                },
+                {
+                  "question": "हिंदी भाषा में कुछ अक्षर जोड़कर कौन-से अर्थ बनते हैं?(Hard 10-12 Hindi)",
+                  "Option1": "सन्ने-धन्ने",
+                  "Option2": "रख-देख",
+                  "Option3": "खिस्सा-फिस्सा",
+                  "Option4": "खूब-सूबा",
+                  "correctIndex": "खिस्सा-फिस्सा"
+                },
+                {
+                  "question": "Which of the following is a compound word?(Hard 10-12 Hindi)",
+                  "Option1": "Bird",
+                  "Option2": "House",
+                  "Option3": "Basketball",
+                  "Option4": "Table",
+                  "correctIndex": "House"
+                },
+                {
+                  "question": "हिंदी भाषा में कितने स्वर होते हैं?(Hard 10-12 Hindi)",
+                  "Option1": "11",
+                  "Option2": "12",
+                  "Option3": "13",
+                  "Option4": "14",
+                  "correctIndex": "11"
+                },
+                {
+                  "question": "हिंदी भाषा में अशुद्ध वाक्य निर्माण में कौनसा तत्व दुरुपयोग करता है?(Hard 10-12 Hindi)",
+                  "Option1": "सर्वनाम",
+                  "Option2": "विशेषण",
+                  "Option3": "क्रिया",
+                  "Option4": "संज्ञा",
+                  "correctIndex": "संज्ञा"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा लिंग होता है जो केवल पुरुष जातियों के नामों के लिए प्रयुक्त होता है?(Hard 10-12 Hindi)",
+                  "Option1": "पुल्लिंग",
+                  "Option2": "स्त्रीलिंग",
+                  "Option3": "नपुंसकलिंग",
+                  "Option4": "इनमें से कोई नहीं",
+                  "correctIndex": "पुल्लिंग"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा समास नहीं होता है?(Hard 10-12 Hindi)",
+                  "Option1": "तत्सम",
+                  "Option2": "तद्भव",
+                  "Option3": "द्वंद्व",
+                  "Option4": "कर्मधारय",
+                  "correctIndex": "कर्मधारय"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा संज्ञा शब्द सार्वजनिक स्थानों, सड़कों आदि के नामों में प्रयुक्त होता है?(Hard 10-12 Hindi)",
+                  "Option1": "विशेषण",
+                  "Option2": "संज्ञा",
+                  "Option3": "सर्वनाम",
+                  "Option4": "क्रिया",
+                  "correctIndex": "संज्ञा."
+                }
+              ]
             }
           ]
         },
         { "Hindi": "12+ / B tech",
           "12+ / B tech" : [
             {
-              "Diff": "Basic"
+              "Diff": "Basic",
+              "Basic": [
+                {
+                  "question": "हिंदी का वर्तनी विधि क्या है?(Basic 12+ / B tech Hindi)",
+                  "Option1": "देवनागरी",
+                  "Option2":"कैदी",
+                  "Option3":"रोमन",
+                  "Option4":"फारसी",
+                  "correctIndex": "देवनागरी"
+                },
+                {
+                  "question": "हिंदी भाषा का उद्गम कौन से वंश से हुआ?(Basic 12+ / B tech Hindi)",
+                  "Option1":"शंख",
+                  "Option2":"यवन",
+                  "Option3":"कुशाण",
+                  "Option4":"साक",
+                  "correctIndex": "साक"
+                },
+                {
+                  "question": "हिंदी में सर्वनाम कितने प्रकार के होते हैं?(Basic 12+ / B tech Hindi)",
+                  "Option1": "तीन",
+                  "Option2": "चार",
+                  "Option3": "पाँच",
+                  "Option4": "छः",
+                  "correctIndex": "तीन"
+                },
+                {
+                  "question": "हिंदी भाषा का मुख्य विषय क्या है?(Basic 12+ / B tech Hindi)",
+                  "Option1": "अभिव्यक्ति",
+                  "Option2": "संगीत",
+                  "Option3": "खेल",
+                  "Option4": "राजनीति",
+                  "correctIndex": "अभिव्यक्ति"
+                },
+                {
+                  "question": "हिंदी भाषा में कुछ अक्षर जोड़कर कौन-से अर्थ बनते हैं?(Basic 12+ / B tech Hindi)",
+                  "Option1": "सन्ने-धन्ने",
+                  "Option2": "रख-देख",
+                  "Option3": "खिस्सा-फिस्सा",
+                  "Option4": "खूब-सूबा",
+                  "correctIndex": "खिस्सा-फिस्सा"
+                },
+                {
+                  "question": "Which of the following is a compound word?(Basic 12+ / B tech Hindi)",
+                  "Option1": "Bird",
+                  "Option2": "House",
+                  "Option3": "Basketball",
+                  "Option4": "Table",
+                  "correctIndex": "House"
+                },
+                {
+                  "question": "हिंदी भाषा में कितने स्वर होते हैं?(Basic 12+ / B tech Hindi)",
+                  "Option1": "11",
+                  "Option2": "12",
+                  "Option3": "13",
+                  "Option4": "14",
+                  "correctIndex": "11"
+                },
+                {
+                  "question": "हिंदी भाषा में अशुद्ध वाक्य निर्माण में कौनसा तत्व दुरुपयोग करता है?(Basic 12+ / B tech  Hindi)",
+                  "Option1": "सर्वनाम",
+                  "Option2": "विशेषण",
+                  "Option3": "क्रिया",
+                  "Option4": "संज्ञा",
+                  "correctIndex": "संज्ञा"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा लिंग होता है जो केवल पुरुष जातियों के नामों के लिए प्रयुक्त होता है?(Basic 12+ / B tech  Hindi)",
+                  "Option1": "पुल्लिंग",
+                  "Option2": "स्त्रीलिंग",
+                  "Option3": "नपुंसकलिंग",
+                  "Option4": "इनमें से कोई नहीं",
+                  "correctIndex": "पुल्लिंग"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा समास नहीं होता है?(Basic 12+ / B tech  Hindi)",
+                  "Option1": "तत्सम",
+                  "Option2": "तद्भव",
+                  "Option3": "द्वंद्व",
+                  "Option4": "कर्मधारय",
+                  "correctIndex": "कर्मधारय"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा संज्ञा शब्द सार्वजनिक स्थानों, सड़कों आदि के नामों में प्रयुक्त होता है?(Basic 12+ / B tech  Hindi)",
+                  "Option1": "विशेषण",
+                  "Option2": "संज्ञा",
+                  "Option3": "सर्वनाम",
+                  "Option4": "क्रिया",
+                  "correctIndex": "संज्ञा."
+                }
+              ]
             },
             {
-              "Diff": "Medium"
+              "Diff": "Medium",
+              "Medium": [
+                {
+                  "question": "हिंदी का वर्तनी विधि क्या है?(Medium 12+ / B tech  Hindi)",
+                  "Option1": "देवनागरी",
+                  "Option2":"कैदी",
+                  "Option3":"रोमन",
+                  "Option4":"फारसी",
+                  "correctIndex": "देवनागरी"
+                },
+                {
+                  "question": "हिंदी भाषा का उद्गम कौन से वंश से हुआ?(Medium 12+ / B tech  Hindi)",
+                  "Option1":"शंख",
+                  "Option2":"यवन",
+                  "Option3":"कुशाण",
+                  "Option4":"साक",
+                  "correctIndex": "साक"
+                },
+                {
+                  "question": "हिंदी में सर्वनाम कितने प्रकार के होते हैं?(Medium 12+ / B tech  Hindi)",
+                  "Option1": "तीन",
+                  "Option2": "चार",
+                  "Option3": "पाँच",
+                  "Option4": "छः",
+                  "correctIndex": "तीन"
+                },
+                {
+                  "question": "हिंदी भाषा का मुख्य विषय क्या है?(Medium 12+ / B tech  Hindi)",
+                  "Option1": "अभिव्यक्ति",
+                  "Option2": "संगीत",
+                  "Option3": "खेल",
+                  "Option4": "राजनीति",
+                  "correctIndex": "अभिव्यक्ति"
+                },
+                {
+                  "question": "हिंदी भाषा में कुछ अक्षर जोड़कर कौन-से अर्थ बनते हैं?(Medium 12+ / B tech  Hindi)",
+                  "Option1": "सन्ने-धन्ने",
+                  "Option2": "रख-देख",
+                  "Option3": "खिस्सा-फिस्सा",
+                  "Option4": "खूब-सूबा",
+                  "correctIndex": "खिस्सा-फिस्सा"
+                },
+                {
+                  "question": "Which of the following is a compound word?(Medium 12+ / B tech  Hindi)",
+                  "Option1": "Bird",
+                  "Option2": "House",
+                  "Option3": "Basketball",
+                  "Option4": "Table",
+                  "correctIndex": "House"
+                },
+                {
+                  "question": "हिंदी भाषा में कितने स्वर होते हैं?(Medium 12+ / B tech  Hindi)",
+                  "Option1": "11",
+                  "Option2": "12",
+                  "Option3": "13",
+                  "Option4": "14",
+                  "correctIndex": "11"
+                },
+                {
+                  "question": "हिंदी भाषा में अशुद्ध वाक्य निर्माण में कौनसा तत्व दुरुपयोग करता है?(Medium 12+ / B tech  Hindi)",
+                  "Option1": "सर्वनाम",
+                  "Option2": "विशेषण",
+                  "Option3": "क्रिया",
+                  "Option4": "संज्ञा",
+                  "correctIndex": "संज्ञा"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा लिंग होता है जो केवल पुरुष जातियों के नामों के लिए प्रयुक्त होता है?(Medium 12+ / B tech  Hindi)",
+                  "Option1": "पुल्लिंग",
+                  "Option2": "स्त्रीलिंग",
+                  "Option3": "नपुंसकलिंग",
+                  "Option4": "इनमें से कोई नहीं",
+                  "correctIndex": "पुल्लिंग"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा समास नहीं होता है?(Medium 12+ / B tech  Hindi)",
+                  "Option1": "तत्सम",
+                  "Option2": "तद्भव",
+                  "Option3": "द्वंद्व",
+                  "Option4": "कर्मधारय",
+                  "correctIndex": "कर्मधारय"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा संज्ञा शब्द सार्वजनिक स्थानों, सड़कों आदि के नामों में प्रयुक्त होता है?(Medium 12+ / B tech  Hindi)",
+                  "Option1": "विशेषण",
+                  "Option2": "संज्ञा",
+                  "Option3": "सर्वनाम",
+                  "Option4": "क्रिया",
+                  "correctIndex": "संज्ञा."
+                }
+              ]
             },
             {
-              "Diff": "Hard"
+              "Diff": "Hard",
+              "Hard": [
+                {
+                  "question": "हिंदी का वर्तनी विधि क्या है?(Hard 12+ / B tech  Hindi)",
+                  "Option1": "देवनागरी",
+                  "Option2":"कैदी",
+                  "Option3":"रोमन",
+                  "Option4":"फारसी",
+                  "correctIndex": "देवनागरी"
+                },
+                {
+                  "question": "हिंदी भाषा का उद्गम कौन से वंश से हुआ?(Hard 12+ / B tech  Hindi)",
+                  "Option1":"शंख",
+                  "Option2":"यवन",
+                  "Option3":"कुशाण",
+                  "Option4":"साक",
+                  "correctIndex": "साक"
+                },
+                {
+                  "question": "हिंदी में सर्वनाम कितने प्रकार के होते हैं?(Hard12+ / B tech  Hindi)",
+                  "Option1": "तीन",
+                  "Option2": "चार",
+                  "Option3": "पाँच",
+                  "Option4": "छः",
+                  "correctIndex": "तीन"
+                },
+                {
+                  "question": "हिंदी भाषा का मुख्य विषय क्या है?(Hard 12+ / B tech  Hindi)",
+                  "Option1": "अभिव्यक्ति",
+                  "Option2": "संगीत",
+                  "Option3": "खेल",
+                  "Option4": "राजनीति",
+                  "correctIndex": "अभिव्यक्ति"
+                },
+                {
+                  "question": "हिंदी भाषा में कुछ अक्षर जोड़कर कौन-से अर्थ बनते हैं?(Hard 12+ / B tech  Hindi)",
+                  "Option1": "सन्ने-धन्ने",
+                  "Option2": "रख-देख",
+                  "Option3": "खिस्सा-फिस्सा",
+                  "Option4": "खूब-सूबा",
+                  "correctIndex": "खिस्सा-फिस्सा"
+                },
+                {
+                  "question": "Which of the following is a compound word?(Hard 12+ / B tech  Hindi)",
+                  "Option1": "Bird",
+                  "Option2": "House",
+                  "Option3": "Basketball",
+                  "Option4": "Table",
+                  "correctIndex": "House"
+                },
+                {
+                  "question": "हिंदी भाषा में कितने स्वर होते हैं?(Hard 12+ / B tech Hindi)",
+                  "Option1": "11",
+                  "Option2": "12",
+                  "Option3": "13",
+                  "Option4": "14",
+                  "correctIndex": "11"
+                },
+                {
+                  "question": "हिंदी भाषा में अशुद्ध वाक्य निर्माण में कौनसा तत्व दुरुपयोग करता है?(Hard 12+ / B tech Hindi)",
+                  "Option1": "सर्वनाम",
+                  "Option2": "विशेषण",
+                  "Option3": "क्रिया",
+                  "Option4": "संज्ञा",
+                  "correctIndex": "संज्ञा"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा लिंग होता है जो केवल पुरुष जातियों के नामों के लिए प्रयुक्त होता है?(Hard 12+ / B tech  Hindi)",
+                  "Option1": "पुल्लिंग",
+                  "Option2": "स्त्रीलिंग",
+                  "Option3": "नपुंसकलिंग",
+                  "Option4": "इनमें से कोई नहीं",
+                  "correctIndex": "पुल्लिंग"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा समास नहीं होता है?(Hard 12+ / B tech  Hindi)",
+                  "Option1": "तत्सम",
+                  "Option2": "तद्भव",
+                  "Option3": "द्वंद्व",
+                  "Option4": "कर्मधारय",
+                  "correctIndex": "कर्मधारय"
+                },
+                {
+                  "question": "हिंदी भाषा में कौन सा संज्ञा शब्द सार्वजनिक स्थानों, सड़कों आदि के नामों में प्रयुक्त होता है?(Hard 12+ / B tech  Hindi)",
+                  "Option1": "विशेषण",
+                  "Option2": "संज्ञा",
+                  "Option3": "सर्वनाम",
+                  "Option4": "क्रिया",
+                  "correctIndex": "संज्ञा."
+                }
+              ]
             }
           ]
         }
