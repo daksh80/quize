@@ -5,295 +5,295 @@
       "English": [
         {
           "English": "1-3",
-           "1-3" : [
-             {
-               "Diff": "Basic",
-               "Basic" : [
-                 {
-                   "question": "What is the scientific name of a butterfly?[Basic 1-3 ]",
-                   "Option1": "Apis",
-                   "Option2":"Coleoptera",
-                   "Option3":"Formicidae",
-                   "Option4":"Rhopalocera",
-                   "correctIndex": "Formicidae"
-                 },
-                 {
-                   "question": "How hot is the surface of the sun?[Basic 1-3 ]",
-                   "Option1":"1,233 K",
-                   "Option2":"5,778 K",
-                   "Option3":"12,130 K",
-                   "Option4":"101,300 K",
-                   "correctIndex": "1,233 K"
-                 },
-                 {
-                   "question": "Who are the actors in The Internship?[Basic 1-3 ]",
-                   "Option1": "Ben Stiller, Jonah Hill",
-                   "Option2": "Courteney Cox, Matt LeBlanc",
-                   "Option3": "Kaley Cuoco, Jim Parsons",
-                   "Option4": "Vince Vaughn, Owen Wilson",
-                   "correctIndex": "Kaley Cuoco, Jim Parsons"
-                 },
-                 {
-                   "question": "What is the capital of Spain?[Basic 1-3 ]",
-                   "Option1": "Berlin",
-                   "Option2": "Buenos Aires",
-                   "Option3": "Madrid",
-                   "Option4": "San Juan",
-                   "correctIndex": "Buenos Aires"
-                 },
-                 {
-                   "question": "What are the school colors of the University of Texas at Austin?[Basic 1-3 ]",
-                   "Option1": "Black, Red",
-                   "Option2": "Blue, Orange",
-                   "Option3": "White, Burnt Orange",
-                   "Option4": "White, Old gold, Gold",
-                   "correctIndex": "Blue, Orange"
-                 },
-                 {
-                   "question": "What is 70 degrees Fahrenheit in Celsius?[Basic 1-3 ]",
-                   "Option1": "18.8889",
-                   "Option2": "20",
-                   "Option3": "21.1111",
-                   "Option4": "158",
-                   "correctIndex": "20"
-                 },
-                 {
-                   "question": "When was Mahatma Gandhi born?[Basic 1-3 ]",
-                   "Option1": "October 2, 1869",
-                   "Option2": "December 15, 1872",
-                   "Option3": "July 18, 1918",
-                   "Option4": "January 15, 1929",
-                   "correctIndex": "October 2, 1869"
-                 },
-                 {
-                   "question": "How far is the moon from Earth?[Basic 1-3 ]",
-                   "Option1": "7,918 miles (12,742 km)",
-                   "Option2": "86,881 miles (139,822 km)",
-                   "Option3": "238,400 miles (384,400 km)",
-                   "Option4": "35,980,000 miles (57,910,000 km)",
-                   "correctIndex": "86,881 miles (139,822 km)"
-                 },
-                 {
-                   "question": "What is 65 times 52?[Basic 1-3 ]",
-                   "Option1": "117",
-                   "Option2": "3120",
-                   "Option3": "3380",
-                   "Option4": "3520",
-                   "correctIndex": "3120"
-                 },
-                 {
-                   "question": "How tall is Mount Everest?[Basic 1-3 ]",
-                   "Option1": "6,683 ft (2,037 m)",
-                   "Option2": "7,918 ft (2,413 m)",
-                   "Option3": "19,341 ft (5,895 m)",
-                   "Option4": "29,029 ft (8,847 m)",
-                   "correctIndex": "19,341 ft (5,895 m)"
-                 },
-                 {
-                   "question": "When did The Avengers come out?[Basic 1-3 ]",
-                   "Option1": "May 2, 2008",
-                   "Option2": "May 4, 2012",
-                   "Option3": "May 3, 2013",
-                   "Option4": "April 4, 2014",
-                   "correctIndex": "May 2, 2008"
-                 },
-                 {
-                   "question": "What is 48,879 in hexidecimal?[Basic 1-3 ]",
-                   "Option1": "0x18C1",
-                   "Option2": "0xBEEF",
-                   "Option3": "0xDEAD",
-                   "Option4": "0x12D591",
-                   "correctIndex": "0x18C1"
-                 }
-               ]
-             },
-             {
-               "Diff": "Medium",
-               "Medium": [
-                 {
-                   "question": "Which of the following is NOT a type of sentence?[Medium 1-3 ]",
-                   "Option1": "Declarative",
-                   "Option2":"Interrogative",
-                   "Option3":"Imperative",
-                   "Option4":"Narrative",
-                   "correctIndex": "Imperative"
-                 },
-                 {
-                   "question": "Which of the following is a synonym for 'diligent'?[Medium 1-3 ]",
-                   "Option1":"Lazy",
-                   "Option2":"Hardworking",
-                   "Option3":"Slow",
-                   "Option4":"Unreliable",
-                   "correctIndex": "Lazy"
-                 },
-                 {
-                   "question": "What is the proper noun in the following sentence? 'The Eiffel Tower is in Paris.'[Medium 1-3 ]",
-                   "Option1": "The",
-                   "Option2": "Eiffel",
-                   "Option3": "Tower",
-                   "Option4": "Paris",
-                   "correctIndex": "The"
-                 },
-                 {
-                   "question": "What is the past tense of the verb 'run'?[Medium 1-3 ]",
-                   "Option1": "Runned",
-                   "Option2": "Runneded",
-                   "Option3": "Ran",
-                   "Option4": "Runneded",
-                   "correctIndex": "Ran"
-                 },
-                 {
-                   "question": "What are the school colors of the University of Texas at Austin?[Medium 1-3 ]",
-                   "Option1": "Black, Red",
-                   "Option2": "Blue, Orange",
-                   "Option3": "White, Burnt Orange",
-                   "Option4": "White, Old gold, Gold",
-                   "correctIndex": "Blue, Orange"
-                 },
-                 {
-                   "question": "Which of the following is a compound word?[Medium 1-3 ]",
-                   "Option1": "Bird",
-                   "Option2": "House",
-                   "Option3": "Basketball",
-                   "Option4": "Table",
-                   "correctIndex": "House"
-                 },
-                 {
-                   "question": "What is the correct verb tense to use in the following sentence? 'I _____ my homework yesterday.'[Medium 1-3 ]",
-                   "Option1": "Do",
-                   "Option2": "Did",
-                   "Option3": "Done",
-                   "Option4": "Doing",
-                   "correctIndex": "Do"
-                 },
-                 {
-                   "question": "What is the plural form of the word 'child'?[Medium 1-3 ]",
-                   "Option1": "Childs",
-                   "Option2": "Childen",
-                   "Option3": "Children",
-                   "Option4": "Childies",
-                   "correctIndex": "Children"
-                 },
-                 {
-                   "question": "Which of the following is a preposition?[Medium 1-3 ]",
-                   "Option1": "And",
-                   "Option2": "But",
-                   "Option3": "Or",
-                   "Option4": "Under",
-                   "correctIndex": "Or"
-                 },
-                 {
-                   "question": "What is the adverb in the following sentence? 'She sings beautifully.'[Medium 1-3 ]",
-                   "Option1": "She",
-                   "Option2": "Sings",
-                   "Option3": "Beautifully",
-                   "Option4": "Sings beautifully",
-                   "correctIndex": "Sings"
-                 },
-                 {
-                   "question": "Which of the following is an example of a simile?[Medium 1-3 ]",
-                   "Option1": "The sun is a ball of fire.",
-                   "Option2": "She runs as fast as a cheetah.",
-                   "Option3": "The tree branches swayed in the wind.",
-                   "Option4": "The cat meowed loudly.",
-                   "correctIndex": "The sun is a ball of fire."
-                 }
-               ]
-             },
-             {
-               "Diff": "Hard",
-               "Hard": [
-                 {
-                 "question": "Which of the following words means 'a fear of long words'?[Hard 1-3 ]",
-                 "Option1": "Hippopotomonstrosesquippedaliophobia",
-                 "Option2":"Sesquipedalophobia",
-                 "Option3":"Phobophobia",
-                 "Option4":"Logophobia",
-                 "correctIndex": "Hippopotomonstrosesquippedaliophobia"
-                 },
-                 {
-                   "question": "What is the correct possessive form of the name 'Jones'?[Hard 1-3 ]",
-                   "Option1":"Jones",
-                   "Option2":"Jone's",
-                   "Option3":"Jones's",
-                   "Option4":"Joneses",
-                   "correctIndex": "Jones's"
-                 },
-                 {
-                   "question": "Which of the following is NOT an example of a rhetorical device?[Hard 1-3 ]",
-                   "Option1": "Metaphor",
-                   "Option2": "Alliteration",
-                   "Option3": "Onomatopoeia",
-                   "Option4": "Synonym",
-                   "correctIndex": "Synonym"
-                 },
-                 {
-                   "question": "What is the difference between 'few' and 'a few'?[Hard 1-3 ]",
-                   "Option1": "There is no difference",
-                   "Option2": "'Few' means none, while 'a few' means some",
-                   "Option3": "'Few' means some, while 'a few' means many",
-                   "Option4": "'Few' is an adverb, while 'a few' is a pronoun",
-                   "correctIndex": "There is no difference"
-                 },
-                 {
-                   "question": "What is the plural form of the word 'goose'?[Hard 1-3 ]",
-                   "Option1": "Gooses",
-                   "Option2": "Goosen",
-                   "Option3": "Geese",
-                   "Option4": "Gooseses",
-                   "correctIndex": "Geese"
-                 },
-                 {
-                   "question": "Which of the following is a correlative conjunction?[Hard 1-3 ]",
-                   "Option1": "And",
-                   "Option2": "But",
-                   "Option3": "Or",
-                   "Option4": "Neither...nor",
-                   "correctIndex": "Neither...nor"
-                 },
-                 {
-                   "question": "Which of the following is an example of an indirect object?[Hard 1-3 ]",
-                   "Option1": "He gave her a book.",
-                   "Option2": "She ran quickly to the store.",
-                   "Option3": "The sun set behind the mountains",
-                   "Option4": "I ate pizza for dinner.",
-                   "correctIndex": "He gave her a book."
-                 },
-                 {
-                   "question": "What is the plural form of the word 'child'?[Hard 1-3 ]",
-                   "Option1": "Childs",
-                   "Option2": "Childen",
-                   "Option3": "Children",
-                   "Option4": "Childies",
-                   "correctIndex": "Children"
-                 },
-                 {
-                   "question": "Which of the following is a preposition?[Hard 1-3 ]",
-                   "Option1": "And",
-                   "Option2": "But",
-                   "Option3": "Or",
-                   "Option4": "Under",
-                   "correctIndex": "Or"
-                 },
-                 {
-                   "question": "What is the adverb in the following sentence? 'She sings beautifully.'[Hard 1-3 ]",
-                   "Option1": "She",
-                   "Option2": "Sings",
-                   "Option3": "Beautifully",
-                   "Option4": "Sings beautifully",
-                   "correctIndex": "Sings"
-                 },
-                 {
-                   "question": "Which of the following is an example of a simile?[Hard 1-3 ]",
-                   "Option1": "The sun is a ball of fire.",
-                   "Option2": "She runs as fast as a cheetah.",
-                   "Option3": "The tree branches swayed in the wind.",
-                   "Option4": "The cat meowed loudly.",
-                   "correctIndex": "The sun is a ball of fire."
-                 }
-               ]
-             }
-           ]
+          "1-3" : [
+            {
+              "Diff": "Basic",
+              "Basic" : [
+                {
+                  "question": "What is the scientific name of a butterfly?[Basic 1-3 ]",
+                  "Option1": "Apis",
+                  "Option2":"Coleoptera",
+                  "Option3":"Formicidae",
+                  "Option4":"Rhopalocera",
+                  "correctIndex": "Formicidae"
+                },
+                {
+                  "question": "How hot is the surface of the sun?[Basic 1-3 ]",
+                  "Option1":"1,233 K",
+                  "Option2":"5,778 K",
+                  "Option3":"12,130 K",
+                  "Option4":"101,300 K",
+                  "correctIndex": "1,233 K"
+                },
+                {
+                  "question": "Who are the actors in The Internship?[Basic 1-3 ]",
+                  "Option1": "Ben Stiller, Jonah Hill",
+                  "Option2": "Courteney Cox, Matt LeBlanc",
+                  "Option3": "Kaley Cuoco, Jim Parsons",
+                  "Option4": "Vince Vaughn, Owen Wilson",
+                  "correctIndex": "Kaley Cuoco, Jim Parsons"
+                },
+                {
+                  "question": "What is the capital of Spain?[Basic 1-3 ]",
+                  "Option1": "Berlin",
+                  "Option2": "Buenos Aires",
+                  "Option3": "Madrid",
+                  "Option4": "San Juan",
+                  "correctIndex": "Buenos Aires"
+                },
+                {
+                  "question": "What are the school colors of the University of Texas at Austin?[Basic 1-3 ]",
+                  "Option1": "Black, Red",
+                  "Option2": "Blue, Orange",
+                  "Option3": "White, Burnt Orange",
+                  "Option4": "White, Old gold, Gold",
+                  "correctIndex": "Blue, Orange"
+                },
+                {
+                  "question": "What is 70 degrees Fahrenheit in Celsius?[Basic 1-3 ]",
+                  "Option1": "18.8889",
+                  "Option2": "20",
+                  "Option3": "21.1111",
+                  "Option4": "158",
+                  "correctIndex": "20"
+                },
+                {
+                  "question": "When was Mahatma Gandhi born?[Basic 1-3 ]",
+                  "Option1": "October 2, 1869",
+                  "Option2": "December 15, 1872",
+                  "Option3": "July 18, 1918",
+                  "Option4": "January 15, 1929",
+                  "correctIndex": "October 2, 1869"
+                },
+                {
+                  "question": "How far is the moon from Earth?[Basic 1-3 ]",
+                  "Option1": "7,918 miles (12,742 km)",
+                  "Option2": "86,881 miles (139,822 km)",
+                  "Option3": "238,400 miles (384,400 km)",
+                  "Option4": "35,980,000 miles (57,910,000 km)",
+                  "correctIndex": "86,881 miles (139,822 km)"
+                },
+                {
+                  "question": "What is 65 times 52?[Basic 1-3 ]",
+                  "Option1": "117",
+                  "Option2": "3120",
+                  "Option3": "3380",
+                  "Option4": "3520",
+                  "correctIndex": "3120"
+                },
+                {
+                  "question": "How tall is Mount Everest?[Basic 1-3 ]",
+                  "Option1": "6,683 ft (2,037 m)",
+                  "Option2": "7,918 ft (2,413 m)",
+                  "Option3": "19,341 ft (5,895 m)",
+                  "Option4": "29,029 ft (8,847 m)",
+                  "correctIndex": "19,341 ft (5,895 m)"
+                },
+                {
+                  "question": "When did The Avengers come out?[Basic 1-3 ]",
+                  "Option1": "May 2, 2008",
+                  "Option2": "May 4, 2012",
+                  "Option3": "May 3, 2013",
+                  "Option4": "April 4, 2014",
+                  "correctIndex": "May 2, 2008"
+                },
+                {
+                  "question": "What is 48,879 in hexidecimal?[Basic 1-3 ]",
+                  "Option1": "0x18C1",
+                  "Option2": "0xBEEF",
+                  "Option3": "0xDEAD",
+                  "Option4": "0x12D591",
+                  "correctIndex": "0x18C1"
+                }
+              ]
+            },
+            {
+              "Diff": "Medium",
+              "Medium": [
+                {
+                  "question": "Which of the following is NOT a type of sentence?[Medium 1-3 ]",
+                  "Option1": "Declarative",
+                  "Option2":"Interrogative",
+                  "Option3":"Imperative",
+                  "Option4":"Narrative",
+                  "correctIndex": "Imperative"
+                },
+                {
+                  "question": "Which of the following is a synonym for 'diligent'?[Medium 1-3 ]",
+                  "Option1":"Lazy",
+                  "Option2":"Hardworking",
+                  "Option3":"Slow",
+                  "Option4":"Unreliable",
+                  "correctIndex": "Lazy"
+                },
+                {
+                  "question": "What is the proper noun in the following sentence? 'The Eiffel Tower is in Paris.'[Medium 1-3 ]",
+                  "Option1": "The",
+                  "Option2": "Eiffel",
+                  "Option3": "Tower",
+                  "Option4": "Paris",
+                  "correctIndex": "The"
+                },
+                {
+                  "question": "What is the past tense of the verb 'run'?[Medium 1-3 ]",
+                  "Option1": "Runned",
+                  "Option2": "Runneded",
+                  "Option3": "Ran",
+                  "Option4": "Runneded",
+                  "correctIndex": "Ran"
+                },
+                {
+                  "question": "What are the school colors of the University of Texas at Austin?[Medium 1-3 ]",
+                  "Option1": "Black, Red",
+                  "Option2": "Blue, Orange",
+                  "Option3": "White, Burnt Orange",
+                  "Option4": "White, Old gold, Gold",
+                  "correctIndex": "Blue, Orange"
+                },
+                {
+                  "question": "Which of the following is a compound word?[Medium 1-3 ]",
+                  "Option1": "Bird",
+                  "Option2": "House",
+                  "Option3": "Basketball",
+                  "Option4": "Table",
+                  "correctIndex": "House"
+                },
+                {
+                  "question": "What is the correct verb tense to use in the following sentence? 'I _____ my homework yesterday.'[Medium 1-3 ]",
+                  "Option1": "Do",
+                  "Option2": "Did",
+                  "Option3": "Done",
+                  "Option4": "Doing",
+                  "correctIndex": "Do"
+                },
+                {
+                  "question": "What is the plural form of the word 'child'?[Medium 1-3 ]",
+                  "Option1": "Childs",
+                  "Option2": "Childen",
+                  "Option3": "Children",
+                  "Option4": "Childies",
+                  "correctIndex": "Children"
+                },
+                {
+                  "question": "Which of the following is a preposition?[Medium 1-3 ]",
+                  "Option1": "And",
+                  "Option2": "But",
+                  "Option3": "Or",
+                  "Option4": "Under",
+                  "correctIndex": "Or"
+                },
+                {
+                  "question": "What is the adverb in the following sentence? 'She sings beautifully.'[Medium 1-3 ]",
+                  "Option1": "She",
+                  "Option2": "Sings",
+                  "Option3": "Beautifully",
+                  "Option4": "Sings beautifully",
+                  "correctIndex": "Sings"
+                },
+                {
+                  "question": "Which of the following is an example of a simile?[Medium 1-3 ]",
+                  "Option1": "The sun is a ball of fire.",
+                  "Option2": "She runs as fast as a cheetah.",
+                  "Option3": "The tree branches swayed in the wind.",
+                  "Option4": "The cat meowed loudly.",
+                  "correctIndex": "The sun is a ball of fire."
+                }
+              ]
+            },
+            {
+              "Diff": "Hard",
+              "Hard": [
+                {
+                  "question": "Which of the following words means 'a fear of long words'?[Hard 1-3 ]",
+                  "Option1": "Hippopotomonstrosesquippedaliophobia",
+                  "Option2":"Sesquipedalophobia",
+                  "Option3":"Phobophobia",
+                  "Option4":"Logophobia",
+                  "correctIndex": "Hippopotomonstrosesquippedaliophobia"
+                },
+                {
+                  "question": "What is the correct possessive form of the name 'Jones'?[Hard 1-3 ]",
+                  "Option1":"Jones",
+                  "Option2":"Jone's",
+                  "Option3":"Jones's",
+                  "Option4":"Joneses",
+                  "correctIndex": "Jones's"
+                },
+                {
+                  "question": "Which of the following is NOT an example of a rhetorical device?[Hard 1-3 ]",
+                  "Option1": "Metaphor",
+                  "Option2": "Alliteration",
+                  "Option3": "Onomatopoeia",
+                  "Option4": "Synonym",
+                  "correctIndex": "Synonym"
+                },
+                {
+                  "question": "What is the difference between 'few' and 'a few'?[Hard 1-3 ]",
+                  "Option1": "There is no difference",
+                  "Option2": "'Few' means none, while 'a few' means some",
+                  "Option3": "'Few' means some, while 'a few' means many",
+                  "Option4": "'Few' is an adverb, while 'a few' is a pronoun",
+                  "correctIndex": "There is no difference"
+                },
+                {
+                  "question": "What is the plural form of the word 'goose'?[Hard 1-3 ]",
+                  "Option1": "Gooses",
+                  "Option2": "Goosen",
+                  "Option3": "Geese",
+                  "Option4": "Gooseses",
+                  "correctIndex": "Geese"
+                },
+                {
+                  "question": "Which of the following is a correlative conjunction?[Hard 1-3 ]",
+                  "Option1": "And",
+                  "Option2": "But",
+                  "Option3": "Or",
+                  "Option4": "Neither...nor",
+                  "correctIndex": "Neither...nor"
+                },
+                {
+                  "question": "Which of the following is an example of an indirect object?[Hard 1-3 ]",
+                  "Option1": "He gave her a book.",
+                  "Option2": "She ran quickly to the store.",
+                  "Option3": "The sun set behind the mountains",
+                  "Option4": "I ate pizza for dinner.",
+                  "correctIndex": "He gave her a book."
+                },
+                {
+                  "question": "What is the plural form of the word 'child'?[Hard 1-3 ]",
+                  "Option1": "Childs",
+                  "Option2": "Childen",
+                  "Option3": "Children",
+                  "Option4": "Childies",
+                  "correctIndex": "Children"
+                },
+                {
+                  "question": "Which of the following is a preposition?[Hard 1-3 ]",
+                  "Option1": "And",
+                  "Option2": "But",
+                  "Option3": "Or",
+                  "Option4": "Under",
+                  "correctIndex": "Or"
+                },
+                {
+                  "question": "What is the adverb in the following sentence? 'She sings beautifully.'[Hard 1-3 ]",
+                  "Option1": "She",
+                  "Option2": "Sings",
+                  "Option3": "Beautifully",
+                  "Option4": "Sings beautifully",
+                  "correctIndex": "Sings"
+                },
+                {
+                  "question": "Which of the following is an example of a simile?[Hard 1-3 ]",
+                  "Option1": "The sun is a ball of fire.",
+                  "Option2": "She runs as fast as a cheetah.",
+                  "Option3": "The tree branches swayed in the wind.",
+                  "Option4": "The cat meowed loudly.",
+                  "correctIndex": "The sun is a ball of fire."
+                }
+              ]
+            }
+          ]
         },
         {  "English": "4-6",
           "4-6" : [
@@ -1475,13 +1475,13 @@
               "Diff": "Basic",
               "Basic": [
                 {
-                "question": "हिंदी का वर्तनी विधि क्या है?(Basic 1-3 Hindi)",
-                "Option1": "देवनागरी",
-                "Option2":"कैदी",
-                "Option3":"रोमन",
-                "Option4":"फारसी",
-                "correctIndex": "देवनागरी"
-              },
+                  "question": "हिंदी का वर्तनी विधि क्या है?(Basic 1-3 Hindi)",
+                  "Option1": "देवनागरी",
+                  "Option2":"कैदी",
+                  "Option3":"रोमन",
+                  "Option4":"फारसी",
+                  "correctIndex": "देवनागरी"
+                },
                 {
                   "question": "हिंदी भाषा का उद्गम कौन से वंश से हुआ?(Basic 1-3 Hindi)",
                   "Option1":"शंख",
@@ -2893,7 +2893,104 @@
           "Math": "1-3",
           "1-3" : [
             {
-              "Diff": "Basic"
+              "Diff": "Basic",
+              "Basic": [{
+                "question": "What is 2+2?[Basic 1-3 ]",
+                "Option1": "1",
+                "Option2":"2",
+                "Option3":"3",
+                "Option4":"4",
+                "correctIndex": "4"
+              },
+                {
+                  "question": "What is 6-3?[Basic 1-3 ]",
+                  "Option1":"1",
+                  "Option2":"2",
+                  "Option3":"3",
+                  "Option4":"4",
+                  "correctIndex": "3"
+                },
+                {
+                  "question": "What is 5*2?[Basic 1-3 ]",
+                  "Option1": "8",
+                  "Option2": "10",
+                  "Option3": "12",
+                  "Option4": "14",
+                  "correctIndex": "10"
+                },
+                {
+                  "question": "What is 12/3?[Basic 1-3 ]",
+                  "Option1": "2",
+                  "Option2": "3",
+                  "Option3": "4",
+                  "Option4": "5",
+                  "correctIndex": "4"
+                },
+                {
+                  "question": "What is 25% of 80?[Basic 1-3 ]",
+                  "Option1": "16",
+                  "Option2": "20",
+                  "Option3": "25",
+                  "Option4": "30",
+                  "correctIndex": "20"
+                },
+                {
+                  "question": "What is 3^2?[Basic 1-3 ]",
+                  "Option1": "3",
+                  "Option2": "6",
+                  "Option3": "9",
+                  "Option4": "12",
+                  "correctIndex": "9"
+                },
+                {
+                  "question": "What is the square root of 144?[Basic 1-3 ]",
+                  "Option1": "11",
+                  "Option2": "12",
+                  "Option3": "13",
+                  "Option4": "14",
+                  "correctIndex": "12"
+                },
+                {
+                  "question": "What is the value of pi (to 2 decimal places)?[Basic 1-3 ]",
+                  "Option1": "3.14",
+                  "Option2": "3.16",
+                  "Option3": "3.18",
+                  "Option4": "3.20",
+                  "correctIndex": "3.14"
+                },
+                {
+                  "question": "What is the area of a square with a side length of 5?[Basic 1-3 ]",
+                  "Option1": "10",
+                  "Option2": "15",
+                  "Option3": "20",
+                  "Option4": "25",
+                  "correctIndex": "25"
+                },
+                {
+                  "question": "What is the perimeter of a rectangle with a length of 8 and a width of 5?[Basic 1-3 ]",
+                  "Option1": "16",
+                  "Option2": "22",
+                  "Option3": "26",
+                  "Option4": "32",
+                  "correctIndex": "19,341 ft (5,895 m)"
+                },
+                {
+                  "question": "When did The Avengers come out?[Basic 1-3 ]",
+                  "Option1": "May 2, 2008",
+                  "Option2": "May 4, 2012",
+                  "Option3": "May 3, 2013",
+                  "Option4": "April 4, 2014",
+                  "correctIndex": "May 2, 2008"
+                },
+                {
+                  "question": "What is 48,879 in hexidecimal?[Basic 1-3 ]",
+                  "Option1": "0x18C1",
+                  "Option2": "0xBEEF",
+                  "Option3": "0xDEAD",
+                  "Option4": "0x12D591",
+                  "correctIndex": "0x18C1"
+                }
+              ]
             },
             {
               "Diff": "Medium"
@@ -3110,7 +3207,7 @@
       "Range": "1-3"
     },
     {
-     "Range": "4-6"
+      "Range": "4-6"
     },
     {
       "Range": "7-9"
