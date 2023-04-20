@@ -2993,49 +2993,1116 @@
               ]
             },
             {
-              "Diff": "Medium"
+              "Diff": "Medium",
+              "Medium": [{
+                "question": "What is 2+2?[Medium 1-3 ]",
+                "Option1": "1",
+                "Option2":"2",
+                "Option3":"3",
+                "Option4":"4",
+                "correctIndex": "4"
+              },
+                {
+                  "question": "What is 6-3?[Medium 1-3 ]",
+                  "Option1":"1",
+                  "Option2":"2",
+                  "Option3":"3",
+                  "Option4":"4",
+                  "correctIndex": "3"
+                },
+                {
+                  "question": "What is 5*2?[Medium 1-3 ]",
+                  "Option1": "8",
+                  "Option2": "10",
+                  "Option3": "12",
+                  "Option4": "14",
+                  "correctIndex": "10"
+                },
+                {
+                  "question": "What is 12/3?[Medium 1-3 ]",
+                  "Option1": "2",
+                  "Option2": "3",
+                  "Option3": "4",
+                  "Option4": "5",
+                  "correctIndex": "4"
+                },
+                {
+                  "question": "What is 25% of 80?[Medium 1-3 ]",
+                  "Option1": "16",
+                  "Option2": "20",
+                  "Option3": "25",
+                  "Option4": "30",
+                  "correctIndex": "20"
+                },
+                {
+                  "question": "What is 3^2?[Medium 1-3 ]",
+                  "Option1": "3",
+                  "Option2": "6",
+                  "Option3": "9",
+                  "Option4": "12",
+                  "correctIndex": "9"
+                },
+                {
+                  "question": "What is the square root of 144?[Medium 1-3 ]",
+                  "Option1": "11",
+                  "Option2": "12",
+                  "Option3": "13",
+                  "Option4": "14",
+                  "correctIndex": "12"
+                },
+                {
+                  "question": "What is the value of pi (to 2 decimal places)?[Medium 1-3 ]",
+                  "Option1": "3.14",
+                  "Option2": "3.16",
+                  "Option3": "3.18",
+                  "Option4": "3.20",
+                  "correctIndex": "3.14"
+                },
+                {
+                  "question": "What is the area of a square with a side length of 5?[Medium 1-3 ]",
+                  "Option1": "10",
+                  "Option2": "15",
+                  "Option3": "20",
+                  "Option4": "25",
+                  "correctIndex": "25"
+                },
+                {
+                  "question": "What is the perimeter of a rectangle with a length of 8 and a width of 5?[Medium 1-3 ]",
+                  "Option1": "16",
+                  "Option2": "22",
+                  "Option3": "26",
+                  "Option4": "32",
+                  "correctIndex": "19,341 ft (5,895 m)"
+                },
+                {
+                  "question": "When did The Avengers come out?[Medium 1-3 ]",
+                  "Option1": "May 2, 2008",
+                  "Option2": "May 4, 2012",
+                  "Option3": "May 3, 2013",
+                  "Option4": "April 4, 2014",
+                  "correctIndex": "May 2, 2008"
+                },
+                {
+                  "question": "What is 48,879 in hexidecimal?[Medium 1-3 ]",
+                  "Option1": "0x18C1",
+                  "Option2": "0xBEEF",
+                  "Option3": "0xDEAD",
+                  "Option4": "0x12D591",
+                  "correctIndex": "0x18C1"
+                }
+              ]
             },
             {
-              "Diff": "Hard"
+              "Diff": "Hard",
+              "Hard": [{
+                "question": "What is 2+2?[Hard 1-3 ]",
+                "Option1": "1",
+                "Option2":"2",
+                "Option3":"3",
+                "Option4":"4",
+                "correctIndex": "4"
+              },
+                {
+                  "question": "What is 6-3?[Hard 1-3 ]",
+                  "Option1":"1",
+                  "Option2":"2",
+                  "Option3":"3",
+                  "Option4":"4",
+                  "correctIndex": "3"
+                },
+                {
+                  "question": "What is 5*2?[Hard 1-3 ]",
+                  "Option1": "8",
+                  "Option2": "10",
+                  "Option3": "12",
+                  "Option4": "14",
+                  "correctIndex": "10"
+                },
+                {
+                  "question": "What is 12/3?[Hard 1-3 ]",
+                  "Option1": "2",
+                  "Option2": "3",
+                  "Option3": "4",
+                  "Option4": "5",
+                  "correctIndex": "4"
+                },
+                {
+                  "question": "What is 25% of 80?[Hard 1-3 ]",
+                  "Option1": "16",
+                  "Option2": "20",
+                  "Option3": "25",
+                  "Option4": "30",
+                  "correctIndex": "20"
+                },
+                {
+                  "question": "What is 3^2?[Hard 1-3 ]",
+                  "Option1": "3",
+                  "Option2": "6",
+                  "Option3": "9",
+                  "Option4": "12",
+                  "correctIndex": "9"
+                },
+                {
+                  "question": "What is the square root of 144?[Hard 1-3 ]",
+                  "Option1": "11",
+                  "Option2": "12",
+                  "Option3": "13",
+                  "Option4": "14",
+                  "correctIndex": "12"
+                },
+                {
+                  "question": "What is the value of pi (to 2 decimal places)?[Hard 1-3 ]",
+                  "Option1": "3.14",
+                  "Option2": "3.16",
+                  "Option3": "3.18",
+                  "Option4": "3.20",
+                  "correctIndex": "3.14"
+                },
+                {
+                  "question": "What is the area of a square with a side length of 5?[Hard 1-3 ]",
+                  "Option1": "10",
+                  "Option2": "15",
+                  "Option3": "20",
+                  "Option4": "25",
+                  "correctIndex": "25"
+                },
+                {
+                  "question": "What is the perimeter of a rectangle with a length of 8 and a width of 5?[Hard 1-3 ]",
+                  "Option1": "16",
+                  "Option2": "22",
+                  "Option3": "26",
+                  "Option4": "32",
+                  "correctIndex": "19,341 ft (5,895 m)"
+                },
+                {
+                  "question": "When did The Avengers come out?[Hard 1-3 ]",
+                  "Option1": "May 2, 2008",
+                  "Option2": "May 4, 2012",
+                  "Option3": "May 3, 2013",
+                  "Option4": "April 4, 2014",
+                  "correctIndex": "May 2, 2008"
+                },
+                {
+                  "question": "What is 48,879 in hexidecimal?[Hard 1-3 ]",
+                  "Option1": "0x18C1",
+                  "Option2": "0xBEEF",
+                  "Option3": "0xDEAD",
+                  "Option4": "0x12D591",
+                  "correctIndex": "0x18C1"
+                }
+              ]
             }
           ]
         },
         {  "Math": "4-6",
           "4-6" : [
             {
-              "Diff": "Basic"
+              "Diff": "Basic",
+              "Basic": [{
+                "question": "What is 2+2?[Basic 4-6 ]",
+                "Option1": "1",
+                "Option2":"2",
+                "Option3":"3",
+                "Option4":"4",
+                "correctIndex": "4"
+              },
+                {
+                  "question": "What is 6-3?[Basic 4-6 ]",
+                  "Option1":"1",
+                  "Option2":"2",
+                  "Option3":"3",
+                  "Option4":"4",
+                  "correctIndex": "3"
+                },
+                {
+                  "question": "What is 5*2?[Basic 4-6 ]",
+                  "Option1": "8",
+                  "Option2": "10",
+                  "Option3": "12",
+                  "Option4": "14",
+                  "correctIndex": "10"
+                },
+                {
+                  "question": "What is 12/3?[Basic 4-6 ]",
+                  "Option1": "2",
+                  "Option2": "3",
+                  "Option3": "4",
+                  "Option4": "5",
+                  "correctIndex": "4"
+                },
+                {
+                  "question": "What is 25% of 80?[Basic 4-6 ]",
+                  "Option1": "16",
+                  "Option2": "20",
+                  "Option3": "25",
+                  "Option4": "30",
+                  "correctIndex": "20"
+                },
+                {
+                  "question": "What is 3^2?[Basic 4-6 ]",
+                  "Option1": "3",
+                  "Option2": "6",
+                  "Option3": "9",
+                  "Option4": "12",
+                  "correctIndex": "9"
+                },
+                {
+                  "question": "What is the square root of 144?[Basic 4-6 ]",
+                  "Option1": "11",
+                  "Option2": "12",
+                  "Option3": "13",
+                  "Option4": "14",
+                  "correctIndex": "12"
+                },
+                {
+                  "question": "What is the value of pi (to 2 decimal places)?[Basic 4-6 ]",
+                  "Option1": "3.14",
+                  "Option2": "3.16",
+                  "Option3": "3.18",
+                  "Option4": "3.20",
+                  "correctIndex": "3.14"
+                },
+                {
+                  "question": "What is the area of a square with a side length of 5?[Basic 4-6 ]",
+                  "Option1": "10",
+                  "Option2": "15",
+                  "Option3": "20",
+                  "Option4": "25",
+                  "correctIndex": "25"
+                },
+                {
+                  "question": "What is the perimeter of a rectangle with a length of 8 and a width of 5?[Basic 4-6 ]",
+                  "Option1": "16",
+                  "Option2": "22",
+                  "Option3": "26",
+                  "Option4": "32",
+                  "correctIndex": "19,341 ft (5,895 m)"
+                },
+                {
+                  "question": "When did The Avengers come out?[Basic 4-6 ]",
+                  "Option1": "May 2, 2008",
+                  "Option2": "May 4, 2012",
+                  "Option3": "May 3, 2013",
+                  "Option4": "April 4, 2014",
+                  "correctIndex": "May 2, 2008"
+                },
+                {
+                  "question": "What is 48,879 in hexidecimal?[Basic 4-6 ]",
+                  "Option1": "0x18C1",
+                  "Option2": "0xBEEF",
+                  "Option3": "0xDEAD",
+                  "Option4": "0x12D591",
+                  "correctIndex": "0x18C1"
+                }
+              ]
             },
             {
-              "Diff": "Medium"
+              "Diff": "Medium",
+              "Medium": [{
+                "question": "What is 2+2?[Medium 4-6 ]",
+                "Option1": "1",
+                "Option2":"2",
+                "Option3":"3",
+                "Option4":"4",
+                "correctIndex": "4"
+              },
+                {
+                  "question": "What is 6-3?[Medium 4-6 ]",
+                  "Option1":"1",
+                  "Option2":"2",
+                  "Option3":"3",
+                  "Option4":"4",
+                  "correctIndex": "3"
+                },
+                {
+                  "question": "What is 5*2?[Medium 4-6 ]",
+                  "Option1": "8",
+                  "Option2": "10",
+                  "Option3": "12",
+                  "Option4": "14",
+                  "correctIndex": "10"
+                },
+                {
+                  "question": "What is 12/3?[Medium 4-6 ]",
+                  "Option1": "2",
+                  "Option2": "3",
+                  "Option3": "4",
+                  "Option4": "5",
+                  "correctIndex": "4"
+                },
+                {
+                  "question": "What is 25% of 80?[Medium 4-6 ]",
+                  "Option1": "16",
+                  "Option2": "20",
+                  "Option3": "25",
+                  "Option4": "30",
+                  "correctIndex": "20"
+                },
+                {
+                  "question": "What is 3^2?[Medium 4-6 ]",
+                  "Option1": "3",
+                  "Option2": "6",
+                  "Option3": "9",
+                  "Option4": "12",
+                  "correctIndex": "9"
+                },
+                {
+                  "question": "What is the square root of 144?[Medium 4-6 ]",
+                  "Option1": "11",
+                  "Option2": "12",
+                  "Option3": "13",
+                  "Option4": "14",
+                  "correctIndex": "12"
+                },
+                {
+                  "question": "What is the value of pi (to 2 decimal places)?[Medium 4-6 ]",
+                  "Option1": "3.14",
+                  "Option2": "3.16",
+                  "Option3": "3.18",
+                  "Option4": "3.20",
+                  "correctIndex": "3.14"
+                },
+                {
+                  "question": "What is the area of a square with a side length of 5?[Medium 4-6 ]",
+                  "Option1": "10",
+                  "Option2": "15",
+                  "Option3": "20",
+                  "Option4": "25",
+                  "correctIndex": "25"
+                },
+                {
+                  "question": "What is the perimeter of a rectangle with a length of 8 and a width of 5?[Medium 4-6 ]",
+                  "Option1": "16",
+                  "Option2": "22",
+                  "Option3": "26",
+                  "Option4": "32",
+                  "correctIndex": "19,341 ft (5,895 m)"
+                },
+                {
+                  "question": "When did The Avengers come out?[Medium 4-6 ]",
+                  "Option1": "May 2, 2008",
+                  "Option2": "May 4, 2012",
+                  "Option3": "May 3, 2013",
+                  "Option4": "April 4, 2014",
+                  "correctIndex": "May 2, 2008"
+                },
+                {
+                  "question": "What is 48,879 in hexidecimal?[Medium 4-6 ]",
+                  "Option1": "0x18C1",
+                  "Option2": "0xBEEF",
+                  "Option3": "0xDEAD",
+                  "Option4": "0x12D591",
+                  "correctIndex": "0x18C1"
+                }
+              ]
             },
             {
-              "Diff": "Hard"
+              "Diff": "Hard",
+              "Hard": [{
+                "question": "What is 2+2?[Hard 4-6 ]",
+                "Option1": "1",
+                "Option2":"2",
+                "Option3":"3",
+                "Option4":"4",
+                "correctIndex": "4"
+              },
+                {
+                  "question": "What is 6-3?[Hard 4-6 ]",
+                  "Option1":"1",
+                  "Option2":"2",
+                  "Option3":"3",
+                  "Option4":"4",
+                  "correctIndex": "3"
+                },
+                {
+                  "question": "What is 5*2?[Hard 4-6 ]",
+                  "Option1": "8",
+                  "Option2": "10",
+                  "Option3": "12",
+                  "Option4": "14",
+                  "correctIndex": "10"
+                },
+                {
+                  "question": "What is 12/3?[Hard 4-6 ]",
+                  "Option1": "2",
+                  "Option2": "3",
+                  "Option3": "4",
+                  "Option4": "5",
+                  "correctIndex": "4"
+                },
+                {
+                  "question": "What is 25% of 80?[Hard 4-6 ]",
+                  "Option1": "16",
+                  "Option2": "20",
+                  "Option3": "25",
+                  "Option4": "30",
+                  "correctIndex": "20"
+                },
+                {
+                  "question": "What is 3^2?[Hard 4-6 ]",
+                  "Option1": "3",
+                  "Option2": "6",
+                  "Option3": "9",
+                  "Option4": "12",
+                  "correctIndex": "9"
+                },
+                {
+                  "question": "What is the square root of 144?[Hard 4-6 ]",
+                  "Option1": "11",
+                  "Option2": "12",
+                  "Option3": "13",
+                  "Option4": "14",
+                  "correctIndex": "12"
+                },
+                {
+                  "question": "What is the value of pi (to 2 decimal places)?[Hard 4-6 ]",
+                  "Option1": "3.14",
+                  "Option2": "3.16",
+                  "Option3": "3.18",
+                  "Option4": "3.20",
+                  "correctIndex": "3.14"
+                },
+                {
+                  "question": "What is the area of a square with a side length of 5?[Hard 4-6 ]",
+                  "Option1": "10",
+                  "Option2": "15",
+                  "Option3": "20",
+                  "Option4": "25",
+                  "correctIndex": "25"
+                },
+                {
+                  "question": "What is the perimeter of a rectangle with a length of 8 and a width of 5?[Hard 4-6 ]",
+                  "Option1": "16",
+                  "Option2": "22",
+                  "Option3": "26",
+                  "Option4": "32",
+                  "correctIndex": "19,341 ft (5,895 m)"
+                },
+                {
+                  "question": "When did The Avengers come out?[Hard 4-6 ]",
+                  "Option1": "May 2, 2008",
+                  "Option2": "May 4, 2012",
+                  "Option3": "May 3, 2013",
+                  "Option4": "April 4, 2014",
+                  "correctIndex": "May 2, 2008"
+                },
+                {
+                  "question": "What is 48,879 in hexidecimal?[Hard 4-6 ]",
+                  "Option1": "0x18C1",
+                  "Option2": "0xBEEF",
+                  "Option3": "0xDEAD",
+                  "Option4": "0x12D591",
+                  "correctIndex": "0x18C1"
+                }
+              ]
             }
           ]
         },
         { "Math": "7-9",
           "7-9" : [
             {
-              "Diff": "Basic"
+              "Diff": "Basic",
+              "Basic": [{
+                "question": "What is 2+2?[Basic 7-9 ]",
+                "Option1": "1",
+                "Option2":"2",
+                "Option3":"3",
+                "Option4":"4",
+                "correctIndex": "4"
+              },
+                {
+                  "question": "What is 6-3?[Basic 7-9 ]",
+                  "Option1":"1",
+                  "Option2":"2",
+                  "Option3":"3",
+                  "Option4":"4",
+                  "correctIndex": "3"
+                },
+                {
+                  "question": "What is 5*2?[Basic 7-9 ]",
+                  "Option1": "8",
+                  "Option2": "10",
+                  "Option3": "12",
+                  "Option4": "14",
+                  "correctIndex": "10"
+                },
+                {
+                  "question": "What is 12/3?[Basic 7-9 ]",
+                  "Option1": "2",
+                  "Option2": "3",
+                  "Option3": "4",
+                  "Option4": "5",
+                  "correctIndex": "4"
+                },
+                {
+                  "question": "What is 25% of 80?[Basic 7-9 ]",
+                  "Option1": "16",
+                  "Option2": "20",
+                  "Option3": "25",
+                  "Option4": "30",
+                  "correctIndex": "20"
+                },
+                {
+                  "question": "What is 3^2?[Basic 7-9 ]",
+                  "Option1": "3",
+                  "Option2": "6",
+                  "Option3": "9",
+                  "Option4": "12",
+                  "correctIndex": "9"
+                },
+                {
+                  "question": "What is the square root of 144?[Basic 7-9 ]",
+                  "Option1": "11",
+                  "Option2": "12",
+                  "Option3": "13",
+                  "Option4": "14",
+                  "correctIndex": "12"
+                },
+                {
+                  "question": "What is the value of pi (to 2 decimal places)?[Basic 7-9 ]",
+                  "Option1": "3.14",
+                  "Option2": "3.16",
+                  "Option3": "3.18",
+                  "Option4": "3.20",
+                  "correctIndex": "3.14"
+                },
+                {
+                  "question": "What is the area of a square with a side length of 5?[Basic 7-9 ]",
+                  "Option1": "10",
+                  "Option2": "15",
+                  "Option3": "20",
+                  "Option4": "25",
+                  "correctIndex": "25"
+                },
+                {
+                  "question": "What is the perimeter of a rectangle with a length of 8 and a width of 5?[Basic 7-9 ]",
+                  "Option1": "16",
+                  "Option2": "22",
+                  "Option3": "26",
+                  "Option4": "32",
+                  "correctIndex": "19,341 ft (5,895 m)"
+                },
+                {
+                  "question": "When did The Avengers come out?[Basic 7-9 ]",
+                  "Option1": "May 2, 2008",
+                  "Option2": "May 4, 2012",
+                  "Option3": "May 3, 2013",
+                  "Option4": "April 4, 2014",
+                  "correctIndex": "May 2, 2008"
+                },
+                {
+                  "question": "What is 48,879 in hexidecimal?[Basic 7-9 ]",
+                  "Option1": "0x18C1",
+                  "Option2": "0xBEEF",
+                  "Option3": "0xDEAD",
+                  "Option4": "0x12D591",
+                  "correctIndex": "0x18C1"
+                }
+              ]
             },
             {
-              "Diff": "Medium"
+              "Diff": "Medium",
+              "Medium": [{
+                "question": "What is 2+2?[Medium 7-9 ]",
+                "Option1": "1",
+                "Option2":"2",
+                "Option3":"3",
+                "Option4":"4",
+                "correctIndex": "4"
+              },
+                {
+                  "question": "What is 6-3?[Medium 7-9 ]",
+                  "Option1":"1",
+                  "Option2":"2",
+                  "Option3":"3",
+                  "Option4":"4",
+                  "correctIndex": "3"
+                },
+                {
+                  "question": "What is 5*2?[Medium 7-9 ]",
+                  "Option1": "8",
+                  "Option2": "10",
+                  "Option3": "12",
+                  "Option4": "14",
+                  "correctIndex": "10"
+                },
+                {
+                  "question": "What is 12/3?[Medium 7-9 ]",
+                  "Option1": "2",
+                  "Option2": "3",
+                  "Option3": "4",
+                  "Option4": "5",
+                  "correctIndex": "4"
+                },
+                {
+                  "question": "What is 25% of 80?[Medium 7-9 ]",
+                  "Option1": "16",
+                  "Option2": "20",
+                  "Option3": "25",
+                  "Option4": "30",
+                  "correctIndex": "20"
+                },
+                {
+                  "question": "What is 3^2?[Medium 7-9 ]",
+                  "Option1": "3",
+                  "Option2": "6",
+                  "Option3": "9",
+                  "Option4": "12",
+                  "correctIndex": "9"
+                },
+                {
+                  "question": "What is the square root of 144?[Medium 7-9 ]",
+                  "Option1": "11",
+                  "Option2": "12",
+                  "Option3": "13",
+                  "Option4": "14",
+                  "correctIndex": "12"
+                },
+                {
+                  "question": "What is the value of pi (to 2 decimal places)?[Medium 7-9 ]",
+                  "Option1": "3.14",
+                  "Option2": "3.16",
+                  "Option3": "3.18",
+                  "Option4": "3.20",
+                  "correctIndex": "3.14"
+                },
+                {
+                  "question": "What is the area of a square with a side length of 5?[Medium 7-9 ]",
+                  "Option1": "10",
+                  "Option2": "15",
+                  "Option3": "20",
+                  "Option4": "25",
+                  "correctIndex": "25"
+                },
+                {
+                  "question": "What is the perimeter of a rectangle with a length of 8 and a width of 5?[Medium 7-9 ]",
+                  "Option1": "16",
+                  "Option2": "22",
+                  "Option3": "26",
+                  "Option4": "32",
+                  "correctIndex": "19,341 ft (5,895 m)"
+                },
+                {
+                  "question": "When did The Avengers come out?[Medium 7-9 ]",
+                  "Option1": "May 2, 2008",
+                  "Option2": "May 4, 2012",
+                  "Option3": "May 3, 2013",
+                  "Option4": "April 4, 2014",
+                  "correctIndex": "May 2, 2008"
+                },
+                {
+                  "question": "What is 48,879 in hexidecimal?[Medium 7-9 ]",
+                  "Option1": "0x18C1",
+                  "Option2": "0xBEEF",
+                  "Option3": "0xDEAD",
+                  "Option4": "0x12D591",
+                  "correctIndex": "0x18C1"
+                }
+              ]
             },
             {
-              "Diff": "Hard"
+              "Diff": "Hard",
+              "Hard": [{
+                "question": "What is 2+2?[Hard 7-9 ]",
+                "Option1": "1",
+                "Option2":"2",
+                "Option3":"3",
+                "Option4":"4",
+                "correctIndex": "4"
+              },
+                {
+                  "question": "What is 6-3?[Hard 7-9 ]",
+                  "Option1":"1",
+                  "Option2":"2",
+                  "Option3":"3",
+                  "Option4":"4",
+                  "correctIndex": "3"
+                },
+                {
+                  "question": "What is 5*2?[Hard 7-9 ]",
+                  "Option1": "8",
+                  "Option2": "10",
+                  "Option3": "12",
+                  "Option4": "14",
+                  "correctIndex": "10"
+                },
+                {
+                  "question": "What is 12/3?[Hard 7-9 ]",
+                  "Option1": "2",
+                  "Option2": "3",
+                  "Option3": "4",
+                  "Option4": "5",
+                  "correctIndex": "4"
+                },
+                {
+                  "question": "What is 25% of 80?[Hard 7-9 ]",
+                  "Option1": "16",
+                  "Option2": "20",
+                  "Option3": "25",
+                  "Option4": "30",
+                  "correctIndex": "20"
+                },
+                {
+                  "question": "What is 3^2?[Hard 7-9 ]",
+                  "Option1": "3",
+                  "Option2": "6",
+                  "Option3": "9",
+                  "Option4": "12",
+                  "correctIndex": "9"
+                },
+                {
+                  "question": "What is the square root of 144?[Hard 7-9 ]",
+                  "Option1": "11",
+                  "Option2": "12",
+                  "Option3": "13",
+                  "Option4": "14",
+                  "correctIndex": "12"
+                },
+                {
+                  "question": "What is the value of pi (to 2 decimal places)?[Hard 7-9 ]",
+                  "Option1": "3.14",
+                  "Option2": "3.16",
+                  "Option3": "3.18",
+                  "Option4": "3.20",
+                  "correctIndex": "3.14"
+                },
+                {
+                  "question": "What is the area of a square with a side length of 5?[Hard 7-9 ]",
+                  "Option1": "10",
+                  "Option2": "15",
+                  "Option3": "20",
+                  "Option4": "25",
+                  "correctIndex": "25"
+                },
+                {
+                  "question": "What is the perimeter of a rectangle with a length of 8 and a width of 5?[Hard 7-9 ]",
+                  "Option1": "16",
+                  "Option2": "22",
+                  "Option3": "26",
+                  "Option4": "32",
+                  "correctIndex": "19,341 ft (5,895 m)"
+                },
+                {
+                  "question": "When did The Avengers come out?[Hard 7-9 ]",
+                  "Option1": "May 2, 2008",
+                  "Option2": "May 4, 2012",
+                  "Option3": "May 3, 2013",
+                  "Option4": "April 4, 2014",
+                  "correctIndex": "May 2, 2008"
+                },
+                {
+                  "question": "What is 48,879 in hexidecimal?[Hard 7-9 ]",
+                  "Option1": "0x18C1",
+                  "Option2": "0xBEEF",
+                  "Option3": "0xDEAD",
+                  "Option4": "0x12D591",
+                  "correctIndex": "0x18C1"
+                }
+              ]
             }
           ]
         },
         {  "Math": "10-12",
           "10-12" : [
             {
-              "Diff": "Basic"
+              "Diff": "Basic",
+              "Basic": [{
+                "question": "What is 2+2?[Basic 10-12 ]",
+                "Option1": "1",
+                "Option2":"2",
+                "Option3":"3",
+                "Option4":"4",
+                "correctIndex": "4"
+              },
+                {
+                  "question": "What is 6-3?[Basic 10-12 ]",
+                  "Option1":"1",
+                  "Option2":"2",
+                  "Option3":"3",
+                  "Option4":"4",
+                  "correctIndex": "3"
+                },
+                {
+                  "question": "What is 5*2?[Basic 10-12 ]",
+                  "Option1": "8",
+                  "Option2": "10",
+                  "Option3": "12",
+                  "Option4": "14",
+                  "correctIndex": "10"
+                },
+                {
+                  "question": "What is 12/3?[Basic 10-12 ]",
+                  "Option1": "2",
+                  "Option2": "3",
+                  "Option3": "4",
+                  "Option4": "5",
+                  "correctIndex": "4"
+                },
+                {
+                  "question": "What is 25% of 80?[Basic 10-12 ]",
+                  "Option1": "16",
+                  "Option2": "20",
+                  "Option3": "25",
+                  "Option4": "30",
+                  "correctIndex": "20"
+                },
+                {
+                  "question": "What is 3^2?[Basic 10-12 ]",
+                  "Option1": "3",
+                  "Option2": "6",
+                  "Option3": "9",
+                  "Option4": "12",
+                  "correctIndex": "9"
+                },
+                {
+                  "question": "What is the square root of 144?[Basic 10-12 ]",
+                  "Option1": "11",
+                  "Option2": "12",
+                  "Option3": "13",
+                  "Option4": "14",
+                  "correctIndex": "12"
+                },
+                {
+                  "question": "What is the value of pi (to 2 decimal places)?[Basic 10-12 ]",
+                  "Option1": "3.14",
+                  "Option2": "3.16",
+                  "Option3": "3.18",
+                  "Option4": "3.20",
+                  "correctIndex": "3.14"
+                },
+                {
+                  "question": "What is the area of a square with a side length of 5?[Basic 10-12 ]",
+                  "Option1": "10",
+                  "Option2": "15",
+                  "Option3": "20",
+                  "Option4": "25",
+                  "correctIndex": "25"
+                },
+                {
+                  "question": "What is the perimeter of a rectangle with a length of 8 and a width of 5?[Basic 10-12 ]",
+                  "Option1": "16",
+                  "Option2": "22",
+                  "Option3": "26",
+                  "Option4": "32",
+                  "correctIndex": "19,341 ft (5,895 m)"
+                },
+                {
+                  "question": "When did The Avengers come out?[Basic 10-12 ]",
+                  "Option1": "May 2, 2008",
+                  "Option2": "May 4, 2012",
+                  "Option3": "May 3, 2013",
+                  "Option4": "April 4, 2014",
+                  "correctIndex": "May 2, 2008"
+                },
+                {
+                  "question": "What is 48,879 in hexidecimal?[Basic 10-12 ]",
+                  "Option1": "0x18C1",
+                  "Option2": "0xBEEF",
+                  "Option3": "0xDEAD",
+                  "Option4": "0x12D591",
+                  "correctIndex": "0x18C1"
+                }
+              ]
             },
             {
-              "Diff": "Medium"
+              "Diff": "Medium",
+              "Medium": [{
+                "question": "What is 2+2?[Medium 10-12 ]",
+                "Option1": "1",
+                "Option2":"2",
+                "Option3":"3",
+                "Option4":"4",
+                "correctIndex": "4"
+              },
+                {
+                  "question": "What is 6-3?[Medium 10-12 ]",
+                  "Option1":"1",
+                  "Option2":"2",
+                  "Option3":"3",
+                  "Option4":"4",
+                  "correctIndex": "3"
+                },
+                {
+                  "question": "What is 5*2?[Medium 10-12 ]",
+                  "Option1": "8",
+                  "Option2": "10",
+                  "Option3": "12",
+                  "Option4": "14",
+                  "correctIndex": "10"
+                },
+                {
+                  "question": "What is 12/3?[Medium 10-12 ]",
+                  "Option1": "2",
+                  "Option2": "3",
+                  "Option3": "4",
+                  "Option4": "5",
+                  "correctIndex": "4"
+                },
+                {
+                  "question": "What is 25% of 80?[Medium 10-12 ]",
+                  "Option1": "16",
+                  "Option2": "20",
+                  "Option3": "25",
+                  "Option4": "30",
+                  "correctIndex": "20"
+                },
+                {
+                  "question": "What is 3^2?[Medium 10-12 ]",
+                  "Option1": "3",
+                  "Option2": "6",
+                  "Option3": "9",
+                  "Option4": "12",
+                  "correctIndex": "9"
+                },
+                {
+                  "question": "What is the square root of 144?[Medium 10-12 ]",
+                  "Option1": "11",
+                  "Option2": "12",
+                  "Option3": "13",
+                  "Option4": "14",
+                  "correctIndex": "12"
+                },
+                {
+                  "question": "What is the value of pi (to 2 decimal places)?[Medium 10-12 ]",
+                  "Option1": "3.14",
+                  "Option2": "3.16",
+                  "Option3": "3.18",
+                  "Option4": "3.20",
+                  "correctIndex": "3.14"
+                },
+                {
+                  "question": "What is the area of a square with a side length of 5?[Medium 10-12 ]",
+                  "Option1": "10",
+                  "Option2": "15",
+                  "Option3": "20",
+                  "Option4": "25",
+                  "correctIndex": "25"
+                },
+                {
+                  "question": "What is the perimeter of a rectangle with a length of 8 and a width of 5?[Medium 10-12 ]",
+                  "Option1": "16",
+                  "Option2": "22",
+                  "Option3": "26",
+                  "Option4": "32",
+                  "correctIndex": "19,341 ft (5,895 m)"
+                },
+                {
+                  "question": "When did The Avengers come out?[Medium 10-12 ]",
+                  "Option1": "May 2, 2008",
+                  "Option2": "May 4, 2012",
+                  "Option3": "May 3, 2013",
+                  "Option4": "April 4, 2014",
+                  "correctIndex": "May 2, 2008"
+                },
+                {
+                  "question": "What is 48,879 in hexidecimal?[Medium 10-12 ]",
+                  "Option1": "0x18C1",
+                  "Option2": "0xBEEF",
+                  "Option3": "0xDEAD",
+                  "Option4": "0x12D591",
+                  "correctIndex": "0x18C1"
+                }
+              ]
             },
             {
-              "Diff": "Hard"
+              "Diff": "Hard",
+              "Hard": [{
+                "question": "What is 2+2?[Hard 10-12 ]",
+                "Option1": "1",
+                "Option2":"2",
+                "Option3":"3",
+                "Option4":"4",
+                "correctIndex": "4"
+              },
+                {
+                  "question": "What is 6-3?[Hard 10-12 ]",
+                  "Option1":"1",
+                  "Option2":"2",
+                  "Option3":"3",
+                  "Option4":"4",
+                  "correctIndex": "3"
+                },
+                {
+                  "question": "What is 5*2?[Hard 10-12 ]",
+                  "Option1": "8",
+                  "Option2": "10",
+                  "Option3": "12",
+                  "Option4": "14",
+                  "correctIndex": "10"
+                },
+                {
+                  "question": "What is 12/3?[Hard 10-12 ]",
+                  "Option1": "2",
+                  "Option2": "3",
+                  "Option3": "4",
+                  "Option4": "5",
+                  "correctIndex": "4"
+                },
+                {
+                  "question": "What is 25% of 80?[Hard 10-12 ]",
+                  "Option1": "16",
+                  "Option2": "20",
+                  "Option3": "25",
+                  "Option4": "30",
+                  "correctIndex": "20"
+                },
+                {
+                  "question": "What is 3^2?[Hard 10-12 ]",
+                  "Option1": "3",
+                  "Option2": "6",
+                  "Option3": "9",
+                  "Option4": "12",
+                  "correctIndex": "9"
+                },
+                {
+                  "question": "What is the square root of 144?[Hard 10-12 ]",
+                  "Option1": "11",
+                  "Option2": "12",
+                  "Option3": "13",
+                  "Option4": "14",
+                  "correctIndex": "12"
+                },
+                {
+                  "question": "What is the value of pi (to 2 decimal places)?[Hard 10-12 ]",
+                  "Option1": "3.14",
+                  "Option2": "3.16",
+                  "Option3": "3.18",
+                  "Option4": "3.20",
+                  "correctIndex": "3.14"
+                },
+                {
+                  "question": "What is the area of a square with a side length of 5?[Hard 10-12 ]",
+                  "Option1": "10",
+                  "Option2": "15",
+                  "Option3": "20",
+                  "Option4": "25",
+                  "correctIndex": "25"
+                },
+                {
+                  "question": "What is the perimeter of a rectangle with a length of 8 and a width of 5?[Hard 10-12 ]",
+                  "Option1": "16",
+                  "Option2": "22",
+                  "Option3": "26",
+                  "Option4": "32",
+                  "correctIndex": "19,341 ft (5,895 m)"
+                },
+                {
+                  "question": "When did The Avengers come out?[Hard 10-12 ]",
+                  "Option1": "May 2, 2008",
+                  "Option2": "May 4, 2012",
+                  "Option3": "May 3, 2013",
+                  "Option4": "April 4, 2014",
+                  "correctIndex": "May 2, 2008"
+                },
+                {
+                  "question": "What is 48,879 in hexidecimal?[Hard 10-12 ]",
+                  "Option1": "0x18C1",
+                  "Option2": "0xBEEF",
+                  "Option3": "0xDEAD",
+                  "Option4": "0x12D591",
+                  "correctIndex": "0x18C1"
+                }
+              ]
             }
           ]
         },
@@ -3043,13 +4110,304 @@
           "Math": "12+ / B tech",
           "12+ / B tech" : [
             {
-              "Diff": "Basic"
+              "Diff": "Basic",
+              "Basic": [{
+                "question": "What is 2+2?[Basic 12+ / B tech ]",
+                "Option1": "1",
+                "Option2":"2",
+                "Option3":"3",
+                "Option4":"4",
+                "correctIndex": "4"
+              },
+                {
+                  "question": "What is 6-3?[Basic 12+ / B tech ]",
+                  "Option1":"1",
+                  "Option2":"2",
+                  "Option3":"3",
+                  "Option4":"4",
+                  "correctIndex": "3"
+                },
+                {
+                  "question": "What is 5*2?[Basic 12+ / B tech ]",
+                  "Option1": "8",
+                  "Option2": "10",
+                  "Option3": "12",
+                  "Option4": "14",
+                  "correctIndex": "10"
+                },
+                {
+                  "question": "What is 12/3?[Basic 12+ / B tech ]",
+                  "Option1": "2",
+                  "Option2": "3",
+                  "Option3": "4",
+                  "Option4": "5",
+                  "correctIndex": "4"
+                },
+                {
+                  "question": "What is 25% of 80?[Basic 12+ / B tech ]",
+                  "Option1": "16",
+                  "Option2": "20",
+                  "Option3": "25",
+                  "Option4": "30",
+                  "correctIndex": "20"
+                },
+                {
+                  "question": "What is 3^2?[Basic 12+ / B tech ]",
+                  "Option1": "3",
+                  "Option2": "6",
+                  "Option3": "9",
+                  "Option4": "12",
+                  "correctIndex": "9"
+                },
+                {
+                  "question": "What is the square root of 144?[Basic 12+ / B tech ]",
+                  "Option1": "11",
+                  "Option2": "12",
+                  "Option3": "13",
+                  "Option4": "14",
+                  "correctIndex": "12"
+                },
+                {
+                  "question": "What is the value of pi (to 2 decimal places)?[Basic 12+ / B tech ]",
+                  "Option1": "3.14",
+                  "Option2": "3.16",
+                  "Option3": "3.18",
+                  "Option4": "3.20",
+                  "correctIndex": "3.14"
+                },
+                {
+                  "question": "What is the area of a square with a side length of 5?[Basic 12+ / B tech ]",
+                  "Option1": "10",
+                  "Option2": "15",
+                  "Option3": "20",
+                  "Option4": "25",
+                  "correctIndex": "25"
+                },
+                {
+                  "question": "What is the perimeter of a rectangle with a length of 8 and a width of 5?[Basic 12+ / B tech ]",
+                  "Option1": "16",
+                  "Option2": "22",
+                  "Option3": "26",
+                  "Option4": "32",
+                  "correctIndex": "19,341 ft (5,895 m)"
+                },
+                {
+                  "question": "When did The Avengers come out?[Basic 12+ / B tech ]",
+                  "Option1": "May 2, 2008",
+                  "Option2": "May 4, 2012",
+                  "Option3": "May 3, 2013",
+                  "Option4": "April 4, 2014",
+                  "correctIndex": "May 2, 2008"
+                },
+                {
+                  "question": "What is 48,879 in hexidecimal?[Basic 12+ / B tech ]",
+                  "Option1": "0x18C1",
+                  "Option2": "0xBEEF",
+                  "Option3": "0xDEAD",
+                  "Option4": "0x12D591",
+                  "correctIndex": "0x18C1"
+                }
+              ]
             },
             {
-              "Diff": "Medium"
+              "Diff": "Medium",
+              "Medium": [{
+                "question": "What is 2+2?[Medium 12+ / B tech ]",
+                "Option1": "1",
+                "Option2":"2",
+                "Option3":"3",
+                "Option4":"4",
+                "correctIndex": "4"
+              },
+                {
+                  "question": "What is 6-3?[Medium 12+ / B tech ]",
+                  "Option1":"1",
+                  "Option2":"2",
+                  "Option3":"3",
+                  "Option4":"4",
+                  "correctIndex": "3"
+                },
+                {
+                  "question": "What is 5*2?[Medium 12+ / B tech ]",
+                  "Option1": "8",
+                  "Option2": "10",
+                  "Option3": "12",
+                  "Option4": "14",
+                  "correctIndex": "10"
+                },
+                {
+                  "question": "What is 12/3?[Medium 12+ / B tech ]",
+                  "Option1": "2",
+                  "Option2": "3",
+                  "Option3": "4",
+                  "Option4": "5",
+                  "correctIndex": "4"
+                },
+                {
+                  "question": "What is 25% of 80?[Medium 12+ / B tech ]",
+                  "Option1": "16",
+                  "Option2": "20",
+                  "Option3": "25",
+                  "Option4": "30",
+                  "correctIndex": "20"
+                },
+                {
+                  "question": "What is 3^2?[Medium 12+ / B tech ]",
+                  "Option1": "3",
+                  "Option2": "6",
+                  "Option3": "9",
+                  "Option4": "12",
+                  "correctIndex": "9"
+                },
+                {
+                  "question": "What is the square root of 144?[Medium 12+ / B tech ]",
+                  "Option1": "11",
+                  "Option2": "12",
+                  "Option3": "13",
+                  "Option4": "14",
+                  "correctIndex": "12"
+                },
+                {
+                  "question": "What is the value of pi (to 2 decimal places)?[Medium 12+ / B tech ]",
+                  "Option1": "3.14",
+                  "Option2": "3.16",
+                  "Option3": "3.18",
+                  "Option4": "3.20",
+                  "correctIndex": "3.14"
+                },
+                {
+                  "question": "What is the area of a square with a side length of 5?[Medium 12+ / B tech ]",
+                  "Option1": "10",
+                  "Option2": "15",
+                  "Option3": "20",
+                  "Option4": "25",
+                  "correctIndex": "25"
+                },
+                {
+                  "question": "What is the perimeter of a rectangle with a length of 8 and a width of 5?[Medium 12+ / B tech ]",
+                  "Option1": "16",
+                  "Option2": "22",
+                  "Option3": "26",
+                  "Option4": "32",
+                  "correctIndex": "19,341 ft (5,895 m)"
+                },
+                {
+                  "question": "When did The Avengers come out?[Medium 12+ / B tech ]",
+                  "Option1": "May 2, 2008",
+                  "Option2": "May 4, 2012",
+                  "Option3": "May 3, 2013",
+                  "Option4": "April 4, 2014",
+                  "correctIndex": "May 2, 2008"
+                },
+                {
+                  "question": "What is 48,879 in hexidecimal?[Medium 12+ / B tech ]",
+                  "Option1": "0x18C1",
+                  "Option2": "0xBEEF",
+                  "Option3": "0xDEAD",
+                  "Option4": "0x12D591",
+                  "correctIndex": "0x18C1"
+                }
+              ]
             },
             {
-              "Diff": "Hard"
+              "Diff": "Hard",
+              "Hard": [{
+                "question": "What is 2+2?[Hard 12+ / B tech ]",
+                "Option1": "1",
+                "Option2":"2",
+                "Option3":"3",
+                "Option4":"4",
+                "correctIndex": "4"
+              },
+                {
+                  "question": "What is 6-3?[Hard 12+ / B tech ]",
+                  "Option1":"1",
+                  "Option2":"2",
+                  "Option3":"3",
+                  "Option4":"4",
+                  "correctIndex": "3"
+                },
+                {
+                  "question": "What is 5*2?[Hard 12+ / B tech ]",
+                  "Option1": "8",
+                  "Option2": "10",
+                  "Option3": "12",
+                  "Option4": "14",
+                  "correctIndex": "10"
+                },
+                {
+                  "question": "What is 12/3?[Hard 12+ / B tech ]",
+                  "Option1": "2",
+                  "Option2": "3",
+                  "Option3": "4",
+                  "Option4": "5",
+                  "correctIndex": "4"
+                },
+                {
+                  "question": "What is 25% of 80?[Hard 12+ / B tech ]",
+                  "Option1": "16",
+                  "Option2": "20",
+                  "Option3": "25",
+                  "Option4": "30",
+                  "correctIndex": "20"
+                },
+                {
+                  "question": "What is 3^2?[Hard 12+ / B tech ]",
+                  "Option1": "3",
+                  "Option2": "6",
+                  "Option3": "9",
+                  "Option4": "12",
+                  "correctIndex": "9"
+                },
+                {
+                  "question": "What is the square root of 144?[Hard 12+ / B tech ]",
+                  "Option1": "11",
+                  "Option2": "12",
+                  "Option3": "13",
+                  "Option4": "14",
+                  "correctIndex": "12"
+                },
+                {
+                  "question": "What is the value of pi (to 2 decimal places)?[Hard 12+ / B tech ]",
+                  "Option1": "3.14",
+                  "Option2": "3.16",
+                  "Option3": "3.18",
+                  "Option4": "3.20",
+                  "correctIndex": "3.14"
+                },
+                {
+                  "question": "What is the area of a square with a side length of 5?[Hard 12+ / B tech ]",
+                  "Option1": "10",
+                  "Option2": "15",
+                  "Option3": "20",
+                  "Option4": "25",
+                  "correctIndex": "25"
+                },
+                {
+                  "question": "What is the perimeter of a rectangle with a length of 8 and a width of 5?[Hard 12+ / B tech ]",
+                  "Option1": "16",
+                  "Option2": "22",
+                  "Option3": "26",
+                  "Option4": "32",
+                  "correctIndex": "19,341 ft (5,895 m)"
+                },
+                {
+                  "question": "When did The Avengers come out?[Hard 12+ / B tech ]",
+                  "Option1": "May 2, 2008",
+                  "Option2": "May 4, 2012",
+                  "Option3": "May 3, 2013",
+                  "Option4": "April 4, 2014",
+                  "correctIndex": "May 2, 2008"
+                },
+                {
+                  "question": "What is 48,879 in hexidecimal?[Hard 12+ / B tech ]",
+                  "Option1": "0x18C1",
+                  "Option2": "0xBEEF",
+                  "Option3": "0xDEAD",
+                  "Option4": "0x12D591",
+                  "correctIndex": "0x18C1"
+                }
+              ]
             }
           ]
         }
