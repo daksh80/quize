@@ -4420,55 +4420,1223 @@
           "Social Science": "1-3",
           "1-3" : [
             {
-              "Diff": "Basic"
+              "Diff": "Basic",
+              "Basic": [
+                {
+                "question": "Which is the largest continent in the world?[Basic 1-3 ]",
+                "Option1": "Asia",
+                "Option2":"Europe",
+                "Option3":"Africa",
+                "Option4":"North America",
+                "correctIndex": "Asia"
+              },
+                {
+                  "question": "What is the capital of India?[Basic 1-3 ]",
+                  "Option1":"Mumbai",
+                  "Option2":"Kolkata",
+                  "Option3":"Delhi",
+                  "Option4":"Chennai",
+                  "correctIndex": "Delhi"
+                },
+                {
+                  "question": "Which country is known as the 'Land of Rising Sun'?[Basic 1-3 ]",
+                  "Option1": "China",
+                  "Option2": "Japan",
+                  "Option3": "South Korea",
+                  "Option4": "Vietnam",
+                  "correctIndex": "Japan"
+                },
+                {
+                  "question": "Which is the largest river in the world?[Basic 1-3 ]",
+                  "Option1": "Nile",
+                  "Option2": "Amazon",
+                  "Option3": "Mississippi",
+                  "Option4": "Yangtze",
+                  "correctIndex": "Amazon"
+                },
+                {
+                  "question": "Which is the highest mountain peak in the world?[Basic 1-3 ]",
+                  "Option1": "Mount Kilimanjaro",
+                  "Option2": "Mount Everest",
+                  "Option3": "Mount Fuji",
+                  "Option4": "Mount Denali",
+                  "correctIndex": "Mount Everest"
+                },
+                {
+                  "question": "Which country has the largest population in the world?[Basic 1-3 ]",
+                  "Option1": "India",
+                  "Option2": "China",
+                  "Option3": "United States",
+                  "Option4": "Russia",
+                  "correctIndex": "China"
+                },
+                {
+                  "question": "What is the currency of Japan?[Basic 1-3 ]",
+                  "Option1": "Yuan",
+                  "Option2": "Euro",
+                  "Option3": "Dollar",
+                  "Option4": "Yen",
+                  "correctIndex": "Yen"
+                },
+                {
+                  "question": "Which is the largest ocean in the world?[Basic 1-3 ]",
+                  "Option1": "Pacific Ocean",
+                  "Option2": "Atlantic Ocean",
+                  "Option3": "Indian Ocean",
+                  "Option4": "Arctic Ocean",
+                  "correctIndex": "Pacific Ocean"
+                },
+                {
+                  "question": "Who is the current President of the United States?[Basic 1-3 ]",
+                  "Option1": "Joe Biden",
+                  "Option2": "Donald Trump",
+                  "Option3": "Barack Obama",
+                  "Option4": "George W. Bush",
+                  "correctIndex": "Joe Biden"
+                },
+                {
+                  "question": "What is the largest country in the world by area?[Basic 1-3 ]",
+                  "Option1": "Russia",
+                  "Option2": "Canada",
+                  "Option3": "China",
+                  "Option4": "United States",
+                  "correctIndex": "Russia"
+                },
+                {
+                  "question": "Who is the current President of the United States?[Basic 1-3 ]",
+                  "Option1": "Joe Biden",
+                  "Option2": "Donald Trump",
+                  "Option3": "Barack Obama",
+                  "Option4": "George W. Bush",
+                  "correctIndex": "Joe Biden"
+                },
+                {
+                  "question": "What is the largest country in the world by area?[Basic 1-3 ]",
+                  "Option1": "Russia",
+                  "Option2": "Canada",
+                  "Option3": "China",
+                  "Option4": "United States",
+                  "correctIndex": "Russia"
+                }
+              ]
             },
-            {
-              "Diff": "Medium"
-            },
-            {
-              "Diff": "Hard"
-            }
-          ]
-        },
+                {
+                  "Diff": "Medium",
+                  "Medium": [
+                    {
+                      "question": "Which is the largest continent in the world?[Basic 1-3 ]",
+                      "Option1": "Asia",
+                      "Option2":"Europe",
+                      "Option3":"Africa",
+                      "Option4":"North America",
+                      "correctIndex": "Asia"
+                    },
+                    {
+                      "question": "What is the capital of India?[Basic 1-3 ]",
+                      "Option1":"Mumbai",
+                      "Option2":"Kolkata",
+                      "Option3":"Delhi",
+                      "Option4":"Chennai",
+                      "correctIndex": "Delhi"
+                    },
+                    {
+                      "question": "Which country is known as the 'Land of Rising Sun'?[Basic 1-3 ]",
+                      "Option1": "China",
+                      "Option2": "Japan",
+                      "Option3": "South Korea",
+                      "Option4": "Vietnam",
+                      "correctIndex": "Japan"
+                    },
+                    {
+                      "question": "Which is the largest river in the world?[Basic 1-3 ]",
+                      "Option1": "Nile",
+                      "Option2": "Amazon",
+                      "Option3": "Mississippi",
+                      "Option4": "Yangtze",
+                      "correctIndex": "Amazon"
+                    },
+                    {
+                      "question": "Which is the highest mountain peak in the world?[Basic 1-3 ]",
+                      "Option1": "Mount Kilimanjaro",
+                      "Option2": "Mount Everest",
+                      "Option3": "Mount Fuji",
+                      "Option4": "Mount Denali",
+                      "correctIndex": "Mount Everest"
+                    },
+                    {
+                      "question": "Which country has the largest population in the world?[Basic 1-3 ]",
+                      "Option1": "India",
+                      "Option2": "China",
+                      "Option3": "United States",
+                      "Option4": "Russia",
+                      "correctIndex": "China"
+                    },
+                    {
+                      "question": "What is the currency of Japan?[Basic 1-3 ]",
+                      "Option1": "Yuan",
+                      "Option2": "Euro",
+                      "Option3": "Dollar",
+                      "Option4": "Yen",
+                      "correctIndex": "Yen"
+                    },
+                    {
+                      "question": "Which is the largest ocean in the world?[Basic 1-3 ]",
+                      "Option1": "Pacific Ocean",
+                      "Option2": "Atlantic Ocean",
+                      "Option3": "Indian Ocean",
+                      "Option4": "Arctic Ocean",
+                      "correctIndex": "Pacific Ocean"
+                    },
+                    {
+                      "question": "Who is the current President of the United States?[Basic 1-3 ]",
+                      "Option1": "Joe Biden",
+                      "Option2": "Donald Trump",
+                      "Option3": "Barack Obama",
+                      "Option4": "George W. Bush",
+                      "correctIndex": "Joe Biden"
+                    },
+                    {
+                      "question": "What is the largest country in the world by area?[Basic 1-3 ]",
+                      "Option1": "Russia",
+                      "Option2": "Canada",
+                      "Option3": "China",
+                      "Option4": "United States",
+                      "correctIndex": "Russia"
+                    },
+                    {
+                      "question": "Who is the current President of the United States?[Basic 1-3 ]",
+                      "Option1": "Joe Biden",
+                      "Option2": "Donald Trump",
+                      "Option3": "Barack Obama",
+                      "Option4": "George W. Bush",
+                      "correctIndex": "Joe Biden"
+                    },
+                    {
+                      "question": "What is the largest country in the world by area?[Basic 1-3 ]",
+                      "Option1": "Russia",
+                      "Option2": "Canada",
+                      "Option3": "China",
+                      "Option4": "United States",
+                      "correctIndex": "Russia"
+                    }
+                  ]
+                },
+                    {
+                      "Diff": "Hard",
+                      "Hard": [
+                        {
+                          "question": "Which is the largest continent in the world?[Basic 1-3 ]",
+                          "Option1": "Asia",
+                          "Option2":"Europe",
+                          "Option3":"Africa",
+                          "Option4":"North America",
+                          "correctIndex": "Asia"
+                        },
+                        {
+                          "question": "What is the capital of India?[Basic 1-3 ]",
+                          "Option1":"Mumbai",
+                          "Option2":"Kolkata",
+                          "Option3":"Delhi",
+                          "Option4":"Chennai",
+                          "correctIndex": "Delhi"
+                        },
+                        {
+                          "question": "Which country is known as the 'Land of Rising Sun'?[Basic 1-3 ]",
+                          "Option1": "China",
+                          "Option2": "Japan",
+                          "Option3": "South Korea",
+                          "Option4": "Vietnam",
+                          "correctIndex": "Japan"
+                        },
+                        {
+                          "question": "Which is the largest river in the world?[Basic 1-3 ]",
+                          "Option1": "Nile",
+                          "Option2": "Amazon",
+                          "Option3": "Mississippi",
+                          "Option4": "Yangtze",
+                          "correctIndex": "Amazon"
+                        },
+                        {
+                          "question": "Which is the highest mountain peak in the world?[Basic 1-3 ]",
+                          "Option1": "Mount Kilimanjaro",
+                          "Option2": "Mount Everest",
+                          "Option3": "Mount Fuji",
+                          "Option4": "Mount Denali",
+                          "correctIndex": "Mount Everest"
+                        },
+                        {
+                          "question": "Which country has the largest population in the world?[Basic 1-3 ]",
+                          "Option1": "India",
+                          "Option2": "China",
+                          "Option3": "United States",
+                          "Option4": "Russia",
+                          "correctIndex": "China"
+                        },
+                        {
+                          "question": "What is the currency of Japan?[Basic 1-3 ]",
+                          "Option1": "Yuan",
+                          "Option2": "Euro",
+                          "Option3": "Dollar",
+                          "Option4": "Yen",
+                          "correctIndex": "Yen"
+                        },
+                        {
+                          "question": "Which is the largest ocean in the world?[Basic 1-3 ]",
+                          "Option1": "Pacific Ocean",
+                          "Option2": "Atlantic Ocean",
+                          "Option3": "Indian Ocean",
+                          "Option4": "Arctic Ocean",
+                          "correctIndex": "Pacific Ocean"
+                        },
+                        {
+                          "question": "Who is the current President of the United States?[Basic 1-3 ]",
+                          "Option1": "Joe Biden",
+                          "Option2": "Donald Trump",
+                          "Option3": "Barack Obama",
+                          "Option4": "George W. Bush",
+                          "correctIndex": "Joe Biden"
+                        },
+                        {
+                          "question": "What is the largest country in the world by area?[Basic 1-3 ]",
+                          "Option1": "Russia",
+                          "Option2": "Canada",
+                          "Option3": "China",
+                          "Option4": "United States",
+                          "correctIndex": "Russia"
+                        },
+                        {
+                          "question": "Who is the current President of the United States?[Basic 1-3 ]",
+                          "Option1": "Joe Biden",
+                          "Option2": "Donald Trump",
+                          "Option3": "Barack Obama",
+                          "Option4": "George W. Bush",
+                          "correctIndex": "Joe Biden"
+                        },
+                        {
+                          "question": "What is the largest country in the world by area?[Basic 1-3 ]",
+                          "Option1": "Russia",
+                          "Option2": "Canada",
+                          "Option3": "China",
+                          "Option4": "United States",
+                          "correctIndex": "Russia"
+                        }
+                      ]
+                    }]},
         {  "Social Science": "4-6",
           "4-6" : [
             {
-              "Diff": "Basic"
+              "Diff": "Basic",
+              "Basic": [
+                {
+                  "question": "Which is the largest continent in the world?[Basic 4-6 ]",
+                  "Option1": "Asia",
+                  "Option2":"Europe",
+                  "Option3":"Africa",
+                  "Option4":"North America",
+                  "correctIndex": "Asia"
+                },
+                {
+                  "question": "What is the capital of India?[Basic 4-6 ]",
+                  "Option1":"Mumbai",
+                  "Option2":"Kolkata",
+                  "Option3":"Delhi",
+                  "Option4":"Chennai",
+                  "correctIndex": "Delhi"
+                },
+                {
+                  "question": "Which country is known as the 'Land of Rising Sun'?[Basic 4-6 ]",
+                  "Option1": "China",
+                  "Option2": "Japan",
+                  "Option3": "South Korea",
+                  "Option4": "Vietnam",
+                  "correctIndex": "Japan"
+                },
+                {
+                  "question": "Which is the largest river in the world?[Basic 4-6 ]",
+                  "Option1": "Nile",
+                  "Option2": "Amazon",
+                  "Option3": "Mississippi",
+                  "Option4": "Yangtze",
+                  "correctIndex": "Amazon"
+                },
+                {
+                  "question": "Which is the highest mountain peak in the world?[Basic 4-6 ]",
+                  "Option1": "Mount Kilimanjaro",
+                  "Option2": "Mount Everest",
+                  "Option3": "Mount Fuji",
+                  "Option4": "Mount Denali",
+                  "correctIndex": "Mount Everest"
+                },
+                {
+                  "question": "Which country has the largest population in the world?[Basic 4-6 ]",
+                  "Option1": "India",
+                  "Option2": "China",
+                  "Option3": "United States",
+                  "Option4": "Russia",
+                  "correctIndex": "China"
+                },
+                {
+                  "question": "What is the currency of Japan?[Basic 4-6 ]",
+                  "Option1": "Yuan",
+                  "Option2": "Euro",
+                  "Option3": "Dollar",
+                  "Option4": "Yen",
+                  "correctIndex": "Yen"
+                },
+                {
+                  "question": "Which is the largest ocean in the world?[Basic 4-6 ]",
+                  "Option1": "Pacific Ocean",
+                  "Option2": "Atlantic Ocean",
+                  "Option3": "Indian Ocean",
+                  "Option4": "Arctic Ocean",
+                  "correctIndex": "Pacific Ocean"
+                },
+                {
+                  "question": "Who is the current President of the United States?[Basic 4-6 ]",
+                  "Option1": "Joe Biden",
+                  "Option2": "Donald Trump",
+                  "Option3": "Barack Obama",
+                  "Option4": "George W. Bush",
+                  "correctIndex": "Joe Biden"
+                },
+                {
+                  "question": "What is the largest country in the world by area?[Basic 4-6 ]",
+                  "Option1": "Russia",
+                  "Option2": "Canada",
+                  "Option3": "China",
+                  "Option4": "United States",
+                  "correctIndex": "Russia"
+                },
+                {
+                  "question": "Who is the current President of the United States?[Basic 4-6 ]",
+                  "Option1": "Joe Biden",
+                  "Option2": "Donald Trump",
+                  "Option3": "Barack Obama",
+                  "Option4": "George W. Bush",
+                  "correctIndex": "Joe Biden"
+                },
+                {
+                  "question": "What is the largest country in the world by area?[Basic 4-6 ]",
+                  "Option1": "Russia",
+                  "Option2": "Canada",
+                  "Option3": "China",
+                  "Option4": "United States",
+                  "correctIndex": "Russia"
+                }
+              ]
             },
             {
-              "Diff": "Medium"
+              "Diff": "Medium",
+              "Medium": [
+                {
+                  "question": "Which is the largest continent in the world?[M 4-6 ]",
+                  "Option1": "Asia",
+                  "Option2":"Europe",
+                  "Option3":"Africa",
+                  "Option4":"North America",
+                  "correctIndex": "Asia"
+                },
+                {
+                  "question": "What is the capital of India?[M 4-6 ]",
+                  "Option1":"Mumbai",
+                  "Option2":"Kolkata",
+                  "Option3":"Delhi",
+                  "Option4":"Chennai",
+                  "correctIndex": "Delhi"
+                },
+                {
+                  "question": "Which country is known as the 'Land of Rising Sun'?[M 4-6 ]",
+                  "Option1": "China",
+                  "Option2": "Japan",
+                  "Option3": "South Korea",
+                  "Option4": "Vietnam",
+                  "correctIndex": "Japan"
+                },
+                {
+                  "question": "Which is the largest river in the world?[M 4-6 ]",
+                  "Option1": "Nile",
+                  "Option2": "Amazon",
+                  "Option3": "Mississippi",
+                  "Option4": "Yangtze",
+                  "correctIndex": "Amazon"
+                },
+                {
+                  "question": "Which is the highest mountain peak in the world?[M 4-6 ]",
+                  "Option1": "Mount Kilimanjaro",
+                  "Option2": "Mount Everest",
+                  "Option3": "Mount Fuji",
+                  "Option4": "Mount Denali",
+                  "correctIndex": "Mount Everest"
+                },
+                {
+                  "question": "Which country has the largest population in the world?[M 4-6 ]",
+                  "Option1": "India",
+                  "Option2": "China",
+                  "Option3": "United States",
+                  "Option4": "Russia",
+                  "correctIndex": "China"
+                },
+                {
+                  "question": "What is the currency of Japan?[M 4-6]",
+                  "Option1": "Yuan",
+                  "Option2": "Euro",
+                  "Option3": "Dollar",
+                  "Option4": "Yen",
+                  "correctIndex": "Yen"
+                },
+                {
+                  "question": "Which is the largest ocean in the world?[M 4-6 ]",
+                  "Option1": "Pacific Ocean",
+                  "Option2": "Atlantic Ocean",
+                  "Option3": "Indian Ocean",
+                  "Option4": "Arctic Ocean",
+                  "correctIndex": "Pacific Ocean"
+                },
+                {
+                  "question": "Who is the current President of the United States?[M 4-6 ]",
+                  "Option1": "Joe Biden",
+                  "Option2": "Donald Trump",
+                  "Option3": "Barack Obama",
+                  "Option4": "George W. Bush",
+                  "correctIndex": "Joe Biden"
+                },
+                {
+                  "question": "What is the largest country in the world by area?[M 4-6 ]",
+                  "Option1": "Russia",
+                  "Option2": "Canada",
+                  "Option3": "China",
+                  "Option4": "United States",
+                  "correctIndex": "Russia"
+                },
+                {
+                  "question": "Who is the current President of the United States?[M 4-6 ]",
+                  "Option1": "Joe Biden",
+                  "Option2": "Donald Trump",
+                  "Option3": "Barack Obama",
+                  "Option4": "George W. Bush",
+                  "correctIndex": "Joe Biden"
+                },
+                {
+                  "question": "What is the largest country in the world by area?[M 4-6 ]",
+                  "Option1": "Russia",
+                  "Option2": "Canada",
+                  "Option3": "China",
+                  "Option4": "United States",
+                  "correctIndex": "Russia"
+                }
+              ]
             },
             {
-              "Diff": "Hard"
-            }
-          ]
-        },
+              "Diff": "Hard",
+              "Hard": [
+                {
+                  "question": "Which is the largest continent in the world?[H 4-6 ]",
+                  "Option1": "Asia",
+                  "Option2":"Europe",
+                  "Option3":"Africa",
+                  "Option4":"North America",
+                  "correctIndex": "Asia"
+                },
+                {
+                  "question": "What is the capital of India?[H 4-6 ]",
+                  "Option1":"Mumbai",
+                  "Option2":"Kolkata",
+                  "Option3":"Delhi",
+                  "Option4":"Chennai",
+                  "correctIndex": "Delhi"
+                },
+                {
+                  "question": "Which country is known as the 'Land of Rising Sun'?[H 4-6 ]",
+                  "Option1": "China",
+                  "Option2": "Japan",
+                  "Option3": "South Korea",
+                  "Option4": "Vietnam",
+                  "correctIndex": "Japan"
+                },
+                {
+                  "question": "Which is the largest river in the world?[H 4-6 ]",
+                  "Option1": "Nile",
+                  "Option2": "Amazon",
+                  "Option3": "Mississippi",
+                  "Option4": "Yangtze",
+                  "correctIndex": "Amazon"
+                },
+                {
+                  "question": "Which is the highest mountain peak in the world?[H 4-6 ]",
+                  "Option1": "Mount Kilimanjaro",
+                  "Option2": "Mount Everest",
+                  "Option3": "Mount Fuji",
+                  "Option4": "Mount Denali",
+                  "correctIndex": "Mount Everest"
+                },
+                {
+                  "question": "Which country has the largest population in the world?[H 4-6 ]",
+                  "Option1": "India",
+                  "Option2": "China",
+                  "Option3": "United States",
+                  "Option4": "Russia",
+                  "correctIndex": "China"
+                },
+                {
+                  "question": "What is the currency of Japan?[H 4-6 ]",
+                  "Option1": "Yuan",
+                  "Option2": "Euro",
+                  "Option3": "Dollar",
+                  "Option4": "Yen",
+                  "correctIndex": "Yen"
+                },
+                {
+                  "question": "Which is the largest ocean in the world?[H 4-6 ]",
+                  "Option1": "Pacific Ocean",
+                  "Option2": "Atlantic Ocean",
+                  "Option3": "Indian Ocean",
+                  "Option4": "Arctic Ocean",
+                  "correctIndex": "Pacific Ocean"
+                },
+                {
+                  "question": "Who is the current President of the United States?[H 4-6 ]",
+                  "Option1": "Joe Biden",
+                  "Option2": "Donald Trump",
+                  "Option3": "Barack Obama",
+                  "Option4": "George W. Bush",
+                  "correctIndex": "Joe Biden"
+                },
+                {
+                  "question": "What is the largest country in the world by area?[H 4-6 ]",
+                  "Option1": "Russia",
+                  "Option2": "Canada",
+                  "Option3": "China",
+                  "Option4": "United States",
+                  "correctIndex": "Russia"
+                },
+                {
+                  "question": "Who is the current President of the United States?[H 4-6 ]",
+                  "Option1": "Joe Biden",
+                  "Option2": "Donald Trump",
+                  "Option3": "Barack Obama",
+                  "Option4": "George W. Bush",
+                  "correctIndex": "Joe Biden"
+                },
+                {
+                  "question": "What is the largest country in the world by area?[H 4-6 ]",
+                  "Option1": "Russia",
+                  "Option2": "Canada",
+                  "Option3": "China",
+                  "Option4": "United States",
+                  "correctIndex": "Russia"
+                }
+              ]
+            }]},
         { "Social Science": "7-9",
           "7-9" : [
             {
-              "Diff": "Basic"
+              "Diff": "Basic",
+              "Basic": [
+                {
+                  "question": "Which is the largest continent in the world?[Basic 7-9 ]",
+                  "Option1": "Asia",
+                  "Option2":"Europe",
+                  "Option3":"Africa",
+                  "Option4":"North America",
+                  "correctIndex": "Asia"
+                },
+                {
+                  "question": "What is the capital of India?[Basic 7-9 ]",
+                  "Option1":"Mumbai",
+                  "Option2":"Kolkata",
+                  "Option3":"Delhi",
+                  "Option4":"Chennai",
+                  "correctIndex": "Delhi"
+                },
+                {
+                  "question": "Which country is known as the 'Land of Rising Sun'?[Basic 7-9 ]",
+                  "Option1": "China",
+                  "Option2": "Japan",
+                  "Option3": "South Korea",
+                  "Option4": "Vietnam",
+                  "correctIndex": "Japan"
+                },
+                {
+                  "question": "Which is the largest river in the world?[Basic 7-9 ]",
+                  "Option1": "Nile",
+                  "Option2": "Amazon",
+                  "Option3": "Mississippi",
+                  "Option4": "Yangtze",
+                  "correctIndex": "Amazon"
+                },
+                {
+                  "question": "Which is the highest mountain peak in the world?[Basic 7-9 ]",
+                  "Option1": "Mount Kilimanjaro",
+                  "Option2": "Mount Everest",
+                  "Option3": "Mount Fuji",
+                  "Option4": "Mount Denali",
+                  "correctIndex": "Mount Everest"
+                },
+                {
+                  "question": "Which country has the largest population in the world?[Basic 7-9 ]",
+                  "Option1": "India",
+                  "Option2": "China",
+                  "Option3": "United States",
+                  "Option4": "Russia",
+                  "correctIndex": "China"
+                },
+                {
+                  "question": "What is the currency of Japan?[Basic 7-9 ]",
+                  "Option1": "Yuan",
+                  "Option2": "Euro",
+                  "Option3": "Dollar",
+                  "Option4": "Yen",
+                  "correctIndex": "Yen"
+                },
+                {
+                  "question": "Which is the largest ocean in the world?[Basic 7-9 ]",
+                  "Option1": "Pacific Ocean",
+                  "Option2": "Atlantic Ocean",
+                  "Option3": "Indian Ocean",
+                  "Option4": "Arctic Ocean",
+                  "correctIndex": "Pacific Ocean"
+                },
+                {
+                  "question": "Who is the current President of the United States?[Basic 7-9 ]",
+                  "Option1": "Joe Biden",
+                  "Option2": "Donald Trump",
+                  "Option3": "Barack Obama",
+                  "Option4": "George W. Bush",
+                  "correctIndex": "Joe Biden"
+                },
+                {
+                  "question": "What is the largest country in the world by area?[Basic 7-9 ]",
+                  "Option1": "Russia",
+                  "Option2": "Canada",
+                  "Option3": "China",
+                  "Option4": "United States",
+                  "correctIndex": "Russia"
+                },
+                {
+                  "question": "Who is the current President of the United States?[Basic 7-9 ]",
+                  "Option1": "Joe Biden",
+                  "Option2": "Donald Trump",
+                  "Option3": "Barack Obama",
+                  "Option4": "George W. Bush",
+                  "correctIndex": "Joe Biden"
+                },
+                {
+                  "question": "What is the largest country in the world by area?[Basic 7-9 ]",
+                  "Option1": "Russia",
+                  "Option2": "Canada",
+                  "Option3": "China",
+                  "Option4": "United States",
+                  "correctIndex": "Russia"
+                }
+              ]
             },
             {
-              "Diff": "Medium"
+              "Diff": "Medium",
+              "Medium": [
+                {
+                  "question": "Which is the largest continent in the world?[M 7-9 ]",
+                  "Option1": "Asia",
+                  "Option2":"Europe",
+                  "Option3":"Africa",
+                  "Option4":"North America",
+                  "correctIndex": "Asia"
+                },
+                {
+                  "question": "What is the capital of India?[M 7-9 ]",
+                  "Option1":"Mumbai",
+                  "Option2":"Kolkata",
+                  "Option3":"Delhi",
+                  "Option4":"Chennai",
+                  "correctIndex": "Delhi"
+                },
+                {
+                  "question": "Which country is known as the 'Land of Rising Sun'?[M 7-9 ]",
+                  "Option1": "China",
+                  "Option2": "Japan",
+                  "Option3": "South Korea",
+                  "Option4": "Vietnam",
+                  "correctIndex": "Japan"
+                },
+                {
+                  "question": "Which is the largest river in the world?[M 7-9 ]",
+                  "Option1": "Nile",
+                  "Option2": "Amazon",
+                  "Option3": "Mississippi",
+                  "Option4": "Yangtze",
+                  "correctIndex": "Amazon"
+                },
+                {
+                  "question": "Which is the highest mountain peak in the world?[M 7-9 ]",
+                  "Option1": "Mount Kilimanjaro",
+                  "Option2": "Mount Everest",
+                  "Option3": "Mount Fuji",
+                  "Option4": "Mount Denali",
+                  "correctIndex": "Mount Everest"
+                },
+                {
+                  "question": "Which country has the largest population in the world?[M 7-9 ]",
+                  "Option1": "India",
+                  "Option2": "China",
+                  "Option3": "United States",
+                  "Option4": "Russia",
+                  "correctIndex": "China"
+                },
+                {
+                  "question": "What is the currency of Japan?[M 7-9]",
+                  "Option1": "Yuan",
+                  "Option2": "Euro",
+                  "Option3": "Dollar",
+                  "Option4": "Yen",
+                  "correctIndex": "Yen"
+                },
+                {
+                  "question": "Which is the largest ocean in the world?[M 7-9 ]",
+                  "Option1": "Pacific Ocean",
+                  "Option2": "Atlantic Ocean",
+                  "Option3": "Indian Ocean",
+                  "Option4": "Arctic Ocean",
+                  "correctIndex": "Pacific Ocean"
+                },
+                {
+                  "question": "Who is the current President of the United States?[M 7-9 ]",
+                  "Option1": "Joe Biden",
+                  "Option2": "Donald Trump",
+                  "Option3": "Barack Obama",
+                  "Option4": "George W. Bush",
+                  "correctIndex": "Joe Biden"
+                },
+                {
+                  "question": "What is the largest country in the world by area?[M 7-9 ]",
+                  "Option1": "Russia",
+                  "Option2": "Canada",
+                  "Option3": "China",
+                  "Option4": "United States",
+                  "correctIndex": "Russia"
+                },
+                {
+                  "question": "Who is the current President of the United States?[M 7-9 ]",
+                  "Option1": "Joe Biden",
+                  "Option2": "Donald Trump",
+                  "Option3": "Barack Obama",
+                  "Option4": "George W. Bush",
+                  "correctIndex": "Joe Biden"
+                },
+                {
+                  "question": "What is the largest country in the world by area?[M 7-9 ]",
+                  "Option1": "Russia",
+                  "Option2": "Canada",
+                  "Option3": "China",
+                  "Option4": "United States",
+                  "correctIndex": "Russia"
+                }
+              ]
             },
             {
-              "Diff": "Hard"
-            }
-          ]
-        },
+              "Diff": "Hard",
+              "Hard": [
+                {
+                  "question": "Which is the largest continent in the world?[H 7-9 ]",
+                  "Option1": "Asia",
+                  "Option2":"Europe",
+                  "Option3":"Africa",
+                  "Option4":"North America",
+                  "correctIndex": "Asia"
+                },
+                {
+                  "question": "What is the capital of India?[H 7-9 ]",
+                  "Option1":"Mumbai",
+                  "Option2":"Kolkata",
+                  "Option3":"Delhi",
+                  "Option4":"Chennai",
+                  "correctIndex": "Delhi"
+                },
+                {
+                  "question": "Which country is known as the 'Land of Rising Sun'?[H 7-9 ]",
+                  "Option1": "China",
+                  "Option2": "Japan",
+                  "Option3": "South Korea",
+                  "Option4": "Vietnam",
+                  "correctIndex": "Japan"
+                },
+                {
+                  "question": "Which is the largest river in the world?[H 7-9 ]",
+                  "Option1": "Nile",
+                  "Option2": "Amazon",
+                  "Option3": "Mississippi",
+                  "Option4": "Yangtze",
+                  "correctIndex": "Amazon"
+                },
+                {
+                  "question": "Which is the highest mountain peak in the world?[H 7-9 ]",
+                  "Option1": "Mount Kilimanjaro",
+                  "Option2": "Mount Everest",
+                  "Option3": "Mount Fuji",
+                  "Option4": "Mount Denali",
+                  "correctIndex": "Mount Everest"
+                },
+                {
+                  "question": "Which country has the largest population in the world?[H 7-9 ]",
+                  "Option1": "India",
+                  "Option2": "China",
+                  "Option3": "United States",
+                  "Option4": "Russia",
+                  "correctIndex": "China"
+                },
+                {
+                  "question": "What is the currency of Japan?[H 7-9 ]",
+                  "Option1": "Yuan",
+                  "Option2": "Euro",
+                  "Option3": "Dollar",
+                  "Option4": "Yen",
+                  "correctIndex": "Yen"
+                },
+                {
+                  "question": "Which is the largest ocean in the world?[H 7-9 ]",
+                  "Option1": "Pacific Ocean",
+                  "Option2": "Atlantic Ocean",
+                  "Option3": "Indian Ocean",
+                  "Option4": "Arctic Ocean",
+                  "correctIndex": "Pacific Ocean"
+                },
+                {
+                  "question": "Who is the current President of the United States?[H 7-9 ]",
+                  "Option1": "Joe Biden",
+                  "Option2": "Donald Trump",
+                  "Option3": "Barack Obama",
+                  "Option4": "George W. Bush",
+                  "correctIndex": "Joe Biden"
+                },
+                {
+                  "question": "What is the largest country in the world by area?[H 7-9 ]",
+                  "Option1": "Russia",
+                  "Option2": "Canada",
+                  "Option3": "China",
+                  "Option4": "United States",
+                  "correctIndex": "Russia"
+                },
+                {
+                  "question": "Who is the current President of the United States?[H 7-9 ]",
+                  "Option1": "Joe Biden",
+                  "Option2": "Donald Trump",
+                  "Option3": "Barack Obama",
+                  "Option4": "George W. Bush",
+                  "correctIndex": "Joe Biden"
+                },
+                {
+                  "question": "What is the largest country in the world by area?[H 7-9 ]",
+                  "Option1": "Russia",
+                  "Option2": "Canada",
+                  "Option3": "China",
+                  "Option4": "United States",
+                  "correctIndex": "Russia"
+                }
+              ]
+            }]},
         {  "Social Science": "10-12",
           "10-12" : [
             {
-              "Diff": "Basic"
+              "Diff": "Basic",
+              "Basic": [
+                {
+                  "question": "Which is the largest continent in the world?[Basic 10-12 ]",
+                  "Option1": "Asia",
+                  "Option2":"Europe",
+                  "Option3":"Africa",
+                  "Option4":"North America",
+                  "correctIndex": "Asia"
+                },
+                {
+                  "question": "What is the capital of India?[Basic 10-12 ]",
+                  "Option1":"Mumbai",
+                  "Option2":"Kolkata",
+                  "Option3":"Delhi",
+                  "Option4":"Chennai",
+                  "correctIndex": "Delhi"
+                },
+                {
+                  "question": "Which country is known as the 'Land of Rising Sun'?[Basic 10-12 ]",
+                  "Option1": "China",
+                  "Option2": "Japan",
+                  "Option3": "South Korea",
+                  "Option4": "Vietnam",
+                  "correctIndex": "Japan"
+                },
+                {
+                  "question": "Which is the largest river in the world?[Basic 10-12 ]",
+                  "Option1": "Nile",
+                  "Option2": "Amazon",
+                  "Option3": "Mississippi",
+                  "Option4": "Yangtze",
+                  "correctIndex": "Amazon"
+                },
+                {
+                  "question": "Which is the highest mountain peak in the world?[Basic 10-12 ]",
+                  "Option1": "Mount Kilimanjaro",
+                  "Option2": "Mount Everest",
+                  "Option3": "Mount Fuji",
+                  "Option4": "Mount Denali",
+                  "correctIndex": "Mount Everest"
+                },
+                {
+                  "question": "Which country has the largest population in the world?[Basic 10-12 ]",
+                  "Option1": "India",
+                  "Option2": "China",
+                  "Option3": "United States",
+                  "Option4": "Russia",
+                  "correctIndex": "China"
+                },
+                {
+                  "question": "What is the currency of Japan?[Basic 10-12 ]",
+                  "Option1": "Yuan",
+                  "Option2": "Euro",
+                  "Option3": "Dollar",
+                  "Option4": "Yen",
+                  "correctIndex": "Yen"
+                },
+                {
+                  "question": "Which is the largest ocean in the world?[Basic 10-12 ]",
+                  "Option1": "Pacific Ocean",
+                  "Option2": "Atlantic Ocean",
+                  "Option3": "Indian Ocean",
+                  "Option4": "Arctic Ocean",
+                  "correctIndex": "Pacific Ocean"
+                },
+                {
+                  "question": "Who is the current President of the United States?[Basic 10-12 ]",
+                  "Option1": "Joe Biden",
+                  "Option2": "Donald Trump",
+                  "Option3": "Barack Obama",
+                  "Option4": "George W. Bush",
+                  "correctIndex": "Joe Biden"
+                },
+                {
+                  "question": "What is the largest country in the world by area?[Basic 10-12 ]",
+                  "Option1": "Russia",
+                  "Option2": "Canada",
+                  "Option3": "China",
+                  "Option4": "United States",
+                  "correctIndex": "Russia"
+                },
+                {
+                  "question": "Who is the current President of the United States?[Basic 10-12 ]",
+                  "Option1": "Joe Biden",
+                  "Option2": "Donald Trump",
+                  "Option3": "Barack Obama",
+                  "Option4": "George W. Bush",
+                  "correctIndex": "Joe Biden"
+                },
+                {
+                  "question": "What is the largest country in the world by area?[Basic 10-12 ]",
+                  "Option1": "Russia",
+                  "Option2": "Canada",
+                  "Option3": "China",
+                  "Option4": "United States",
+                  "correctIndex": "Russia"
+                }
+              ]
             },
             {
-              "Diff": "Medium"
+              "Diff": "Medium",
+              "Medium": [
+                {
+                  "question": "Which is the largest continent in the world?[M 10-12 ]",
+                  "Option1": "Asia",
+                  "Option2":"Europe",
+                  "Option3":"Africa",
+                  "Option4":"North America",
+                  "correctIndex": "Asia"
+                },
+                {
+                  "question": "What is the capital of India?[M 10-12 ]",
+                  "Option1":"Mumbai",
+                  "Option2":"Kolkata",
+                  "Option3":"Delhi",
+                  "Option4":"Chennai",
+                  "correctIndex": "Delhi"
+                },
+                {
+                  "question": "Which country is known as the 'Land of Rising Sun'?[M 10-12 ]",
+                  "Option1": "China",
+                  "Option2": "Japan",
+                  "Option3": "South Korea",
+                  "Option4": "Vietnam",
+                  "correctIndex": "Japan"
+                },
+                {
+                  "question": "Which is the largest river in the world?[M 10-12 ]",
+                  "Option1": "Nile",
+                  "Option2": "Amazon",
+                  "Option3": "Mississippi",
+                  "Option4": "Yangtze",
+                  "correctIndex": "Amazon"
+                },
+                {
+                  "question": "Which is the highest mountain peak in the world?[M 10-12 ]",
+                  "Option1": "Mount Kilimanjaro",
+                  "Option2": "Mount Everest",
+                  "Option3": "Mount Fuji",
+                  "Option4": "Mount Denali",
+                  "correctIndex": "Mount Everest"
+                },
+                {
+                  "question": "Which country has the largest population in the world?[M 10-12 ]",
+                  "Option1": "India",
+                  "Option2": "China",
+                  "Option3": "United States",
+                  "Option4": "Russia",
+                  "correctIndex": "China"
+                },
+                {
+                  "question": "What is the currency of Japan?[M 10-12]",
+                  "Option1": "Yuan",
+                  "Option2": "Euro",
+                  "Option3": "Dollar",
+                  "Option4": "Yen",
+                  "correctIndex": "Yen"
+                },
+                {
+                  "question": "Which is the largest ocean in the world?[M 10-12 ]",
+                  "Option1": "Pacific Ocean",
+                  "Option2": "Atlantic Ocean",
+                  "Option3": "Indian Ocean",
+                  "Option4": "Arctic Ocean",
+                  "correctIndex": "Pacific Ocean"
+                },
+                {
+                  "question": "Who is the current President of the United States?[M 10-12 ]",
+                  "Option1": "Joe Biden",
+                  "Option2": "Donald Trump",
+                  "Option3": "Barack Obama",
+                  "Option4": "George W. Bush",
+                  "correctIndex": "Joe Biden"
+                },
+                {
+                  "question": "What is the largest country in the world by area?[M 10-12 ]",
+                  "Option1": "Russia",
+                  "Option2": "Canada",
+                  "Option3": "China",
+                  "Option4": "United States",
+                  "correctIndex": "Russia"
+                },
+                {
+                  "question": "Who is the current President of the United States?[M 10-12 ]",
+                  "Option1": "Joe Biden",
+                  "Option2": "Donald Trump",
+                  "Option3": "Barack Obama",
+                  "Option4": "George W. Bush",
+                  "correctIndex": "Joe Biden"
+                },
+                {
+                  "question": "What is the largest country in the world by area?[M 10-12 ]",
+                  "Option1": "Russia",
+                  "Option2": "Canada",
+                  "Option3": "China",
+                  "Option4": "United States",
+                  "correctIndex": "Russia"
+                }
+              ]
             },
             {
-              "Diff": "Hard"
-            }
-          ]
-        },
+              "Diff": "Hard",
+              "Hard": [
+                {
+                  "question": "Which is the largest continent in the world?[H 10-12 ]",
+                  "Option1": "Asia",
+                  "Option2":"Europe",
+                  "Option3":"Africa",
+                  "Option4":"North America",
+                  "correctIndex": "Asia"
+                },
+                {
+                  "question": "What is the capital of India?[H 10-12 ]",
+                  "Option1":"Mumbai",
+                  "Option2":"Kolkata",
+                  "Option3":"Delhi",
+                  "Option4":"Chennai",
+                  "correctIndex": "Delhi"
+                },
+                {
+                  "question": "Which country is known as the 'Land of Rising Sun'?[H 10-12 ]",
+                  "Option1": "China",
+                  "Option2": "Japan",
+                  "Option3": "South Korea",
+                  "Option4": "Vietnam",
+                  "correctIndex": "Japan"
+                },
+                {
+                  "question": "Which is the largest river in the world?[H 10-12 ]",
+                  "Option1": "Nile",
+                  "Option2": "Amazon",
+                  "Option3": "Mississippi",
+                  "Option4": "Yangtze",
+                  "correctIndex": "Amazon"
+                },
+                {
+                  "question": "Which is the highest mountain peak in the world?[H 10-12 ]",
+                  "Option1": "Mount Kilimanjaro",
+                  "Option2": "Mount Everest",
+                  "Option3": "Mount Fuji",
+                  "Option4": "Mount Denali",
+                  "correctIndex": "Mount Everest"
+                },
+                {
+                  "question": "Which country has the largest population in the world?[H 10-12 ]",
+                  "Option1": "India",
+                  "Option2": "China",
+                  "Option3": "United States",
+                  "Option4": "Russia",
+                  "correctIndex": "China"
+                },
+                {
+                  "question": "What is the currency of Japan?[H 10-12 ]",
+                  "Option1": "Yuan",
+                  "Option2": "Euro",
+                  "Option3": "Dollar",
+                  "Option4": "Yen",
+                  "correctIndex": "Yen"
+                },
+                {
+                  "question": "Which is the largest ocean in the world?[H 10-12 ]",
+                  "Option1": "Pacific Ocean",
+                  "Option2": "Atlantic Ocean",
+                  "Option3": "Indian Ocean",
+                  "Option4": "Arctic Ocean",
+                  "correctIndex": "Pacific Ocean"
+                },
+                {
+                  "question": "Who is the current President of the United States?[H 10-12 ]",
+                  "Option1": "Joe Biden",
+                  "Option2": "Donald Trump",
+                  "Option3": "Barack Obama",
+                  "Option4": "George W. Bush",
+                  "correctIndex": "Joe Biden"
+                },
+                {
+                  "question": "What is the largest country in the world by area?[H 10-12 ]",
+                  "Option1": "Russia",
+                  "Option2": "Canada",
+                  "Option3": "China",
+                  "Option4": "United States",
+                  "correctIndex": "Russia"
+                },
+                {
+                  "question": "Who is the current President of the United States?[H 10-12 ]",
+                  "Option1": "Joe Biden",
+                  "Option2": "Donald Trump",
+                  "Option3": "Barack Obama",
+                  "Option4": "George W. Bush",
+                  "correctIndex": "Joe Biden"
+                },
+                {
+                  "question": "What is the largest country in the world by area?[H 10-12 ]",
+                  "Option1": "Russia",
+                  "Option2": "Canada",
+                  "Option3": "China",
+                  "Option4": "United States",
+                  "correctIndex": "Russia"
+                }
+              ]
+            }]},
         {
           "Social Science": "12+ / B tech",
           "12+ / B tech" : [
