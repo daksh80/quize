@@ -5954,52 +5954,1228 @@
           "Science": "1-3",
           "1-3" : [
             {
-              "Diff": "Basic"
+              "Diff": "Basic",
+              "Basic": [
+                {
+                  "question": "What is the closest planet to the Sun??[Basic 1-3 ]",
+                  "Option1": "Venus",
+                  "Option2":"Mercury",
+                  "Option3":"Mars",
+                  "Option4":"Jupiter",
+                  "correctIndex": "Mercury"
+                },
+                {
+                  "question": "Which gas is most abundant in the Earth's atmosphere?[Basic 1-3 ]",
+                  "Option1":"Oxygen",
+                  "Option2":"Carbon dioxide",
+                  "Option3":"Nitrogen",
+                  "Option4":"Methane",
+                  "correctIndex": "Nitrogen"
+                },
+                {
+                  "question": "What is the process by which plants make their own food?[Basic 1-3 ]",
+                  "Option1": "Photosynthesis",
+                  "Option2": "Respiration",
+                  "Option3": "Digestion",
+                  "Option4": "Excretion",
+                  "correctIndex": "Photosynthesis"
+                },
+                {
+                  "question": "Which planet is known as the 'Red Planet'?[Basic 1-3 ]",
+                  "Option1": "Venus",
+                  "Option2": "Mercury",
+                  "Option3": "Mars",
+                  "Option4": "Jupiter",
+                  "correctIndex": "Mars"
+                },
+                {
+                  "question": "What is the smallest unit of life?[Basic 1-3 ]",
+                  "Option1": "Cell",
+                  "Option2": "Molecule",
+                  "Option3": "Atom",
+                  "Option4": "Organism",
+                  "correctIndex": "Cell"
+                },
+                {
+                  "question": "What is the force that holds atoms together in a molecule?[Basic 1-3 ]",
+                  "Option1": "Gravity",
+                  "Option2": "Electromagnetism",
+                  "Option3": "Nuclear force",
+                  "Option4": "Weak force",
+                  "correctIndex": "Electromagnetism"
+                },
+                {
+                  "question": "What is the boiling point of water in Celsius?[Basic 1-3 ]",
+                  "Option1": "0 degrees",
+                  "Option2": "100 degrees",
+                  "Option3": "50 degrees",
+                  "Option4": "75 degrees",
+                  "correctIndex": "100 degrees"
+                },
+                {
+                  "question": "What is the process by which liquid water turns into water vapor?[Basic 1-3 ]",
+                  "Option1": "Freezing",
+                  "Option2": "Melting",
+                  "Option3": "Condensation",
+                  "Option4": "Evaporation",
+                  "correctIndex": "Evaporation"
+                },
+                {
+                  "question": "What type of energy is stored in an object due to its position or condition?[Basic 1-3 ]",
+                  "Option1": "Kinetic energy",
+                  "Option2": "Electrical energy",
+                  "Option3": "Nuclear energy",
+                  "Option4": "Potential energy",
+                  "correctIndex": "Potential energy"
+                },
+                {
+                  "question": "What type of waves are used to transmit radio and TV signals?[Basic 1-3 ]",
+                  "Option1": "Sound waves",
+                  "Option2": "X-rays",
+                  "Option3": "Radio waves",
+                  "Option4": "Ultraviolet waves",
+                  "correctIndex": "Radio waves"
+                },
+                {
+                  "question": "What type of energy is stored in an object due to its position or condition?[Basic 1-3 ]",
+                  "Option1": "Kinetic energy",
+                  "Option2": "Electrical energy",
+                  "Option3": "Nuclear energy",
+                  "Option4": "Potential energy",
+                  "correctIndex": "Potential energy"
+                },
+                {
+                  "question": "What type of waves are used to transmit radio and TV signals?[Basic 1-3 ]",
+                  "Option1": "Sound waves",
+                  "Option2": "X-rays",
+                  "Option3": "Radio waves",
+                  "Option4": "Ultraviolet waves",
+                  "correctIndex": "Radio waves"
+                }
+              ]
             },
             {
-              "Diff": "Medium"
+              "Diff": "Medium",
+              "Medium": [
+                {
+                  "question": "What is the closest planet to the Sun??[Medium 1-3 ]",
+                  "Option1": "Venus",
+                  "Option2":"Mercury",
+                  "Option3":"Mars",
+                  "Option4":"Jupiter",
+                  "correctIndex": "Mercury"
+                },
+                {
+                  "question": "Which gas is most abundant in the Earth's atmosphere?[Medium 1-3 ]",
+                  "Option1":"Oxygen",
+                  "Option2":"Carbon dioxide",
+                  "Option3":"Nitrogen",
+                  "Option4":"Methane",
+                  "correctIndex": "Nitrogen"
+                },
+                {
+                  "question": "What is the process by which plants make their own food?[Medium 1-3 ]",
+                  "Option1": "Photosynthesis",
+                  "Option2": "Respiration",
+                  "Option3": "Digestion",
+                  "Option4": "Excretion",
+                  "correctIndex": "Photosynthesis"
+                },
+                {
+                  "question": "Which planet is known as the 'Red Planet'?[Medium 1-3 ]",
+                  "Option1": "Venus",
+                  "Option2": "Mercury",
+                  "Option3": "Mars",
+                  "Option4": "Jupiter",
+                  "correctIndex": "Mars"
+                },
+                {
+                  "question": "What is the smallest unit of life?[Medium 1-3 ]",
+                  "Option1": "Cell",
+                  "Option2": "Molecule",
+                  "Option3": "Atom",
+                  "Option4": "Organism",
+                  "correctIndex": "Cell"
+                },
+                {
+                  "question": "What is the force that holds atoms together in a molecule?[Medium 1-3 ]",
+                  "Option1": "Gravity",
+                  "Option2": "Electromagnetism",
+                  "Option3": "Nuclear force",
+                  "Option4": "Weak force",
+                  "correctIndex": "Electromagnetism"
+                },
+                {
+                  "question": "What is the boiling point of water in Celsius?[Medium 1-3 ]",
+                  "Option1": "0 degrees",
+                  "Option2": "100 degrees",
+                  "Option3": "50 degrees",
+                  "Option4": "75 degrees",
+                  "correctIndex": "100 degrees"
+                },
+                {
+                  "question": "What is the process by which liquid water turns into water vapor?[Medium 1-3 ]",
+                  "Option1": "Freezing",
+                  "Option2": "Melting",
+                  "Option3": "Condensation",
+                  "Option4": "Evaporation",
+                  "correctIndex": "Evaporation"
+                },
+                {
+                  "question": "What type of energy is stored in an object due to its position or condition?[Medium 1-3 ]",
+                  "Option1": "Kinetic energy",
+                  "Option2": "Electrical energy",
+                  "Option3": "Nuclear energy",
+                  "Option4": "Potential energy",
+                  "correctIndex": "Potential energy"
+                },
+                {
+                  "question": "What type of waves are used to transmit radio and TV signals?[Medium 1-3 ]",
+                  "Option1": "Sound waves",
+                  "Option2": "X-rays",
+                  "Option3": "Radio waves",
+                  "Option4": "Ultraviolet waves",
+                  "correctIndex": "Radio waves"
+                },
+                {
+                  "question": "What type of energy is stored in an object due to its position or condition?[Medium 1-3 ]",
+                  "Option1": "Kinetic energy",
+                  "Option2": "Electrical energy",
+                  "Option3": "Nuclear energy",
+                  "Option4": "Potential energy",
+                  "correctIndex": "Potential energy"
+                },
+                {
+                  "question": "What type of waves are used to transmit radio and TV signals?[Medium 1-3 ]",
+                  "Option1": "Sound waves",
+                  "Option2": "X-rays",
+                  "Option3": "Radio waves",
+                  "Option4": "Ultraviolet waves",
+                  "correctIndex": "Radio waves"
+                }
+              ]
             },
             {
-              "Diff": "Hard"
+              "Diff": "Hard",
+              "Hard": [
+                {
+                  "question": "What is the closest planet to the Sun??[Hard 1-3 ]",
+                  "Option1": "Venus",
+                  "Option2":"Mercury",
+                  "Option3":"Mars",
+                  "Option4":"Jupiter",
+                  "correctIndex": "Mercury"
+                },
+                {
+                  "question": "Which gas is most abundant in the Earth's atmosphere?[Hard 1-3 ]",
+                  "Option1":"Oxygen",
+                  "Option2":"Carbon dioxide",
+                  "Option3":"Nitrogen",
+                  "Option4":"Methane",
+                  "correctIndex": "Nitrogen"
+                },
+                {
+                  "question": "What is the process by which plants make their own food?[Hard 1-3 ]",
+                  "Option1": "Photosynthesis",
+                  "Option2": "Respiration",
+                  "Option3": "Digestion",
+                  "Option4": "Excretion",
+                  "correctIndex": "Photosynthesis"
+                },
+                {
+                  "question": "Which planet is known as the 'Red Planet'?[Hard 1-3 ]",
+                  "Option1": "Venus",
+                  "Option2": "Mercury",
+                  "Option3": "Mars",
+                  "Option4": "Jupiter",
+                  "correctIndex": "Mars"
+                },
+                {
+                  "question": "What is the smallest unit of life?[Hard 1-3 ]",
+                  "Option1": "Cell",
+                  "Option2": "Molecule",
+                  "Option3": "Atom",
+                  "Option4": "Organism",
+                  "correctIndex": "Cell"
+                },
+                {
+                  "question": "What is the force that holds atoms together in a molecule?[Hard 1-3 ]",
+                  "Option1": "Gravity",
+                  "Option2": "Electromagnetism",
+                  "Option3": "Nuclear force",
+                  "Option4": "Weak force",
+                  "correctIndex": "Electromagnetism"
+                },
+                {
+                  "question": "What is the boiling point of water in Celsius?[Hard 1-3 ]",
+                  "Option1": "0 degrees",
+                  "Option2": "100 degrees",
+                  "Option3": "50 degrees",
+                  "Option4": "75 degrees",
+                  "correctIndex": "100 degrees"
+                },
+                {
+                  "question": "What is the process by which liquid water turns into water vapor?[Hard 1-3 ]",
+                  "Option1": "Freezing",
+                  "Option2": "Melting",
+                  "Option3": "Condensation",
+                  "Option4": "Evaporation",
+                  "correctIndex": "Evaporation"
+                },
+                {
+                  "question": "What type of energy is stored in an object due to its position or condition?[Hard 1-3 ]",
+                  "Option1": "Kinetic energy",
+                  "Option2": "Electrical energy",
+                  "Option3": "Nuclear energy",
+                  "Option4": "Potential energy",
+                  "correctIndex": "Potential energy"
+                },
+                {
+                  "question": "What type of waves are used to transmit radio and TV signals?[Hard 1-3 ]",
+                  "Option1": "Sound waves",
+                  "Option2": "X-rays",
+                  "Option3": "Radio waves",
+                  "Option4": "Ultraviolet waves",
+                  "correctIndex": "Radio waves"
+                },
+                {
+                  "question": "What type of energy is stored in an object due to its position or condition?[Hard 1-3 ]",
+                  "Option1": "Kinetic energy",
+                  "Option2": "Electrical energy",
+                  "Option3": "Nuclear energy",
+                  "Option4": "Potential energy",
+                  "correctIndex": "Potential energy"
+                },
+                {
+                  "question": "What type of waves are used to transmit radio and TV signals?[Hard 1-3 ]",
+                  "Option1": "Sound waves",
+                  "Option2": "X-rays",
+                  "Option3": "Radio waves",
+                  "Option4": "Ultraviolet waves",
+                  "correctIndex": "Radio waves"
+                }
+              ]
             }
           ]
         },
         {  "Science": "4-6",
           "4-6" : [
             {
-              "Diff": "Basic"
+              "Diff": "Basic",
+              "Basic": [
+                {
+                  "question": "What is the closest planet to the Sun??[Basic 4-6 ]",
+                  "Option1": "Venus",
+                  "Option2":"Mercury",
+                  "Option3":"Mars",
+                  "Option4":"Jupiter",
+                  "correctIndex": "Mercury"
+                },
+                {
+                  "question": "Which gas is most abundant in the Earth's atmosphere?[Basic 4-6 ]",
+                  "Option1":"Oxygen",
+                  "Option2":"Carbon dioxide",
+                  "Option3":"Nitrogen",
+                  "Option4":"Methane",
+                  "correctIndex": "Nitrogen"
+                },
+                {
+                  "question": "What is the process by which plants make their own food?[Basic 4-6 ]",
+                  "Option1": "Photosynthesis",
+                  "Option2": "Respiration",
+                  "Option3": "Digestion",
+                  "Option4": "Excretion",
+                  "correctIndex": "Photosynthesis"
+                },
+                {
+                  "question": "Which planet is known as the 'Red Planet'?[Basic 4-6 ]",
+                  "Option1": "Venus",
+                  "Option2": "Mercury",
+                  "Option3": "Mars",
+                  "Option4": "Jupiter",
+                  "correctIndex": "Mars"
+                },
+                {
+                  "question": "What is the smallest unit of life?[Basic 4-6 ]",
+                  "Option1": "Cell",
+                  "Option2": "Molecule",
+                  "Option3": "Atom",
+                  "Option4": "Organism",
+                  "correctIndex": "Cell"
+                },
+                {
+                  "question": "What is the force that holds atoms together in a molecule?[Basic 4-6 ]",
+                  "Option1": "Gravity",
+                  "Option2": "Electromagnetism",
+                  "Option3": "Nuclear force",
+                  "Option4": "Weak force",
+                  "correctIndex": "Electromagnetism"
+                },
+                {
+                  "question": "What is the boiling point of water in Celsius?[Basic 4-6 ]",
+                  "Option1": "0 degrees",
+                  "Option2": "100 degrees",
+                  "Option3": "50 degrees",
+                  "Option4": "75 degrees",
+                  "correctIndex": "100 degrees"
+                },
+                {
+                  "question": "What is the process by which liquid water turns into water vapor?[Basic 4-6 ]",
+                  "Option1": "Freezing",
+                  "Option2": "Melting",
+                  "Option3": "Condensation",
+                  "Option4": "Evaporation",
+                  "correctIndex": "Evaporation"
+                },
+                {
+                  "question": "What type of energy is stored in an object due to its position or condition?[Basic 4-6 ]",
+                  "Option1": "Kinetic energy",
+                  "Option2": "Electrical energy",
+                  "Option3": "Nuclear energy",
+                  "Option4": "Potential energy",
+                  "correctIndex": "Potential energy"
+                },
+                {
+                  "question": "What type of waves are used to transmit radio and TV signals?[Basic 4-6 ]",
+                  "Option1": "Sound waves",
+                  "Option2": "X-rays",
+                  "Option3": "Radio waves",
+                  "Option4": "Ultraviolet waves",
+                  "correctIndex": "Radio waves"
+                },
+                {
+                  "question": "What type of energy is stored in an object due to its position or condition?[Basic 4-6 ]",
+                  "Option1": "Kinetic energy",
+                  "Option2": "Electrical energy",
+                  "Option3": "Nuclear energy",
+                  "Option4": "Potential energy",
+                  "correctIndex": "Potential energy"
+                },
+                {
+                  "question": "What type of waves are used to transmit radio and TV signals?[Basic 4-6 ]",
+                  "Option1": "Sound waves",
+                  "Option2": "X-rays",
+                  "Option3": "Radio waves",
+                  "Option4": "Ultraviolet waves",
+                  "correctIndex": "Radio waves"
+                }
+              ]
             },
             {
-              "Diff": "Medium"
+              "Diff": "Medium",
+              "Medium": [
+                {
+                  "question": "What is the closest planet to the Sun??[Medium 4-6 ]",
+                  "Option1": "Venus",
+                  "Option2":"Mercury",
+                  "Option3":"Mars",
+                  "Option4":"Jupiter",
+                  "correctIndex": "Mercury"
+                },
+                {
+                  "question": "Which gas is most abundant in the Earth's atmosphere?[Medium 4-6 ]",
+                  "Option1":"Oxygen",
+                  "Option2":"Carbon dioxide",
+                  "Option3":"Nitrogen",
+                  "Option4":"Methane",
+                  "correctIndex": "Nitrogen"
+                },
+                {
+                  "question": "What is the process by which plants make their own food?[Medium 4-6 ]",
+                  "Option1": "Photosynthesis",
+                  "Option2": "Respiration",
+                  "Option3": "Digestion",
+                  "Option4": "Excretion",
+                  "correctIndex": "Photosynthesis"
+                },
+                {
+                  "question": "Which planet is known as the 'Red Planet'?[Medium 4-6 ]",
+                  "Option1": "Venus",
+                  "Option2": "Mercury",
+                  "Option3": "Mars",
+                  "Option4": "Jupiter",
+                  "correctIndex": "Mars"
+                },
+                {
+                  "question": "What is the smallest unit of life?[Medium 4-6 ]",
+                  "Option1": "Cell",
+                  "Option2": "Molecule",
+                  "Option3": "Atom",
+                  "Option4": "Organism",
+                  "correctIndex": "Cell"
+                },
+                {
+                  "question": "What is the force that holds atoms together in a molecule?[Medium 4-6 ]",
+                  "Option1": "Gravity",
+                  "Option2": "Electromagnetism",
+                  "Option3": "Nuclear force",
+                  "Option4": "Weak force",
+                  "correctIndex": "Electromagnetism"
+                },
+                {
+                  "question": "What is the boiling point of water in Celsius?[Medium 4-6 ]",
+                  "Option1": "0 degrees",
+                  "Option2": "100 degrees",
+                  "Option3": "50 degrees",
+                  "Option4": "75 degrees",
+                  "correctIndex": "100 degrees"
+                },
+                {
+                  "question": "What is the process by which liquid water turns into water vapor?[Medium 4-6 ]",
+                  "Option1": "Freezing",
+                  "Option2": "Melting",
+                  "Option3": "Condensation",
+                  "Option4": "Evaporation",
+                  "correctIndex": "Evaporation"
+                },
+                {
+                  "question": "What type of energy is stored in an object due to its position or condition?[Medium 4-6 ]",
+                  "Option1": "Kinetic energy",
+                  "Option2": "Electrical energy",
+                  "Option3": "Nuclear energy",
+                  "Option4": "Potential energy",
+                  "correctIndex": "Potential energy"
+                },
+                {
+                  "question": "What type of waves are used to transmit radio and TV signals?[Medium 4-6 ]",
+                  "Option1": "Sound waves",
+                  "Option2": "X-rays",
+                  "Option3": "Radio waves",
+                  "Option4": "Ultraviolet waves",
+                  "correctIndex": "Radio waves"
+                },
+                {
+                  "question": "What type of energy is stored in an object due to its position or condition?[Medium 4-6 ]",
+                  "Option1": "Kinetic energy",
+                  "Option2": "Electrical energy",
+                  "Option3": "Nuclear energy",
+                  "Option4": "Potential energy",
+                  "correctIndex": "Potential energy"
+                },
+                {
+                  "question": "What type of waves are used to transmit radio and TV signals?[Medium 4-6 ]",
+                  "Option1": "Sound waves",
+                  "Option2": "X-rays",
+                  "Option3": "Radio waves",
+                  "Option4": "Ultraviolet waves",
+                  "correctIndex": "Radio waves"
+                }
+              ]
             },
             {
-              "Diff": "Hard"
+              "Diff": "Hard",
+              "Hard" : [
+                {
+                  "question": "What is the closest planet to the Sun??[Hard 4-6 ]",
+                  "Option1": "Venus",
+                  "Option2":"Mercury",
+                  "Option3":"Mars",
+                  "Option4":"Jupiter",
+                  "correctIndex": "Mercury"
+                },
+                {
+                  "question": "Which gas is most abundant in the Earth's atmosphere?[Hard 4-6 ]",
+                  "Option1":"Oxygen",
+                  "Option2":"Carbon dioxide",
+                  "Option3":"Nitrogen",
+                  "Option4":"Methane",
+                  "correctIndex": "Nitrogen"
+                },
+                {
+                  "question": "What is the process by which plants make their own food?[Hard 4-6 ]",
+                  "Option1": "Photosynthesis",
+                  "Option2": "Respiration",
+                  "Option3": "Digestion",
+                  "Option4": "Excretion",
+                  "correctIndex": "Photosynthesis"
+                },
+                {
+                  "question": "Which planet is known as the 'Red Planet'?[Hard 4-6 ]",
+                  "Option1": "Venus",
+                  "Option2": "Mercury",
+                  "Option3": "Mars",
+                  "Option4": "Jupiter",
+                  "correctIndex": "Mars"
+                },
+                {
+                  "question": "What is the smallest unit of life?[Hard 4-6 ]",
+                  "Option1": "Cell",
+                  "Option2": "Molecule",
+                  "Option3": "Atom",
+                  "Option4": "Organism",
+                  "correctIndex": "Cell"
+                },
+                {
+                  "question": "What is the force that holds atoms together in a molecule?[Hard 4-6 ]",
+                  "Option1": "Gravity",
+                  "Option2": "Electromagnetism",
+                  "Option3": "Nuclear force",
+                  "Option4": "Weak force",
+                  "correctIndex": "Electromagnetism"
+                },
+                {
+                  "question": "What is the boiling point of water in Celsius?[Hard 4-6 ]",
+                  "Option1": "0 degrees",
+                  "Option2": "100 degrees",
+                  "Option3": "50 degrees",
+                  "Option4": "75 degrees",
+                  "correctIndex": "100 degrees"
+                },
+                {
+                  "question": "What is the process by which liquid water turns into water vapor?[Hard 4-6 ]",
+                  "Option1": "Freezing",
+                  "Option2": "Melting",
+                  "Option3": "Condensation",
+                  "Option4": "Evaporation",
+                  "correctIndex": "Evaporation"
+                },
+                {
+                  "question": "What type of energy is stored in an object due to its position or condition?[Hard 4-6 ]",
+                  "Option1": "Kinetic energy",
+                  "Option2": "Electrical energy",
+                  "Option3": "Nuclear energy",
+                  "Option4": "Potential energy",
+                  "correctIndex": "Potential energy"
+                },
+                {
+                  "question": "What type of waves are used to transmit radio and TV signals?[Hard 4-6 ]",
+                  "Option1": "Sound waves",
+                  "Option2": "X-rays",
+                  "Option3": "Radio waves",
+                  "Option4": "Ultraviolet waves",
+                  "correctIndex": "Radio waves"
+                },
+                {
+                  "question": "What type of energy is stored in an object due to its position or condition?[Hard 4-6 ]",
+                  "Option1": "Kinetic energy",
+                  "Option2": "Electrical energy",
+                  "Option3": "Nuclear energy",
+                  "Option4": "Potential energy",
+                  "correctIndex": "Potential energy"
+                },
+                {
+                  "question": "What type of waves are used to transmit radio and TV signals?[Hard 4-6 ]",
+                  "Option1": "Sound waves",
+                  "Option2": "X-rays",
+                  "Option3": "Radio waves",
+                  "Option4": "Ultraviolet waves",
+                  "correctIndex": "Radio waves"
+                }
+              ]
             }
           ]
         },
         { "Science": "7-9",
           "7-9" : [
             {
-              "Diff": "Basic"
+              "Diff": "Basic",
+              "Basic": [
+                {
+                  "question": "What is the closest planet to the Sun??[Basic 7-9 ]",
+                  "Option1": "Venus",
+                  "Option2":"Mercury",
+                  "Option3":"Mars",
+                  "Option4":"Jupiter",
+                  "correctIndex": "Mercury"
+                },
+                {
+                  "question": "Which gas is most abundant in the Earth's atmosphere?[Basic 7-9 ]",
+                  "Option1":"Oxygen",
+                  "Option2":"Carbon dioxide",
+                  "Option3":"Nitrogen",
+                  "Option4":"Methane",
+                  "correctIndex": "Nitrogen"
+                },
+                {
+                  "question": "What is the process by which plants make their own food?[Basic 7-9 ]",
+                  "Option1": "Photosynthesis",
+                  "Option2": "Respiration",
+                  "Option3": "Digestion",
+                  "Option4": "Excretion",
+                  "correctIndex": "Photosynthesis"
+                },
+                {
+                  "question": "Which planet is known as the 'Red Planet'?[Basic 7-9 ]",
+                  "Option1": "Venus",
+                  "Option2": "Mercury",
+                  "Option3": "Mars",
+                  "Option4": "Jupiter",
+                  "correctIndex": "Mars"
+                },
+                {
+                  "question": "What is the smallest unit of life?[Basic 7-9 ]",
+                  "Option1": "Cell",
+                  "Option2": "Molecule",
+                  "Option3": "Atom",
+                  "Option4": "Organism",
+                  "correctIndex": "Cell"
+                },
+                {
+                  "question": "What is the force that holds atoms together in a molecule?[Basic 7-9 ]",
+                  "Option1": "Gravity",
+                  "Option2": "Electromagnetism",
+                  "Option3": "Nuclear force",
+                  "Option4": "Weak force",
+                  "correctIndex": "Electromagnetism"
+                },
+                {
+                  "question": "What is the boiling point of water in Celsius?[Basic 7-9 ]",
+                  "Option1": "0 degrees",
+                  "Option2": "100 degrees",
+                  "Option3": "50 degrees",
+                  "Option4": "75 degrees",
+                  "correctIndex": "100 degrees"
+                },
+                {
+                  "question": "What is the process by which liquid water turns into water vapor?[Basic 7-9 ]",
+                  "Option1": "Freezing",
+                  "Option2": "Melting",
+                  "Option3": "Condensation",
+                  "Option4": "Evaporation",
+                  "correctIndex": "Evaporation"
+                },
+                {
+                  "question": "What type of energy is stored in an object due to its position or condition?[Basic 7-9 ]",
+                  "Option1": "Kinetic energy",
+                  "Option2": "Electrical energy",
+                  "Option3": "Nuclear energy",
+                  "Option4": "Potential energy",
+                  "correctIndex": "Potential energy"
+                },
+                {
+                  "question": "What type of waves are used to transmit radio and TV signals?[Basic 7-9 ]",
+                  "Option1": "Sound waves",
+                  "Option2": "X-rays",
+                  "Option3": "Radio waves",
+                  "Option4": "Ultraviolet waves",
+                  "correctIndex": "Radio waves"
+                },
+                {
+                  "question": "What type of energy is stored in an object due to its position or condition?[Basic 7-9 ]",
+                  "Option1": "Kinetic energy",
+                  "Option2": "Electrical energy",
+                  "Option3": "Nuclear energy",
+                  "Option4": "Potential energy",
+                  "correctIndex": "Potential energy"
+                },
+                {
+                  "question": "What type of waves are used to transmit radio and TV signals?[Basic 7-9 ]",
+                  "Option1": "Sound waves",
+                  "Option2": "X-rays",
+                  "Option3": "Radio waves",
+                  "Option4": "Ultraviolet waves",
+                  "correctIndex": "Radio waves"
+                }
+              ]
             },
             {
-              "Diff": "Medium"
+              "Diff": "Medium",
+              "Medium": [
+                {
+                  "question": "What is the closest planet to the Sun??[Medium 7-9 ]",
+                  "Option1": "Venus",
+                  "Option2":"Mercury",
+                  "Option3":"Mars",
+                  "Option4":"Jupiter",
+                  "correctIndex": "Mercury"
+                },
+                {
+                  "question": "Which gas is most abundant in the Earth's atmosphere?[Medium 7-9 ]",
+                  "Option1":"Oxygen",
+                  "Option2":"Carbon dioxide",
+                  "Option3":"Nitrogen",
+                  "Option4":"Methane",
+                  "correctIndex": "Nitrogen"
+                },
+                {
+                  "question": "What is the process by which plants make their own food?[Medium 7-9 ]",
+                  "Option1": "Photosynthesis",
+                  "Option2": "Respiration",
+                  "Option3": "Digestion",
+                  "Option4": "Excretion",
+                  "correctIndex": "Photosynthesis"
+                },
+                {
+                  "question": "Which planet is known as the 'Red Planet'?[Medium 7-9 ]",
+                  "Option1": "Venus",
+                  "Option2": "Mercury",
+                  "Option3": "Mars",
+                  "Option4": "Jupiter",
+                  "correctIndex": "Mars"
+                },
+                {
+                  "question": "What is the smallest unit of life?[Medium 7-9 ]",
+                  "Option1": "Cell",
+                  "Option2": "Molecule",
+                  "Option3": "Atom",
+                  "Option4": "Organism",
+                  "correctIndex": "Cell"
+                },
+                {
+                  "question": "What is the force that holds atoms together in a molecule?[Medium 7-9 ]",
+                  "Option1": "Gravity",
+                  "Option2": "Electromagnetism",
+                  "Option3": "Nuclear force",
+                  "Option4": "Weak force",
+                  "correctIndex": "Electromagnetism"
+                },
+                {
+                  "question": "What is the boiling point of water in Celsius?[Medium 7-9 ]",
+                  "Option1": "0 degrees",
+                  "Option2": "100 degrees",
+                  "Option3": "50 degrees",
+                  "Option4": "75 degrees",
+                  "correctIndex": "100 degrees"
+                },
+                {
+                  "question": "What is the process by which liquid water turns into water vapor?[Medium 7-9 ]",
+                  "Option1": "Freezing",
+                  "Option2": "Melting",
+                  "Option3": "Condensation",
+                  "Option4": "Evaporation",
+                  "correctIndex": "Evaporation"
+                },
+                {
+                  "question": "What type of energy is stored in an object due to its position or condition?[Medium 7-9 ]",
+                  "Option1": "Kinetic energy",
+                  "Option2": "Electrical energy",
+                  "Option3": "Nuclear energy",
+                  "Option4": "Potential energy",
+                  "correctIndex": "Potential energy"
+                },
+                {
+                  "question": "What type of waves are used to transmit radio and TV signals?[Medium 7-9 ]",
+                  "Option1": "Sound waves",
+                  "Option2": "X-rays",
+                  "Option3": "Radio waves",
+                  "Option4": "Ultraviolet waves",
+                  "correctIndex": "Radio waves"
+                },
+                {
+                  "question": "What type of energy is stored in an object due to its position or condition?[Medium 7-9 ]",
+                  "Option1": "Kinetic energy",
+                  "Option2": "Electrical energy",
+                  "Option3": "Nuclear energy",
+                  "Option4": "Potential energy",
+                  "correctIndex": "Potential energy"
+                },
+                {
+                  "question": "What type of waves are used to transmit radio and TV signals?[Medium 7-9 ]",
+                  "Option1": "Sound waves",
+                  "Option2": "X-rays",
+                  "Option3": "Radio waves",
+                  "Option4": "Ultraviolet waves",
+                  "correctIndex": "Radio waves"
+                }
+              ]
             },
             {
-              "Diff": "Hard"
+              "Diff": "Hard",
+              "Hard" : [
+                {
+                  "question": "What is the closest planet to the Sun??[Hard 7-9 ]",
+                  "Option1": "Venus",
+                  "Option2":"Mercury",
+                  "Option3":"Mars",
+                  "Option4":"Jupiter",
+                  "correctIndex": "Mercury"
+                },
+                {
+                  "question": "Which gas is most abundant in the Earth's atmosphere?[Hard 7-9 ]",
+                  "Option1":"Oxygen",
+                  "Option2":"Carbon dioxide",
+                  "Option3":"Nitrogen",
+                  "Option4":"Methane",
+                  "correctIndex": "Nitrogen"
+                },
+                {
+                  "question": "What is the process by which plants make their own food?[Hard 7-9 ]",
+                  "Option1": "Photosynthesis",
+                  "Option2": "Respiration",
+                  "Option3": "Digestion",
+                  "Option4": "Excretion",
+                  "correctIndex": "Photosynthesis"
+                },
+                {
+                  "question": "Which planet is known as the 'Red Planet'?[Hard 7-9 ]",
+                  "Option1": "Venus",
+                  "Option2": "Mercury",
+                  "Option3": "Mars",
+                  "Option4": "Jupiter",
+                  "correctIndex": "Mars"
+                },
+                {
+                  "question": "What is the smallest unit of life?[Hard 7-9 ]",
+                  "Option1": "Cell",
+                  "Option2": "Molecule",
+                  "Option3": "Atom",
+                  "Option4": "Organism",
+                  "correctIndex": "Cell"
+                },
+                {
+                  "question": "What is the force that holds atoms together in a molecule?[Hard 7-9 ]",
+                  "Option1": "Gravity",
+                  "Option2": "Electromagnetism",
+                  "Option3": "Nuclear force",
+                  "Option4": "Weak force",
+                  "correctIndex": "Electromagnetism"
+                },
+                {
+                  "question": "What is the boiling point of water in Celsius?[Hard 7-9 ]",
+                  "Option1": "0 degrees",
+                  "Option2": "100 degrees",
+                  "Option3": "50 degrees",
+                  "Option4": "75 degrees",
+                  "correctIndex": "100 degrees"
+                },
+                {
+                  "question": "What is the process by which liquid water turns into water vapor?[Hard 7-9 ]",
+                  "Option1": "Freezing",
+                  "Option2": "Melting",
+                  "Option3": "Condensation",
+                  "Option4": "Evaporation",
+                  "correctIndex": "Evaporation"
+                },
+                {
+                  "question": "What type of energy is stored in an object due to its position or condition?[Hard 7-9 ]",
+                  "Option1": "Kinetic energy",
+                  "Option2": "Electrical energy",
+                  "Option3": "Nuclear energy",
+                  "Option4": "Potential energy",
+                  "correctIndex": "Potential energy"
+                },
+                {
+                  "question": "What type of waves are used to transmit radio and TV signals?[Hard 7-9 ]",
+                  "Option1": "Sound waves",
+                  "Option2": "X-rays",
+                  "Option3": "Radio waves",
+                  "Option4": "Ultraviolet waves",
+                  "correctIndex": "Radio waves"
+                },
+                {
+                  "question": "What type of energy is stored in an object due to its position or condition?[Hard 7-9 ]",
+                  "Option1": "Kinetic energy",
+                  "Option2": "Electrical energy",
+                  "Option3": "Nuclear energy",
+                  "Option4": "Potential energy",
+                  "correctIndex": "Potential energy"
+                },
+                {
+                  "question": "What type of waves are used to transmit radio and TV signals?[Hard 7-9 ]",
+                  "Option1": "Sound waves",
+                  "Option2": "X-rays",
+                  "Option3": "Radio waves",
+                  "Option4": "Ultraviolet waves",
+                  "correctIndex": "Radio waves"
+                }
+              ]
             }
           ]
         },
         {  "Science": "10-12",
           "10-12" : [
             {
-              "Diff": "Basic"
+              "Diff": "Basic",
+              "Basic": [
+                {
+                  "question": "What is the closest planet to the Sun??[Basic 10-12 ]",
+                  "Option1": "Venus",
+                  "Option2":"Mercury",
+                  "Option3":"Mars",
+                  "Option4":"Jupiter",
+                  "correctIndex": "Mercury"
+                },
+                {
+                  "question": "Which gas is most abundant in the Earth's atmosphere?[Basic 10-12 ]",
+                  "Option1":"Oxygen",
+                  "Option2":"Carbon dioxide",
+                  "Option3":"Nitrogen",
+                  "Option4":"Methane",
+                  "correctIndex": "Nitrogen"
+                },
+                {
+                  "question": "What is the process by which plants make their own food?[Basic 10-12 ]",
+                  "Option1": "Photosynthesis",
+                  "Option2": "Respiration",
+                  "Option3": "Digestion",
+                  "Option4": "Excretion",
+                  "correctIndex": "Photosynthesis"
+                },
+                {
+                  "question": "Which planet is known as the 'Red Planet'?[Basic 10-12 ]",
+                  "Option1": "Venus",
+                  "Option2": "Mercury",
+                  "Option3": "Mars",
+                  "Option4": "Jupiter",
+                  "correctIndex": "Mars"
+                },
+                {
+                  "question": "What is the smallest unit of life?[Basic 10-12 ]",
+                  "Option1": "Cell",
+                  "Option2": "Molecule",
+                  "Option3": "Atom",
+                  "Option4": "Organism",
+                  "correctIndex": "Cell"
+                },
+                {
+                  "question": "What is the force that holds atoms together in a molecule?[Basic 10-12 ]",
+                  "Option1": "Gravity",
+                  "Option2": "Electromagnetism",
+                  "Option3": "Nuclear force",
+                  "Option4": "Weak force",
+                  "correctIndex": "Electromagnetism"
+                },
+                {
+                  "question": "What is the boiling point of water in Celsius?[Basic 10-12 ]",
+                  "Option1": "0 degrees",
+                  "Option2": "100 degrees",
+                  "Option3": "50 degrees",
+                  "Option4": "75 degrees",
+                  "correctIndex": "100 degrees"
+                },
+                {
+                  "question": "What is the process by which liquid water turns into water vapor?[Basic 10-12 ]",
+                  "Option1": "Freezing",
+                  "Option2": "Melting",
+                  "Option3": "Condensation",
+                  "Option4": "Evaporation",
+                  "correctIndex": "Evaporation"
+                },
+                {
+                  "question": "What type of energy is stored in an object due to its position or condition?[Basic 10-12 ]",
+                  "Option1": "Kinetic energy",
+                  "Option2": "Electrical energy",
+                  "Option3": "Nuclear energy",
+                  "Option4": "Potential energy",
+                  "correctIndex": "Potential energy"
+                },
+                {
+                  "question": "What type of waves are used to transmit radio and TV signals?[Basic 10-12 ]",
+                  "Option1": "Sound waves",
+                  "Option2": "X-rays",
+                  "Option3": "Radio waves",
+                  "Option4": "Ultraviolet waves",
+                  "correctIndex": "Radio waves"
+                },
+                {
+                  "question": "What type of energy is stored in an object due to its position or condition?[Basic 10-12 ]",
+                  "Option1": "Kinetic energy",
+                  "Option2": "Electrical energy",
+                  "Option3": "Nuclear energy",
+                  "Option4": "Potential energy",
+                  "correctIndex": "Potential energy"
+                },
+                {
+                  "question": "What type of waves are used to transmit radio and TV signals?[Basic 10-12 ]",
+                  "Option1": "Sound waves",
+                  "Option2": "X-rays",
+                  "Option3": "Radio waves",
+                  "Option4": "Ultraviolet waves",
+                  "correctIndex": "Radio waves"
+                }
+              ]
             },
             {
-              "Diff": "Medium"
+              "Diff": "Medium",
+              "Medium": [
+                {
+                  "question": "What is the closest planet to the Sun??[Medium 10-12 ]",
+                  "Option1": "Venus",
+                  "Option2":"Mercury",
+                  "Option3":"Mars",
+                  "Option4":"Jupiter",
+                  "correctIndex": "Mercury"
+                },
+                {
+                  "question": "Which gas is most abundant in the Earth's atmosphere?[Medium 10-12 ]",
+                  "Option1":"Oxygen",
+                  "Option2":"Carbon dioxide",
+                  "Option3":"Nitrogen",
+                  "Option4":"Methane",
+                  "correctIndex": "Nitrogen"
+                },
+                {
+                  "question": "What is the process by which plants make their own food?[Medium 10-12 ]",
+                  "Option1": "Photosynthesis",
+                  "Option2": "Respiration",
+                  "Option3": "Digestion",
+                  "Option4": "Excretion",
+                  "correctIndex": "Photosynthesis"
+                },
+                {
+                  "question": "Which planet is known as the 'Red Planet'?[Medium 10-12 ]",
+                  "Option1": "Venus",
+                  "Option2": "Mercury",
+                  "Option3": "Mars",
+                  "Option4": "Jupiter",
+                  "correctIndex": "Mars"
+                },
+                {
+                  "question": "What is the smallest unit of life?[Medium 10-12 ]",
+                  "Option1": "Cell",
+                  "Option2": "Molecule",
+                  "Option3": "Atom",
+                  "Option4": "Organism",
+                  "correctIndex": "Cell"
+                },
+                {
+                  "question": "What is the force that holds atoms together in a molecule?[Medium 10-12 ]",
+                  "Option1": "Gravity",
+                  "Option2": "Electromagnetism",
+                  "Option3": "Nuclear force",
+                  "Option4": "Weak force",
+                  "correctIndex": "Electromagnetism"
+                },
+                {
+                  "question": "What is the boiling point of water in Celsius?[Medium 10-12 ]",
+                  "Option1": "0 degrees",
+                  "Option2": "100 degrees",
+                  "Option3": "50 degrees",
+                  "Option4": "75 degrees",
+                  "correctIndex": "100 degrees"
+                },
+                {
+                  "question": "What is the process by which liquid water turns into water vapor?[Medium 10-12 ]",
+                  "Option1": "Freezing",
+                  "Option2": "Melting",
+                  "Option3": "Condensation",
+                  "Option4": "Evaporation",
+                  "correctIndex": "Evaporation"
+                },
+                {
+                  "question": "What type of energy is stored in an object due to its position or condition?[Medium 10-12 ]",
+                  "Option1": "Kinetic energy",
+                  "Option2": "Electrical energy",
+                  "Option3": "Nuclear energy",
+                  "Option4": "Potential energy",
+                  "correctIndex": "Potential energy"
+                },
+                {
+                  "question": "What type of waves are used to transmit radio and TV signals?[Medium 10-12 ]",
+                  "Option1": "Sound waves",
+                  "Option2": "X-rays",
+                  "Option3": "Radio waves",
+                  "Option4": "Ultraviolet waves",
+                  "correctIndex": "Radio waves"
+                },
+                {
+                  "question": "What type of energy is stored in an object due to its position or condition?[Medium 10-12 ]",
+                  "Option1": "Kinetic energy",
+                  "Option2": "Electrical energy",
+                  "Option3": "Nuclear energy",
+                  "Option4": "Potential energy",
+                  "correctIndex": "Potential energy"
+                },
+                {
+                  "question": "What type of waves are used to transmit radio and TV signals?[Medium 10-12 ]",
+                  "Option1": "Sound waves",
+                  "Option2": "X-rays",
+                  "Option3": "Radio waves",
+                  "Option4": "Ultraviolet waves",
+                  "correctIndex": "Radio waves"
+                }
+              ]
             },
             {
-              "Diff": "Hard"
+              "Diff": "Hard",
+              "Hard": [
+                {
+                  "question": "What is the closest planet to the Sun??[Hard 10-12 ]",
+                  "Option1": "Venus",
+                  "Option2":"Mercury",
+                  "Option3":"Mars",
+                  "Option4":"Jupiter",
+                  "correctIndex": "Mercury"
+                },
+                {
+                  "question": "Which gas is most abundant in the Earth's atmosphere?[Hard 10-12 ]",
+                  "Option1":"Oxygen",
+                  "Option2":"Carbon dioxide",
+                  "Option3":"Nitrogen",
+                  "Option4":"Methane",
+                  "correctIndex": "Nitrogen"
+                },
+                {
+                  "question": "What is the process by which plants make their own food?[Hard 10-12 ]",
+                  "Option1": "Photosynthesis",
+                  "Option2": "Respiration",
+                  "Option3": "Digestion",
+                  "Option4": "Excretion",
+                  "correctIndex": "Photosynthesis"
+                },
+                {
+                  "question": "Which planet is known as the 'Red Planet'?[Hard 10-12 ]",
+                  "Option1": "Venus",
+                  "Option2": "Mercury",
+                  "Option3": "Mars",
+                  "Option4": "Jupiter",
+                  "correctIndex": "Mars"
+                },
+                {
+                  "question": "What is the smallest unit of life?[Hard 10-12 ]",
+                  "Option1": "Cell",
+                  "Option2": "Molecule",
+                  "Option3": "Atom",
+                  "Option4": "Organism",
+                  "correctIndex": "Cell"
+                },
+                {
+                  "question": "What is the force that holds atoms together in a molecule?[Hard 10-12 ]",
+                  "Option1": "Gravity",
+                  "Option2": "Electromagnetism",
+                  "Option3": "Nuclear force",
+                  "Option4": "Weak force",
+                  "correctIndex": "Electromagnetism"
+                },
+                {
+                  "question": "What is the boiling point of water in Celsius?[Hard 10-12 ]",
+                  "Option1": "0 degrees",
+                  "Option2": "100 degrees",
+                  "Option3": "50 degrees",
+                  "Option4": "75 degrees",
+                  "correctIndex": "100 degrees"
+                },
+                {
+                  "question": "What is the process by which liquid water turns into water vapor?[Hard 10-12 ]",
+                  "Option1": "Freezing",
+                  "Option2": "Melting",
+                  "Option3": "Condensation",
+                  "Option4": "Evaporation",
+                  "correctIndex": "Evaporation"
+                },
+                {
+                  "question": "What type of energy is stored in an object due to its position or condition?[Hard 10-12 ]",
+                  "Option1": "Kinetic energy",
+                  "Option2": "Electrical energy",
+                  "Option3": "Nuclear energy",
+                  "Option4": "Potential energy",
+                  "correctIndex": "Potential energy"
+                },
+                {
+                  "question": "What type of waves are used to transmit radio and TV signals?[Hard 10-12 ]",
+                  "Option1": "Sound waves",
+                  "Option2": "X-rays",
+                  "Option3": "Radio waves",
+                  "Option4": "Ultraviolet waves",
+                  "correctIndex": "Radio waves"
+                },
+                {
+                  "question": "What type of energy is stored in an object due to its position or condition?[Hard 10-12 ]",
+                  "Option1": "Kinetic energy",
+                  "Option2": "Electrical energy",
+                  "Option3": "Nuclear energy",
+                  "Option4": "Potential energy",
+                  "correctIndex": "Potential energy"
+                },
+                {
+                  "question": "What type of waves are used to transmit radio and TV signals?[Hard 10-12 ]",
+                  "Option1": "Sound waves",
+                  "Option2": "X-rays",
+                  "Option3": "Radio waves",
+                  "Option4": "Ultraviolet waves",
+                  "correctIndex": "Radio waves"
+                }
+              ]
             }
           ]
         },
@@ -6007,13 +7183,307 @@
           "Science": "12+ / B tech",
           "12+ / B tech" : [
             {
-              "Diff": "Basic"
+              "Diff": "Basic",
+              "Basic" : [
+                {
+                  "question": "What is the closest planet to the Sun??[Basic 12+ / B tech ]",
+                  "Option1": "Venus",
+                  "Option2":"Mercury",
+                  "Option3":"Mars",
+                  "Option4":"Jupiter",
+                  "correctIndex": "Mercury"
+                },
+                {
+                  "question": "Which gas is most abundant in the Earth's atmosphere?[Basic 12+ / B tech ]",
+                  "Option1":"Oxygen",
+                  "Option2":"Carbon dioxide",
+                  "Option3":"Nitrogen",
+                  "Option4":"Methane",
+                  "correctIndex": "Nitrogen"
+                },
+                {
+                  "question": "What is the process by which plants make their own food?[Basic 12+ / B tech ]",
+                  "Option1": "Photosynthesis",
+                  "Option2": "Respiration",
+                  "Option3": "Digestion",
+                  "Option4": "Excretion",
+                  "correctIndex": "Photosynthesis"
+                },
+                {
+                  "question": "Which planet is known as the 'Red Planet'?[Basic 12+ / B tech ]",
+                  "Option1": "Venus",
+                  "Option2": "Mercury",
+                  "Option3": "Mars",
+                  "Option4": "Jupiter",
+                  "correctIndex": "Mars"
+                },
+                {
+                  "question": "What is the smallest unit of life?[Basic 12+ / B tech]",
+                  "Option1": "Cell",
+                  "Option2": "Molecule",
+                  "Option3": "Atom",
+                  "Option4": "Organism",
+                  "correctIndex": "Cell"
+                },
+                {
+                  "question": "What is the force that holds atoms together in a molecule?[Basic 12+ / B tech]",
+                  "Option1": "Gravity",
+                  "Option2": "Electromagnetism",
+                  "Option3": "Nuclear force",
+                  "Option4": "Weak force",
+                  "correctIndex": "Electromagnetism"
+                },
+                {
+                  "question": "What is the boiling point of water in Celsius?[Basic 12+ / B tech]",
+                  "Option1": "0 degrees",
+                  "Option2": "100 degrees",
+                  "Option3": "50 degrees",
+                  "Option4": "75 degrees",
+                  "correctIndex": "100 degrees"
+                },
+                {
+                  "question": "What is the process by which liquid water turns into water vapor?[Basic 12+ / B tech ]",
+                  "Option1": "Freezing",
+                  "Option2": "Melting",
+                  "Option3": "Condensation",
+                  "Option4": "Evaporation",
+                  "correctIndex": "Evaporation"
+                },
+                {
+                  "question": "What type of energy is stored in an object due to its position or condition?[Basic 12+ / B tech ]",
+                  "Option1": "Kinetic energy",
+                  "Option2": "Electrical energy",
+                  "Option3": "Nuclear energy",
+                  "Option4": "Potential energy",
+                  "correctIndex": "Potential energy"
+                },
+                {
+                  "question": "What type of waves are used to transmit radio and TV signals?[Basic 12+ / B tech ]",
+                  "Option1": "Sound waves",
+                  "Option2": "X-rays",
+                  "Option3": "Radio waves",
+                  "Option4": "Ultraviolet waves",
+                  "correctIndex": "Radio waves"
+                },
+                {
+                  "question": "What type of energy is stored in an object due to its position or condition?[Basic 12+ / B tech ]",
+                  "Option1": "Kinetic energy",
+                  "Option2": "Electrical energy",
+                  "Option3": "Nuclear energy",
+                  "Option4": "Potential energy",
+                  "correctIndex": "Potential energy"
+                },
+                {
+                  "question": "What type of waves are used to transmit radio and TV signals?[Basic 12+ / B tech ]",
+                  "Option1": "Sound waves",
+                  "Option2": "X-rays",
+                  "Option3": "Radio waves",
+                  "Option4": "Ultraviolet waves",
+                  "correctIndex": "Radio waves"
+                }
+              ]
             },
             {
-              "Diff": "Medium"
+              "Diff": "Medium",
+              "Medium": [
+                {
+                  "question": "What is the closest planet to the Sun??[Medium 12+ / B tech ]",
+                  "Option1": "Venus",
+                  "Option2":"Mercury",
+                  "Option3":"Mars",
+                  "Option4":"Jupiter",
+                  "correctIndex": "Mercury"
+                },
+                {
+                  "question": "Which gas is most abundant in the Earth's atmosphere?[Medium 12+ / B tech ]",
+                  "Option1":"Oxygen",
+                  "Option2":"Carbon dioxide",
+                  "Option3":"Nitrogen",
+                  "Option4":"Methane",
+                  "correctIndex": "Nitrogen"
+                },
+                {
+                  "question": "What is the process by which plants make their own food?[Medium 12+ / B tech ]",
+                  "Option1": "Photosynthesis",
+                  "Option2": "Respiration",
+                  "Option3": "Digestion",
+                  "Option4": "Excretion",
+                  "correctIndex": "Photosynthesis"
+                },
+                {
+                  "question": "Which planet is known as the 'Red Planet'?[Medium 12+ / B tech ]",
+                  "Option1": "Venus",
+                  "Option2": "Mercury",
+                  "Option3": "Mars",
+                  "Option4": "Jupiter",
+                  "correctIndex": "Mars"
+                },
+                {
+                  "question": "What is the smallest unit of life?[Medium 12+ / B tech]",
+                  "Option1": "Cell",
+                  "Option2": "Molecule",
+                  "Option3": "Atom",
+                  "Option4": "Organism",
+                  "correctIndex": "Cell"
+                },
+                {
+                  "question": "What is the force that holds atoms together in a molecule?[Medium 12+ / B tech]",
+                  "Option1": "Gravity",
+                  "Option2": "Electromagnetism",
+                  "Option3": "Nuclear force",
+                  "Option4": "Weak force",
+                  "correctIndex": "Electromagnetism"
+                },
+                {
+                  "question": "What is the boiling point of water in Celsius?[Medium 12+ / B tech]",
+                  "Option1": "0 degrees",
+                  "Option2": "100 degrees",
+                  "Option3": "50 degrees",
+                  "Option4": "75 degrees",
+                  "correctIndex": "100 degrees"
+                },
+                {
+                  "question": "What is the process by which liquid water turns into water vapor?[Medium 12+ / B tech ]",
+                  "Option1": "Freezing",
+                  "Option2": "Melting",
+                  "Option3": "Condensation",
+                  "Option4": "Evaporation",
+                  "correctIndex": "Evaporation"
+                },
+                {
+                  "question": "What type of energy is stored in an object due to its position or condition?[Medium 12+ / B tech ]",
+                  "Option1": "Kinetic energy",
+                  "Option2": "Electrical energy",
+                  "Option3": "Nuclear energy",
+                  "Option4": "Potential energy",
+                  "correctIndex": "Potential energy"
+                },
+                {
+                  "question": "What type of waves are used to transmit radio and TV signals?[Medium 12+ / B tech ]",
+                  "Option1": "Sound waves",
+                  "Option2": "X-rays",
+                  "Option3": "Radio waves",
+                  "Option4": "Ultraviolet waves",
+                  "correctIndex": "Radio waves"
+                },
+                {
+                  "question": "What type of energy is stored in an object due to its position or condition?[Medium 12+ / B tech ]",
+                  "Option1": "Kinetic energy",
+                  "Option2": "Electrical energy",
+                  "Option3": "Nuclear energy",
+                  "Option4": "Potential energy",
+                  "correctIndex": "Potential energy"
+                },
+                {
+                  "question": "What type of waves are used to transmit radio and TV signals?[Medium 12+ / B tech ]",
+                  "Option1": "Sound waves",
+                  "Option2": "X-rays",
+                  "Option3": "Radio waves",
+                  "Option4": "Ultraviolet waves",
+                  "correctIndex": "Radio waves"
+                }
+              ]
             },
             {
-              "Diff": "Hard"
+              "Diff": "Hard",
+              "Hard": [
+                {
+                  "question": "What is the closest planet to the Sun??[Hard 12+ / B tech ]",
+                  "Option1": "Venus",
+                  "Option2":"Mercury",
+                  "Option3":"Mars",
+                  "Option4":"Jupiter",
+                  "correctIndex": "Mercury"
+                },
+                {
+                  "question": "Which gas is most abundant in the Earth's atmosphere?[Hard 12+ / B tech ]",
+                  "Option1":"Oxygen",
+                  "Option2":"Carbon dioxide",
+                  "Option3":"Nitrogen",
+                  "Option4":"Methane",
+                  "correctIndex": "Nitrogen"
+                },
+                {
+                  "question": "What is the process by which plants make their own food?[Hard 12+ / B tech ]",
+                  "Option1": "Photosynthesis",
+                  "Option2": "Respiration",
+                  "Option3": "Digestion",
+                  "Option4": "Excretion",
+                  "correctIndex": "Photosynthesis"
+                },
+                {
+                  "question": "Which planet is known as the 'Red Planet'?[Hard 12+ / B tech ]",
+                  "Option1": "Venus",
+                  "Option2": "Mercury",
+                  "Option3": "Mars",
+                  "Option4": "Jupiter",
+                  "correctIndex": "Mars"
+                },
+                {
+                  "question": "What is the smallest unit of life?[Hard 12+ / B tech]",
+                  "Option1": "Cell",
+                  "Option2": "Molecule",
+                  "Option3": "Atom",
+                  "Option4": "Organism",
+                  "correctIndex": "Cell"
+                },
+                {
+                  "question": "What is the force that holds atoms together in a molecule?[Hard 12+ / B tech]",
+                  "Option1": "Gravity",
+                  "Option2": "Electromagnetism",
+                  "Option3": "Nuclear force",
+                  "Option4": "Weak force",
+                  "correctIndex": "Electromagnetism"
+                },
+                {
+                  "question": "What is the boiling point of water in Celsius?[Hard 12+ / B tech]",
+                  "Option1": "0 degrees",
+                  "Option2": "100 degrees",
+                  "Option3": "50 degrees",
+                  "Option4": "75 degrees",
+                  "correctIndex": "100 degrees"
+                },
+                {
+                  "question": "What is the process by which liquid water turns into water vapor?[Hard 12+ / B tech ]",
+                  "Option1": "Freezing",
+                  "Option2": "Melting",
+                  "Option3": "Condensation",
+                  "Option4": "Evaporation",
+                  "correctIndex": "Evaporation"
+                },
+                {
+                  "question": "What type of energy is stored in an object due to its position or condition?[Hard 12+ / B tech ]",
+                  "Option1": "Kinetic energy",
+                  "Option2": "Electrical energy",
+                  "Option3": "Nuclear energy",
+                  "Option4": "Potential energy",
+                  "correctIndex": "Potential energy"
+                },
+                {
+                  "question": "What type of waves are used to transmit radio and TV signals?[Hard 12+ / B tech ]",
+                  "Option1": "Sound waves",
+                  "Option2": "X-rays",
+                  "Option3": "Radio waves",
+                  "Option4": "Ultraviolet waves",
+                  "correctIndex": "Radio waves"
+                },
+                {
+                  "question": "What type of energy is stored in an object due to its position or condition?[Hard 12+ / B tech ]",
+                  "Option1": "Kinetic energy",
+                  "Option2": "Electrical energy",
+                  "Option3": "Nuclear energy",
+                  "Option4": "Potential energy",
+                  "correctIndex": "Potential energy"
+                },
+                {
+                  "question": "What type of waves are used to transmit radio and TV signals?[Hard 12+ / B tech ]",
+                  "Option1": "Sound waves",
+                  "Option2": "X-rays",
+                  "Option3": "Radio waves",
+                  "Option4": "Ultraviolet waves",
+                  "correctIndex": "Radio waves"
+                }
+              ]
             }
           ]
         }
