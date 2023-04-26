@@ -5,10 +5,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.quiz_json.Model.AllQuestionModel
+import com.example.quiz_json.Adapter.DifficultyAdapter
 import com.example.quiz_json.Model.SubjectModel
 import com.example.quiz_json.databinding.DifficultyBinding
 
@@ -66,7 +65,7 @@ class Difficulty : Fragment(), DifficultyItemClickListner {
         // Inflate the layout for this fragment
         val view =  inflater.inflate(R.layout.fragment_start_quize2, container, false)
         val recyview1 = view.findViewById<RecyclerView>(R.id.rvquize)
-        recyview1.layoutManager = LinearLayoutManager(requireContext())
+        recyview1.layoutManager = LinearLayoutManager(requireContext(),LinearLayoutManager.HORIZONTAL,false)
         recyview1.adapter = adapter
         return view
     }

@@ -1,17 +1,15 @@
 package com.example.quiz_json
 
 import android.annotation.SuppressLint
-import android.content.Context
-import android.content.SharedPreferences
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.quiz_json.Adapter.QuizeAdapter
 import com.example.quiz_json.Model.QuestionModel
 
 // TODO: Rename parameter arguments, choose names that match
@@ -46,9 +44,10 @@ class startQuize2 : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+//        val prefs: SharedPreferences? = context?.getSharedPreferences("MyPrefs",MODE_PRIVATE)
+//        val scoreList = mutableListOf<String>()
+
         val quizItems = listOf(
-            QuestionModel.QuizItem( 0, 0, 0),
-            QuestionModel.QuizItem( 0, 0, 0),
             QuestionModel.QuizItem( 0, 0, 0)
         )
 

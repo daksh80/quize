@@ -5,12 +5,11 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.quiz_json.*
-import com.example.quiz_json.Model.AllQuestionModel
+import com.example.quiz_json.Adapter.SubjectAdapter
 import com.example.quiz_json.Model.SubjectModel
 import com.example.quiz_json.databinding.StartQuizBinding
 
@@ -51,7 +50,7 @@ class StartQuizController : Fragment(), MyItemClickListener {
     ): View? {
         val view = inflater.inflate(R.layout.fragment_start_quize2, container, false)
         val recyview1 = view.findViewById<RecyclerView>(R.id.rvquize)
-        recyview1.layoutManager = LinearLayoutManager(requireContext())
+        recyview1.layoutManager = LinearLayoutManager(requireContext(),LinearLayoutManager.HORIZONTAL,false)
         recyview1.adapter = adapter
 
         return view

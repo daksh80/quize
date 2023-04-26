@@ -6,10 +6,8 @@ import android.widget.Button
 import android.widget.RadioButton
 import android.widget.TextView
 import android.widget.Toast
-import androidx.lifecycle.ViewModelProvider
 import com.example.quiz_json.Controllers.McqQuizController
 import com.example.quiz_json.Data.*
-import com.example.quiz_json.Model.AllQuestionModel
 import com.example.quiz_json.ScoreCard
 
 class McqQuizView :  McqQuizController() {
@@ -28,6 +26,7 @@ class McqQuizView :  McqQuizController() {
     var count = 0
     var score = 0
 
+
     fun setdata(
         questions: List<UserScore>,
         context: Context,
@@ -36,8 +35,8 @@ class McqQuizView :  McqQuizController() {
         option2: RadioButton,
         option3: RadioButton,
         option4: RadioButton,
-        question_number: TextView,
-        next_question: Button
+        previous_question: Button,
+        next_question: Button,
     ) {
 
         question_text.text = questions[count].question
@@ -45,50 +44,28 @@ class McqQuizView :  McqQuizController() {
         option2.text = questions[count].option2
         option3.text = questions[count].option3
         option4.text = questions[count].option4
-        question_number.text = (count + 1).toString()
+
 
 
         option1.setOnClickListener {
-            nextquestion(
-                questions,
-                context,
-                question_text,
-                option1,
-                option2,
-                option3,
-                option4,
-                question_number
-            )
+
             myAnsers[count] = option1.text as String
         }
 
         option2.setOnClickListener {
-            nextquestion(
-                questions,
-                context,
-                question_text,
-                option1,
-                option2,
-                option3,
-                option4,
-                question_number
-            )
+
             myAnsers[count] = option2.text as String
         }
         option3.setOnClickListener {
-            nextquestion(
-                questions,
-                context,
-                question_text,
-                option1,
-                option2,
-                option3,
-                option4,
-                question_number
-            )
+
             myAnsers[count] = option3.text as String
         }
         option4.setOnClickListener {
+
+            myAnsers[count] = option4.text as String
+        }
+
+        next_question.setOnClickListener {
             nextquestion(
                 questions,
                 context,
@@ -97,15 +74,31 @@ class McqQuizView :  McqQuizController() {
                 option2,
                 option3,
                 option4,
-                question_number
+                previous_question,
+                next_question
+
             )
-            myAnsers[count] = option4.text as String
+        }
+
+        previous_question.setOnClickListener {
+            previousquestion(
+                questions,
+                context,
+                question_text,
+                option1,
+                option2,
+                option3,
+                option4,
+                previous_question,
+                next_question
+            )
+
         }
 
 
     }
 
-    fun nextquestion(
+    private fun nextquestion(
         questions: List<UserScore>,
         context: Context,
         question_text: TextView,
@@ -113,9 +106,10 @@ class McqQuizView :  McqQuizController() {
         option2: RadioButton,
         option3: RadioButton,
         option4: RadioButton,
-        question_number: TextView
-    )
-    {
+        previous_question: Button,
+        next_question: Button
+    ) {
+
         if(count<9) {
             count++
             question_text.text = questions[count].question
@@ -123,7 +117,7 @@ class McqQuizView :  McqQuizController() {
             option2.text = questions[count].option2
             option3.text = questions[count].option3
             option4.text = questions[count].option4
-            question_number.text = (count + 1).toString()
+
         }
         else
         {
@@ -132,7 +126,7 @@ class McqQuizView :  McqQuizController() {
                 if (questions[i].answer == myAnsers[i]) score++
             }
             Toast.makeText(context, "$score", Toast.LENGTH_LONG).show()
-           // intent.putExtra("score",score)
+            // intent.putExtra("score",score)
             val intent = Intent(context, ScoreCard::class.java)
             context.startActivity(intent)
             Toast.makeText(context, "Check your scores here ${score}", Toast.LENGTH_LONG).show()
@@ -142,7 +136,24 @@ class McqQuizView :  McqQuizController() {
 //            UserScoreViewModel1.deleteAllUser()
         }
 
+
     }
+
+
+//    private fun nextquestion(
+//        questions: List<UserScore>,
+//        context: Context,
+//        questionText: TextView,
+//        option1: RadioButton,
+//        option2: RadioButton,
+//        option3: RadioButton,
+//        option4: RadioButton,
+//        questionNumber: TextView
+//    ) {
+//
+//    }
+
+
 
     fun previousquestion(
         questions: List<UserScore>,
@@ -152,7 +163,8 @@ class McqQuizView :  McqQuizController() {
         option2: RadioButton,
         option3: RadioButton,
         option4: RadioButton,
-        question_number: TextView
+        previous_question: Button,
+        next_question: Button
     )
     {
         if(count>0) {
@@ -162,10 +174,10 @@ class McqQuizView :  McqQuizController() {
             option2.text = questions[count].option2
             option3.text = questions[count].option3
             option4.text = questions[count].option4
-            question_number.text = (count + 1).toString()
         }
 
     }
+
     private fun saveData(score: Int, context: Context, count: Int) {
         val prefs = context.getSharedPreferences("MyPrefs", Context.MODE_PRIVATE)
         // Get an editor to modify the SharedPreferences

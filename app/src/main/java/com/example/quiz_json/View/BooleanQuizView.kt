@@ -23,43 +23,38 @@ class BooleanQuizView{
         truebutton: Button,
         falsebutton: Button,
         question_text: TextView,
-        question_number: TextView,
+        previous_question: Button,
         next_question: Button
     )
     {
         question_text.text= booleanQuestions[count].question
-        question_number.text = (count+1).toString()
 
         truebutton.setOnClickListener {
-            Log.d("onClick", "True Button onClick Called")
-//            Toast.makeText(quizActivity, "Correct Choice!", Toast.LENGTH_SHORT).show()
-            //isCorrect(true,listOfQuestion[questionNumber].answer)
-
             myAnsers[count]=true
-
-            nextquestion(context,booleanQuestions, question_text,question_number)
-
         }
 
         falsebutton.setOnClickListener {
-            Log.d("onClick", "True Button onClick Called")
             myAnsers[count]=false
-            nextquestion(context,booleanQuestions, question_text,question_number)
-
         }
-
+        next_question.setOnClickListener {
+            nextquestion(context,booleanQuestions, question_text,previous_question,next_question)
+        }
+        previous_question.setOnClickListener {
+            previousquestion(booleanQuestions, question_text,previous_question,next_question)
+        }
     }
 
     private fun previousquestion(
         booleanQuestions: Array<QuestionModel.BooleanQuestion>,
         question: TextView,
-        question_number: TextView
+        previous_question: Button,
+        next_question: Button
     ) {
         if(count>0)
         {
             count--
             question.text = booleanQuestions[count].question
-            question_number.text = (count+1).toString()
+
         }
 
         7
@@ -68,12 +63,12 @@ class BooleanQuizView{
     fun nextquestion(context: Context,
                      booleanQuestions: Array<QuestionModel.BooleanQuestion>,
                      question: TextView,
-                     question_number: TextView
+                     previous_question: Button,
+                     next_question: Button
     ) {
         if(count<9) {
             count++
             question.text = booleanQuestions[count].question
-            question_number.text = (count + 1).toString()
         }
         else{
             score=0

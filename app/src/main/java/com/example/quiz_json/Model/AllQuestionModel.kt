@@ -11,7 +11,6 @@ import androidx.navigation.navArgument
 import com.example.quiz_json.Controllers.RangeStudent
 import com.example.quiz_json.Controllers.StartQuizController
 import com.example.quiz_json.Difficulty
-import com.example.quiz_json.binding
 import org.json.JSONObject
 
 class AllQuestionModel() {

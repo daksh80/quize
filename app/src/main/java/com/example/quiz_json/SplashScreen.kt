@@ -6,6 +6,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
+import androidx.appcompat.app.AppCompatDelegate
+import com.bumptech.glide.Glide
 import com.example.quiz_json.databinding.SplashScreenBinding
 
 // TODO: Rename parameter arguments, choose names that match
@@ -28,10 +31,18 @@ class SplashScreen : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = SplashScreenBinding.inflate(layoutInflater)
+        showgif()
         handler = Handler()
         handler.postDelayed({
             replaceFragment(Login())
         },3000)
+    }
+     fun showgif(){
+        val imageView: ImageView? = view?.findViewById<ImageView>(R.id.imageView)
+         if (imageView != null) {
+             Glide.with(this).load(R.drawable.splashscreen).into(imageView)
+         }
+
     }
 
     override fun onCreateView(

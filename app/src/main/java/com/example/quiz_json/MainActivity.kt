@@ -6,6 +6,7 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.fragment.app.Fragment
 import com.example.quiz_json.Controllers.RangeStudent
 import com.example.quiz_json.Controllers.StartQuizController
@@ -22,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         replaceFragment(SplashScreen())
-
+        supportActionBar?.hide()
         binding.apply {
             toggle = ActionBarDrawerToggle(this@MainActivity, drawerLayout, androidx.navigation.ui.R.string.nav_app_bar_open_drawer_description, com.google.android.material.R.string.mtrl_chip_close_icon_content_description)
             drawerLayout.addDrawerListener(toggle)

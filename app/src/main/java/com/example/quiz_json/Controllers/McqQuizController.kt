@@ -87,6 +87,9 @@ open class McqQuizController :Fragment() {
 
         return  view
     }
+
+
+
     fun getmcqquestions() {
 
 
