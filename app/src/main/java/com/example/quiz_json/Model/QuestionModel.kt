@@ -34,7 +34,7 @@ class QuestionModel {
         val answer: String
     )
 
-    data class QuizItem(var score: Int, var totalQuestions: Int, var percentage: Int)
+    data class QuizItem(var score: String, var totalQuestions: String, var percentage: Int)
 
 
 }

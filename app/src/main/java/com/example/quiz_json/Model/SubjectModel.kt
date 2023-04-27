@@ -56,7 +56,8 @@ class SubjectModel {
 
 
     data class Difficulty(
-        val Difficult: String
+        val Difficult: String,
+        val images: String
     )
 
     val DiffList: ArrayList<SubjectModel.Difficulty> = ArrayList()
@@ -67,7 +68,8 @@ class SubjectModel {
         for(i in 0 until  Diff.length()){
             val DiffJson = Diff.getJSONObject(i)
             val DiffRange = Difficulty(
-                DiffJson.getString("Difficult")
+                DiffJson.getString("Difficult"),
+                        DiffJson.getString("images")
             )
             DiffList.add(DiffRange)
         }

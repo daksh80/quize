@@ -1,34 +1,29 @@
 package com.example.quiz_json
 
-import android.annotation.SuppressLint
+import android.content.Context
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.quiz_json.Adapter.QuizeAdapter
 import com.example.quiz_json.Model.QuestionModel
+import com.google.gson.Gson
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
 
-/**
- * A simple [Fragment] subclass.
- * Use the [startQuize2.newInstance] factory method to
- * create an instance of this fragment.
- */
 class startQuize2 : Fragment() {
-    // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
-    lateinit var scoretxt: TextView
-    lateinit var totalques: TextView
-    lateinit var percentage: TextView
+    private lateinit var scoretxt: TextView
+    private lateinit var totalques: TextView
+    private lateinit var percentage: TextView
+    private var score: String? = null
+    private lateinit var totalquestion: String
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -36,45 +31,38 @@ class startQuize2 : Fragment() {
             param1 = it.getString(ARG_PARAM1)
             param2 = it.getString(ARG_PARAM2)
         }
-
     }
 
-    @SuppressLint("MissingInflatedId")
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
+        inflater: LayoutInflater,
+        container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-//        val prefs: SharedPreferences? = context?.getSharedPreferences("MyPrefs",MODE_PRIVATE)
-//        val scoreList = mutableListOf<String>()
-
-        val quizItems = listOf(
-            QuestionModel.QuizItem( 0, 0, 0)
-        )
-
-
-        // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_start_quize2, container, false)
-       val recyview = view.findViewById<RecyclerView>(R.id.rvquize)
-        recyview.layoutManager = LinearLayoutManager(requireContext())
-        val itemAdapter = context?.let { QuizeAdapter(quizItems, it) }
+        val recyview = view.findViewById<RecyclerView>(R.id.rvquize)
+        recyview.layoutManager = LinearLayoutManager(context)
+        val itemAdapter = context?.let { QuizeAdapter(getmcqquestions(it), it) }
         recyview.adapter = itemAdapter
-
-
-//        context?.let { loadData(it) }
-
         return view
     }
 
+    private fun getmcqquestions(context: Context): Array<QuestionModel.QuizItem> {
+        val sharedPreferences = context.getSharedPreferences("quiz_items", Context.MODE_PRIVATE)
+        val noOfAttempts = sharedPreferences.getInt("noOfAttempts", 0)
+        return Array(noOfAttempts) { i ->
+            val scorejson = sharedPreferences.getString("score_$i", null)
+            val totalquestionjson = sharedPreferences.getString("TotalQuestion_$noOfAttempts", null)
+            if (scorejson !=null) {
+                 score = Gson().fromJson(scorejson,scorejson::class.java)
+            }
+            if(totalquestionjson!=null) {
+                totalquestion = Gson().fromJson(totalquestionjson,totalquestionjson::class.java)
+            }
+            QuestionModel.QuizItem(score.toString(), totalquestion.toString(), 10)
+        }
+    }
+
     companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment startQuize2.
-         */
-        // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
             startQuize2().apply {
@@ -84,19 +72,4 @@ class startQuize2 : Fragment() {
                 }
             }
     }
-
-//    private fun loadData(context: Context){
-//        val prefs: SharedPreferences = context.getSharedPreferences("MyPrefs", Context.MODE_PRIVATE)
-//        val username = prefs.getString("score", "")
-//        val totalquestion = prefs.getString("TotalQuestion","")
-//        Toast.makeText(context," load data from context ${username}", Toast.LENGTH_LONG).show()
-//
-//        totalques.text = totalquestion
-//        val score = username?.toInt()
-//        val totalques = totalquestion?.toInt()
-//
-//        val scorePer = (score?.times(100))?.div(totalques!!)
-//
-//
-//    }
 }

@@ -6,9 +6,12 @@ import android.widget.Button
 import android.widget.RadioButton
 import android.widget.TextView
 import android.widget.Toast
+import androidx.fragment.app.Fragment
 import com.example.quiz_json.Controllers.McqQuizController
 import com.example.quiz_json.Data.*
+import com.example.quiz_json.R
 import com.example.quiz_json.ScoreCard
+import com.google.gson.Gson
 
 class McqQuizView :  McqQuizController() {
 
@@ -66,6 +69,7 @@ class McqQuizView :  McqQuizController() {
         }
 
         next_question.setOnClickListener {
+
             nextquestion(
                 questions,
                 context,
@@ -109,6 +113,10 @@ class McqQuizView :  McqQuizController() {
         previous_question: Button,
         next_question: Button
     ) {
+        option1.isChecked = false
+        option2.isChecked=false
+        option3.isChecked = false
+        option4.isChecked=false
 
         if(count<9) {
             count++
@@ -129,6 +137,7 @@ class McqQuizView :  McqQuizController() {
             // intent.putExtra("score",score)
             val intent = Intent(context, ScoreCard::class.java)
             context.startActivity(intent)
+
             Toast.makeText(context, "Check your scores here ${score}", Toast.LENGTH_LONG).show()
             saveData(score, context, count)
 
@@ -167,6 +176,11 @@ class McqQuizView :  McqQuizController() {
         next_question: Button
     )
     {
+        option1.isChecked = false
+        option2.isChecked=false
+        option3.isChecked = false
+        option4.isChecked=false
+
         if(count>0) {
             count--
             question_text.text = questions[count].question
@@ -179,14 +193,23 @@ class McqQuizView :  McqQuizController() {
     }
 
     private fun saveData(score: Int, context: Context, count: Int) {
-        val prefs = context.getSharedPreferences("MyPrefs", Context.MODE_PRIVATE)
+        val prefs = context.getSharedPreferences("quiz_items", Context.MODE_PRIVATE)
+        var noOfAttempts = prefs.getInt("noOfAttempts",0)
+        noOfAttempts++
         // Get an editor to modify the SharedPreferences
         val editor = prefs?.edit()
         // Store a string value
-        editor?.putString("score", score.toString())
-        editor?.putString("TotalQuestion", count.toString())
+        editor?.putInt("noOfAttempts",noOfAttempts)
+        editor?.putString("score_$noOfAttempts", Gson().toJson(score))
+        editor?.putString("TotalQuestion_$noOfAttempts", Gson().toJson(count))
         // Commit the changes
         editor?.apply()
+    }
+    private fun replaceFragment(fragment: Fragment) {
+        parentFragmentManager.beginTransaction()
+            .replace(R.id.fragment_container3, fragment)
+            .addToBackStack(null)
+            .commit()
     }
 
 }

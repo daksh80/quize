@@ -2,16 +2,17 @@ package com.example.quiz_json.View
 
 import android.annotation.SuppressLint
 import android.content.Context
+import android.content.SharedPreferences
 import android.util.Log
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import com.example.quiz_json.Model.QuestionModel
+import com.google.gson.Gson
 
+class BooleanQuizView {
 
-class BooleanQuizView{
-
-    val myAnsers = BooleanArray(10)
+    val myAnswers = BooleanArray(10)
     var flag = true
     var count = 0
     var score = 0
@@ -20,75 +21,74 @@ class BooleanQuizView{
     fun setdata(
         booleanQuestions: Array<QuestionModel.BooleanQuestion>,
         context: Context,
-        truebutton: Button,
-        falsebutton: Button,
-        question_text: TextView,
-        previous_question: Button,
-        next_question: Button
-    )
-    {
-        question_text.text= booleanQuestions[count].question
+        trueButton: Button,
+        falseButton: Button,
+        questionText: TextView,
+        previousButton: Button,
+        nextButton: Button
+    ) {
+        questionText.text = booleanQuestions[count].question
 
-        truebutton.setOnClickListener {
-            myAnsers[count]=true
+        trueButton.setOnClickListener {
+            myAnswers[count] = true
         }
 
-        falsebutton.setOnClickListener {
-            myAnsers[count]=false
+        falseButton.setOnClickListener {
+            myAnswers[count] = false
         }
-        next_question.setOnClickListener {
-            nextquestion(context,booleanQuestions, question_text,previous_question,next_question)
+
+        nextButton.setOnClickListener {
+            nextQuestion(context, booleanQuestions, questionText, previousButton, nextButton)
         }
-        previous_question.setOnClickListener {
-            previousquestion(booleanQuestions, question_text,previous_question,next_question)
+
+        previousButton.setOnClickListener {
+            previousQuestion(booleanQuestions, questionText, previousButton, nextButton)
         }
     }
 
-    private fun previousquestion(
+    private fun previousQuestion(
         booleanQuestions: Array<QuestionModel.BooleanQuestion>,
-        question: TextView,
-        previous_question: Button,
-        next_question: Button
+        questionText: TextView,
+        previousButton: Button,
+        nextButton: Button
     ) {
-        if(count>0)
-        {
+        if (count > 0) {
             count--
-            question.text = booleanQuestions[count].question
-
+            questionText.text = booleanQuestions[count].question
         }
-
-        7
     }
 
-    fun nextquestion(context: Context,
-                     booleanQuestions: Array<QuestionModel.BooleanQuestion>,
-                     question: TextView,
-                     previous_question: Button,
-                     next_question: Button
+    fun nextQuestion(
+        context: Context,
+        booleanQuestions: Array<QuestionModel.BooleanQuestion>,
+        questionText: TextView,
+        previousButton: Button,
+        nextButton: Button
     ) {
-        if(count<9) {
+        if (count < 9) {
             count++
-            question.text = booleanQuestions[count].question
-        }
-        else{
-            score=0
+            questionText.text = booleanQuestions[count].question
+        } else {
+            score = 0
             for (i in 0 until count) {
-                if (booleanQuestions[i].answer == myAnsers[i]) score++
+                if (booleanQuestions[i].answer == myAnswers[i]) score++
             }
-            Toast.makeText(context, "total score $score", Toast.LENGTH_LONG).show()
-            saveData(score,context,count)
-
+            Toast.makeText(context, "Total score: $score", Toast.LENGTH_LONG).show()
+            saveData(score, context, count)
         }
-
     }
+
     private fun saveData(score: Int, context: Context, count: Int) {
         val prefs = context.getSharedPreferences("quiz_items", Context.MODE_PRIVATE)
-    // Get an editor to modify the SharedPreferences
+        var noOfAttempts = prefs.getInt("noOfAttempts",0)
+        noOfAttempts++
+        // Get an editor to modify the SharedPreferences
         val editor = prefs?.edit()
-    // Store a string value
-        editor?.putString("score", score.toString())
-        editor?.putString("TotalQuestion", count.toString())
-   // Commit the changes
+        // Store a string value
+        editor?.putInt("noOfAttempts",noOfAttempts)
+        editor?.putString("score_$noOfAttempts",Gson().toJson(score))
+        editor?.putString("TotalQuestion_$noOfAttempts", Gson().toJson(count))
+        // Commit the changes
         editor?.apply()
     }
 
