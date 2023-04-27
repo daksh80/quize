@@ -1,18 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Login">
 
-    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/loginlogo"
+        android:scaleType="fitCenter"
+        app:layout_anchor="@+id/imageView2"
+        app:layout_anchorGravity="center" />
+
+    <FrameLayout
+    android:layout_width="match_parent"
+     android:id="@+id/sheet"
+    android:layout_height="450dp"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+    android:background="@drawable/roundpage">
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:layout_marginLeft="150dp"
-        android:text="@string/Login"
-        android:textSize="30dp"/>
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="80dp"
+    android:layout_marginLeft="150dp"
+    android:text="@string/Login"
+    android:textSize="30dp"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -23,7 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
-            android:layout_marginTop="240dp"
+            android:layout_marginTop="150dp"
             android:text="@string/Login_id"
             android:textSize="25dp" />
 
@@ -32,7 +49,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/Editlogin"
             android:textSize="20dp"
-            android:layout_marginTop="240dp"
+            android:layout_marginTop="150dp"
             android:hint="@string/login_details"/>
 
     </LinearLayout>
@@ -46,7 +63,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
-            android:layout_marginTop="300dp"
+            android:layout_marginTop="240dp"
             android:text="@string/password"
             android:textSize="25dp" />
 
@@ -55,7 +72,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/Editpassword"
             android:textSize="20dp"
-            android:layout_marginTop="300dp"
+            android:layout_marginTop="240dp"
             android:hint="@string/password_details"/>
 
     </LinearLayout>
@@ -63,7 +80,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="300dp"
         android:layout_marginLeft="150dp"
         android:text="@string/Submit"
         android:id="@+id/loginidbtn"/>
@@ -71,10 +88,12 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="480dp"
+        android:layout_marginTop="350dp"
         android:id="@+id/signuptxt"
         android:text="@string/Signuptxt"
         android:layout_marginLeft="150dp"
         android:textSize="20dp"/>
 
+
 </FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

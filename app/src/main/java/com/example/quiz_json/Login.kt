@@ -17,6 +17,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.quiz_json.Controllers.StartQuizController
 import com.example.quiz_json.Data.UserScoreViewModel
 import com.example.quiz_json.databinding.LoginBinding
+import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
@@ -40,6 +41,7 @@ class Login : Fragment() {
     private lateinit var UserScoreViewModel1: UserScoreViewModel
 
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = LoginBinding.inflate(layoutInflater)
@@ -58,6 +60,11 @@ class Login : Fragment() {
         val password = view.findViewById<EditText>(R.id.Editpassword)
         val submitbtn = view.findViewById<Button>(R.id.loginidbtn)
         val signuptxt = view.findViewById<TextView>(R.id.signuptxt)
+        BottomSheetBehavior.from(view.findViewById(R.id.sheet)).apply{
+            peekHeight= 200
+            this.state=BottomSheetBehavior.STATE_COLLAPSED
+        }
+
         UserScoreViewModel1 = ViewModelProvider(this).get(UserScoreViewModel::class.java)
         UserScoreViewModel1.deleteAllUser()
 
