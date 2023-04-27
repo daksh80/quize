@@ -8,7 +8,7 @@ class SubjectModel {
 
     data class subject(
         val Subject : String,
-        //val image: String
+        val images: String
     )
 
 
@@ -21,6 +21,7 @@ class SubjectModel {
              val questionJson = subjectJson.getJSONObject(i)
              val subjectprimary = subject(
                  questionJson.getString("Subject"),
+                 questionJson.getString("images")
                  //questionJson.getString("image")
              )
              userList.add(subjectprimary)
@@ -33,7 +34,8 @@ class SubjectModel {
     }
 
     data class Ranges(
-        val Range: String
+        val Range: String,
+        val images: String
     )
 
     val rangelist: ArrayList<SubjectModel.Ranges> = ArrayList()
@@ -45,7 +47,7 @@ class SubjectModel {
         for(i in 0 until SubRangejson.length()){
             val Rangejson = SubRangejson.getJSONObject(i)
             val studRange = Ranges(
-                Rangejson.getString("Range")
+                Rangejson.getString("Range"),Rangejson.getString("images")
             )
             rangelist.add(studRange)
         }

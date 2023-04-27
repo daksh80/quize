@@ -4,8 +4,10 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 import com.example.quiz_json.Model.SubjectModel
 import com.example.quiz_json.R
 import com.example.quiz_json.RangeItemClickListner
@@ -23,6 +25,7 @@ class RangeAdapter(val items: ArrayList<SubjectModel.Ranges>, val context: Conte
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val item = items.get(position)
         holder.ageRange.text = item.Range
+        Glide.with(context).load(item.images.toString()).into(holder.image)
         holder.itemView.setOnClickListener {
             Ranlistener?.rangeIntemClicked(item,position)
         }
@@ -33,5 +36,6 @@ class RangeAdapter(val items: ArrayList<SubjectModel.Ranges>, val context: Conte
     }
     inner class ViewHolder(view: View) : RecyclerView.ViewHolder(view){
         val ageRange = view.findViewById<TextView>(R.id.range)
+        val image = view.findViewById<ImageView>(R.id.imagesub)
     }
 }
