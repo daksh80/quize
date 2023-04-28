@@ -12,6 +12,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/alex1"
             android:text="@string/score"
             android:textSize="30dp"
             android:layout_marginTop="40dp"
@@ -20,6 +21,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/alex1"
             android:textSize="30dp"
             android:layout_marginTop="40dp"
             android:layout_marginLeft="0dp"
@@ -34,6 +36,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/alex1"
             android:text="@string/total_question"
             android:textSize="30dp"
             android:layout_marginTop="100dp"
@@ -44,6 +47,7 @@
             android:layout_height="wrap_content"
             android:textSize="30dp"
             android:layout_marginTop="100dp"
+            android:fontFamily="@font/alex1"
             android:layout_marginLeft="0dp"
             android:text="0"
             android:id="@+id/questionAttpt"/>
@@ -57,6 +61,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/alex1"
             android:text="@string/percentage"
             android:textSize="30dp"
             android:layout_marginTop="150dp"
@@ -67,6 +72,7 @@
             android:layout_height="wrap_content"
             android:textSize="30dp"
             android:layout_marginTop="150dp"
+            android:fontFamily="@font/alex1"
             android:layout_marginLeft="0dp"
             android:text="0"
             android:id="@+id/percent"/>

@@ -27,7 +27,9 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_marginTop="80dp"
-    android:layout_marginLeft="150dp"
+        android:fontFamily="@font/alex1"
+        android:layout_marginLeft="150dp"
+        android:textColor="#FAFAFA"
     android:text="@string/Login"
     android:textSize="30dp"/>
 
@@ -40,6 +42,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
+            android:textColor="#FAFAFA"
+            android:fontFamily="@font/alex1"
             android:layout_marginTop="150dp"
             android:text="@string/Login_id"
             android:textSize="25dp" />
@@ -47,6 +51,8 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/alex1"
+            android:textColor="#FAFAFA"
             android:id="@+id/Editlogin"
             android:textSize="20dp"
             android:layout_marginTop="150dp"
@@ -57,11 +63,15 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/alex1"
+        android:textColor="#FAFAFA"
         android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#FAFAFA"
+            android:fontFamily="@font/alex1"
             android:layout_marginLeft="25dp"
             android:layout_marginTop="240dp"
             android:text="@string/password"
@@ -70,7 +80,9 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#FAFAFA"
             android:id="@+id/Editpassword"
+            android:fontFamily="@font/alex1"
             android:textSize="20dp"
             android:layout_marginTop="240dp"
             android:hint="@string/password_details"/>
@@ -81,6 +93,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="300dp"
+        android:textColor="#FAFAFA"
+        android:fontFamily="@font/alex1"
         android:layout_marginLeft="150dp"
         android:text="@string/Submit"
         android:id="@+id/loginidbtn"/>
@@ -89,6 +103,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="350dp"
+        android:textColor="#FAFAFA"
+        android:fontFamily="@font/alex1"
         android:id="@+id/signuptxt"
         android:text="@string/Signuptxt"
         android:layout_marginLeft="150dp"

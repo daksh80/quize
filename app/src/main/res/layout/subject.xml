@@ -37,6 +37,8 @@
         android:layout_marginLeft="120dp"
         android:layout_marginTop="550dp"
         android:layout_marginBottom="50dp"
+        android:textColor="#FAFAFA"
+        android:fontFamily="@font/alex1"
         android:textAlignment="center"
         android:text="@string/subject"
         android:textSize="20dp"

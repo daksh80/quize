@@ -10,6 +10,8 @@
         android:id="@+id/question"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/alex1"
+        android:textColor="#FAFAFA"
         android:textSize="24sp"
         android:text="Hello"/>
 
@@ -23,12 +25,16 @@
             android:id="@+id/true_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/alex1"
+            android:textColor="#FAFAFA"
             android:text="True"/>
 
         <Button
             android:layout_marginStart="5dp"
             android:id="@+id/false_button"
             android:layout_width="wrap_content"
+            android:fontFamily="@font/alex1"
+            android:textColor="#FAFAFA"
             android:layout_height="wrap_content"
             android:text="Flase"/>
     </LinearLayout>

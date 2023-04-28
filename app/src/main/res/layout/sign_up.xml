@@ -3,6 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:textColor="#FAFAFA"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SignUp">
@@ -20,6 +21,8 @@
         android:layout_width="match_parent"
         android:id="@+id/sheet"
         android:layout_height="450dp"
+        android:textColor="#FAFAFA"
+        android:fontFamily="@font/alex1"
         app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
         android:background="@drawable/roundpage">
 
@@ -27,19 +30,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
+        android:textColor="#FAFAFA"
         android:layout_marginLeft="150dp"
+        android:fontFamily="@font/alex1"
         android:text="@string/Signup"
         android:textSize="30dp"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#FAFAFA"
         android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
+            android:textColor="#FAFAFA"
+            android:fontFamily="@font/alex1"
             android:layout_marginTop="100dp"
             android:text="@string/Login_id"
             android:textSize="25dp" />
@@ -47,6 +55,7 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#FAFAFA"
             android:id="@+id/EditSignup"
             android:textSize="20dp"
             android:layout_marginTop="100dp"
@@ -62,8 +71,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#FAFAFA"
             android:layout_marginLeft="25dp"
             android:layout_marginTop="180dp"
+            android:fontFamily="@font/alex1"
             android:text="@string/password"
             android:textSize="25dp" />
 
@@ -71,7 +82,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/EditpasswordSignup"
+            android:textColor="#FAFAFA"
             android:textSize="20dp"
+            android:fontFamily="@font/alex1"
             android:layout_marginTop="180dp"
             android:hint="@string/password_details"/>
 
@@ -82,6 +95,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="250dp"
         android:layout_marginLeft="150dp"
+        android:textColor="#FAFAFA"
+        android:fontFamily="@font/alex1"
         android:text="@string/Submit"
         android:id="@+id/signupbtn"/>
 
@@ -89,6 +104,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="320dp"
+        android:textColor="#FAFAFA"
+        android:fontFamily="@font/alex1"
         android:text="@string/logintxt"
         android:id="@+id/logintxt"
         android:layout_marginLeft="150dp"

@@ -28,6 +28,7 @@
                 android:id="@+id/imagesub"
                 android:layout_width="321dp"
                 android:layout_height="563dp"
+                android:fontFamily="@font/alex1"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:src="@drawable/ic_launcher_background" />
@@ -38,7 +39,9 @@
             android:id="@+id/range"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#FAFAFA"
             android:layout_marginLeft="10dp"
+            android:fontFamily="@font/alex1"
             android:layout_marginTop="550dp"
             android:layout_marginBottom="50dp"
             android:text="@string/Range"

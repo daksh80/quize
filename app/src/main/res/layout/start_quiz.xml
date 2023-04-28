@@ -18,6 +18,8 @@
         android:layout_height="wrap_content"
         android:text="@string/subject"
         android:id="@+id/subject"
+        android:textColor="#FAFAFA"
+        android:fontFamily="@font/alex1"
         android:layout_marginLeft="250dp"
         android:layout_marginTop="50dp"
         android:textSize="20dp"

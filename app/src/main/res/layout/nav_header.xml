@@ -11,8 +11,9 @@
         android:text="Sample Title"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="#FAFAFA"
+        android:fontFamily="@font/alex1"
         app:layout_constraintStart_toStartOf="parent"
-        android:textColor="@color/white"
         android:layout_marginStart="50dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,6 +10,8 @@
         android:id="@+id/question"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#FAFAFA"
+        android:fontFamily="@font/alex1"
         android:textSize="24sp"
         android:text="Hello"/>
 
@@ -20,12 +22,15 @@
         android:layout_height="wrap_content">
         <RadioGroup
             android:layout_width="match_parent"
+            android:textColor="#FAFAFA"
             android:layout_height="match_parent" >
 
             <RadioButton
                 android:id="@+id/option1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="#FAFAFA"
+                android:fontFamily="@font/alex1"
                 android:layout_weight="1"
                 android:text="Option 1 " />
 
@@ -33,6 +38,8 @@
                 android:id="@+id/option2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="#FAFAFA"
+                android:fontFamily="@font/alex1"
                 android:layout_weight="1"
                 android:text="Option 2" />
 
@@ -40,6 +47,8 @@
                 android:id="@+id/option3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="#FAFAFA"
+                android:fontFamily="@font/alex1"
                 android:layout_weight="1"
                 android:text="Option 3 " />
 
@@ -47,6 +56,8 @@
                 android:id="@+id/option4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="#FAFAFA"
+                android:fontFamily="@font/alex1"
                 android:layout_weight="1"
                 android:text="Option 4" />
 

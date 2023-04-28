@@ -15,6 +15,7 @@
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="#FAFAFA"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" >
 
@@ -22,6 +23,7 @@
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#FAFAFA"
             android:text="Button" />
 
         <RadioButton
@@ -30,6 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="290dp"
             android:layout_marginLeft="150dp"
+            android:textColor="#FAFAFA"
             android:text="Flase"
             tools:ignore="MissingConstraints" />
     </FrameLayout>
@@ -39,18 +42,22 @@
         android:layout_marginTop="10dp"
         android:orientation="vertical"
         android:layout_height="wrap_content"
+        android:textColor="#FAFAFA"
         tools:ignore="MissingConstraints">
 
 <RadioGroup
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
-        <RadioButton
-            android:id="@+id/true_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="200dp"
-            android:layout_marginLeft="150dp"
-            android:text="True"/>
+
+    <RadioButton
+        android:id="@+id/true_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/alex1"
+        android:textColor="#FAFAFA"
+        android:text="True" />
 
     <TextView
 
@@ -60,7 +67,8 @@
         android:layout_marginLeft="100dp"
         android:layout_height="wrap_content"
         android:text="Hello"
-        android:textColor="@color/black"
+        android:fontFamily="@font/alex1"
+        android:textColor="#FAFAFA"
         android:textSize="24sp"
         android:textStyle="bold" />
 
@@ -72,6 +80,7 @@
         android:layout_width="365dp"
         android:layout_height="wrap_content"
         android:textAlignment="center"
+        android:fontFamily="@font/alex1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -83,14 +92,18 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="60dp"
             android:layout_marginTop="450dp"
+            android:textColor="#FAFAFA"
+            android:fontFamily="@font/alex1"
             android:text="Previous" />
 
         <Button
             android:id="@+id/next"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#FAFAFA"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="450dp"
+            android:fontFamily="@font/alex1"
             android:text="Next" />
 
     </LinearLayout>
