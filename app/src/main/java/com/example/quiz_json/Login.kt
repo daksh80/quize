@@ -3,6 +3,7 @@ package com.example.quiz_json
 import android.annotation.SuppressLint
 import android.content.ContentValues.TAG
 import android.os.Bundle
+import android.text.InputType
 import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -65,6 +66,7 @@ class Login : Fragment() {
             this.state=BottomSheetBehavior.STATE_COLLAPSED
         }
 
+        password.inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_PASSWORD
         UserScoreViewModel1 = ViewModelProvider(this).get(UserScoreViewModel::class.java)
         UserScoreViewModel1.deleteAllUser()
 

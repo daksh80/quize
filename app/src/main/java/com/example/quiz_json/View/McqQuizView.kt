@@ -2,6 +2,7 @@ package com.example.quiz_json.View
 
 import android.content.Context
 import android.content.Intent
+import android.os.CountDownTimer
 import android.widget.Button
 import android.widget.RadioButton
 import android.widget.TextView
@@ -9,6 +10,7 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.example.quiz_json.Controllers.McqQuizController
 import com.example.quiz_json.Data.*
+import com.example.quiz_json.Model.QuestionModel
 import com.example.quiz_json.R
 import com.example.quiz_json.ScoreCard
 import com.google.gson.Gson
@@ -17,6 +19,7 @@ class McqQuizView :  McqQuizController() {
 
 
     val myAnsers = Array<String?>(10){null}
+    private var countdownTimer: CountDownTimer? = null
     private lateinit var UserScoreViewModel1: UserScoreViewModel
 
 
@@ -48,6 +51,17 @@ class McqQuizView :  McqQuizController() {
         option3.text = questions[count].option3
         option4.text = questions[count].option4
 
+
+        startCountdownTimer(questions,
+        context,
+        question_text,
+        option1,
+        option2,
+        option3,
+        option4,
+        previous_question,
+        next_question
+        )
 
 
         option1.setOnClickListener {
@@ -82,6 +96,16 @@ class McqQuizView :  McqQuizController() {
                 next_question
 
             )
+            startCountdownTimer(questions,
+                context,
+                question_text,
+                option1,
+                option2,
+                option3,
+                option4,
+                previous_question,
+                next_question
+            )
         }
 
         previous_question.setOnClickListener {
@@ -98,6 +122,17 @@ class McqQuizView :  McqQuizController() {
             )
 
         }
+        countdownTimer?.cancel()
+        startCountdownTimer(questions,
+            context,
+            question_text,
+            option1,
+            option2,
+            option3,
+            option4,
+            previous_question,
+            next_question
+        )
 
 
     }
@@ -113,11 +148,11 @@ class McqQuizView :  McqQuizController() {
         previous_question: Button,
         next_question: Button
     ) {
+        countdownTimer?.cancel() // cancel the current countdown timer
         option1.isChecked = false
         option2.isChecked=false
         option3.isChecked = false
         option4.isChecked=false
-
         if(count<9) {
             count++
             question_text.text = questions[count].question
@@ -125,6 +160,16 @@ class McqQuizView :  McqQuizController() {
             option2.text = questions[count].option2
             option3.text = questions[count].option3
             option4.text = questions[count].option4
+            startCountdownTimer(questions,
+                context,
+                question_text,
+                option1,
+                option2,
+                option3,
+                option4,
+                previous_question,
+                next_question
+            )
 
         }
         else
@@ -210,6 +255,43 @@ class McqQuizView :  McqQuizController() {
             .replace(R.id.fragment_container3, fragment)
             .addToBackStack(null)
             .commit()
+    }
+
+
+    private fun startCountdownTimer(
+    questions: List<UserScore>,
+    context: Context,
+    question_text: TextView,
+    option1: RadioButton,
+    option2: RadioButton,
+    option3: RadioButton,
+    option4: RadioButton,
+    previous_question: Button,
+    next_question: Button
+    )
+    {
+        // Remove the var keyword to initialize the member variable instead of creating a new local variable
+        countdownTimer = object : CountDownTimer(10000, 1000) {
+            override fun onTick(millisUntilFinished: Long) {
+                Toast.makeText(context,"Next Question (${millisUntilFinished / 1000})",Toast.LENGTH_SHORT).show()
+            }
+
+            override fun onFinish() {
+                 nextquestion(
+                    questions,
+                    context,
+                    question_text,
+                    option1,
+                    option2,
+                    option3,
+                    option4,
+                    previous_question,
+                    next_question
+                )
+            }
+        }
+
+        countdownTimer?.start() // Use the member variable to start the timer
     }
 
 }

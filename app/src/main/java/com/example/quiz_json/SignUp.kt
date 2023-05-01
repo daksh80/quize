@@ -3,6 +3,7 @@ package com.example.quiz_json
 import android.annotation.SuppressLint
 import android.content.ContentValues.TAG
 import android.os.Bundle
+import android.text.InputType
 import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -54,6 +55,8 @@ class SignUp : Fragment() {
         val pass = view.findViewById<EditText>(R.id.EditpasswordSignup)
         val signupbtn = view.findViewById<Button>(R.id.signupbtn)
         val logintxt = view.findViewById<TextView>(R.id.logintxt)
+        pass.inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_PASSWORD
+
 
         signupbtn.setOnClickListener {
             val Editemail = Emaild.text.toString()
