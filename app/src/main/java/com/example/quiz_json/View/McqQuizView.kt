@@ -8,6 +8,7 @@ import android.widget.RadioButton
 import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProvider
 import com.example.quiz_json.Controllers.McqQuizController
 import com.example.quiz_json.Data.*
 import com.example.quiz_json.Model.QuestionModel
@@ -187,8 +188,8 @@ class McqQuizView :  McqQuizController() {
             Toast.makeText(context, "Check your scores here ${score}", Toast.LENGTH_LONG).show()
             saveData(score, context, count)
 
-//            UserScoreViewModel1 = ViewModelProvider(this).get(UserScoreViewModel::class.java)
-//            UserScoreViewModel1.deleteAllUser()
+            UserScoreViewModel1 = ViewModelProvider(this).get(UserScoreViewModel::class.java)
+            UserScoreViewModel1.deleteAllUser()
         }
 
 

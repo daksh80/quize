@@ -82,6 +82,9 @@ class Setting : Fragment() {
                 // Start the quiz with the selected parameters
                 mcqQuiz = McqQuizController()
                 mcqQuiz.arguments = bundle
+                boolean_test.isChecked = false
+                mcq_test.isChecked = false
+
                 replaceFragment(mcqQuiz)
             }
             if(test_type == "null") {

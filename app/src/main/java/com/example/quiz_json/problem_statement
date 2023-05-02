@@ -1,0 +1,144 @@
+
+_________________________________________________________________________________________
+_________________________________________________________________________________________
+
+	Coding Assignment A1 : Coding, Reading and Experimentation Assignment [ MUST MUST ]
+		- Chapter 01 and Chapter 02 : Reading and Coding
+		- Solve Challenges Behind Each Chapter
+		- Refactor Code To Better Design, Role and Responsibilites
+		- Store Questions Data in XML
+		- Store Questions Data in JSON
+_________________________________________________________________________________________
+
+	Coding Assignment A1 : Coding, Reading and Experimentation Assignment [ MUST MUST ]
+		GitHub Link: https://github.com/amarjitlife/BajajFinServJanuary2023
+		Reference Material :  StudyMaterial07.zip
+			├── AndroidCode
+				├── QuizApp03
+			└── ReadingGuides
+			    └── AndroidExperientationPart02.pdf
+
+		- Solve Challenges Behind Each Chapter
+		- Refactor Code To Better Design, Role and Responsibilites
+		- Store Questions Data in XML
+		- Store Questions Data in JSON
+		- Store/Reconstruct Business Logic and/or Application State
+		- Create Seperate UI For Landscape and Portrait Mode
+
+	Coding Assignment A2 : QuizApp Coding Assignment [ MUST MUST ]
+
+		1. Activity A2: QuizActivityController Shows Two UI
+			viz. MCQQuestionsUI and TrueFalseQuestionsUI
+			Implement These Using Indivisual Fragements
+
+		2. Activity A2: Above Both Fragments Have Common Question Navigation Buttons
+			Create A Commomn QuestionsNavigationFragement
+			and Use In Above Two Fragemnets
+
+		3. Design Data Communication
+			- Unidirectional Communication
+			- Bidirectional Communication
+
+			3.1 Between Activity A1 and Activity A2
+				Activity A1: StartActivityController
+				Activity A2: QuizActivityControllery
+
+			3.2 Between Activities and Fragments
+			3.3 Between Fragments
+
+		4. Create Two Fragments In Activity A1: StartActivityController
+			4.1 ConfigurationFragment and QuizStatisticsFragment
+
+		5. Save Data From Data Models To PersistentStores
+			Create Specialised Classes For JSON, XML, Databases Stores
+
+	Coding Assignment A2 : QuizApp Coding Assignment [ MUST MUST ]
+
+		6. Add Menu In Your App Bar
+			Add Two Menu Items viz. Settings and Statistics
+			On Settings Menu Item Selection
+				Show SettingsFragment
+			On Statistics Menu Item Selection
+				Show StatsiticsFragment
+
+		7. Activity A1: StartActivityController Will Show
+			List Of Subjects/Areas
+				Implement Using RecylerView
+
+			On Row Selection In List
+				Visit
+				Activity A2: QuizActivityControllery
+
+		8. Add Activity A3: StatisticsListActivity
+			List Of All Quizes Attempted
+				In Row Show Quiz, Subjects/Area, Score, Percentage
+
+			On Row Selection In List
+				Show Attempted Quiz Statistics and Details
+
+		9. Add Default Settings
+			Phase 01
+				Quiz Type: MCQ, TrueFalse, Both MCQ and TrueFalse
+				MCQType: Only One Choice Right, Or Multiple Choices Right
+
+			Phase 02
+				Quiz Level: Beginner, Intermediate and Advance
+				Age Group: 04 to 06 Years, 06 to 08 Years
+
+
+
+
+
+	Coding Assignment A2 : QuizApp Coding Assignment [ MUST MUST ]
+
+		10. Use CardView To Show The Following Items
+				Statistics, Subjects/Areas
+				Related Default Settings
+				Questions and Answers
+
+		11. Save Data In Persistent Store
+			11.1 Save Default and User Settings Choices
+				- Using JSON Format at /data/data/<PackageName> Directory
+				- Support Generic CRUD ( Create, Read, Update, Delete ) Operations
+			11.3 Save Questions & Answers Data In Database
+				- Using ROOM Database
+				- Support Generic CRUD ( Create, Read, Update, Delete ) Operations
+
+		12. Make All Code As Usable Components/Code
+			It Should Be Customisable Using Configuration
+
+		13. Generate KBC Quiz Application From Master Quiz Application
+		 	13.1 Configure It Using Configurations/Settings
+		 		 	Make Resusable/Plug In Components/Code and Use It!
+
+			13.2 Design KBC Lifelines Fragment
+				It Can Be Attached/Detached At QuestionsNavigationFragement
+					Below In Portrait Mode
+					Right Side In Landscape Mode
+
+				Show Scrollable Clickable Lifeline Icons with Titles
+					It's Scrollable Horizontally in Portrait Mode
+					It's Scrollable Vertically in Landscape Mode
+
+				Hide/Unhide Lifeline Fragment Using Swipe Gesture
+
+			13.3 Evolve KBC Lifelines Fragment To Generic Resusable Fragment
+				Make It Configurable and Resusable In Other Applications
+
+		14. Download Questions/Answers JSON Data From REST API
+			14.1 Create REST API with Questions/Answers JSON Data
+			14.2 Download Questions/Answers JSON Data Using REST API
+					Don't Do Download In Main Thread
+					Use Coroutines To Do In Other Than Main Threads
+			14.3 Save Downloaded Questions/Answers Data In ROOM Database
+
+		16. Add User Login Screen
+
+		17. Upgrade UI/UX Of Quiz App
+			17.1 Use Constraint Layout For Optiminsation
+			17.2 Design UX Using Material Design and Best Practices
+			17.3 Move Settings, Statistics To Menu
+				e.g. Like UBER Application
+			17.4 Add Laucher Screen In Quiz Application With Branding and Animations
+
+

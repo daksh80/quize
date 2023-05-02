@@ -71,7 +71,7 @@ class ScoreCard : AppCompatActivity() {
 
         // Set onClickListener for the start quiz button
         starQuize.setOnClickListener {
-            val intent = Intent(applicationContext, startQuize2::class.java)
+            val intent = Intent(applicationContext, MainActivity::class.java)
             applicationContext.startActivity(intent)
         }
 
