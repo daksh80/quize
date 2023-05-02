@@ -43,13 +43,16 @@ class Login : Fragment() {
 
 
 
+    // called when the fragment is first created, before the UI is drawn
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = LoginBinding.inflate(layoutInflater)
 
-        auth = Firebase.auth
+        auth = Firebase.auth // getting instance of firebase authentication
     }
 
+    // called when it's time for the fragment to draw its UI for the first time
+    // this is where you inflate your fragment layout and set up any UI event handlers
     @SuppressLint("MissingInflatedId")
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -71,30 +74,31 @@ class Login : Fragment() {
         UserScoreViewModel1.deleteAllUser()
 
         submitbtn.setOnClickListener {
-             val EditText = login.text.toString()
-             val EditPass = password.text.toString()
-             auth.signInWithEmailAndPassword(EditText,EditPass)
-                 .addOnCompleteListener{ task ->
-                     if (task.isSuccessful) {
-                         // Sign in success, update UI with the signed-in user's information
-                         Log.d(TAG, "signInWithCustomToken:success")
-                         val user = auth.currentUser
-                         replaceFragment(StartQuizController())
-                     } else {
-                         // If sign in fails, display a message to the user.
-                         Log.w(TAG, "signInWithCustomToken:failure", task.exception)
-                         Toast.makeText(context, "Authentication failed.",
-                             Toast.LENGTH_SHORT).show()
-
-                     }
-                 }
-
+            // Get the text from the login and password EditText fields
+            val EditText = login.text.toString()
+            val EditPass = password.text.toString()
+            auth.signInWithEmailAndPassword(EditText, EditPass)
+                .addOnCompleteListener { task ->
+                    if (task.isSuccessful) {
+                        // If the user sign in is successful, update the UI with the signed-in user's information
+                        Log.d(TAG, "signInWithCustomToken:success")
+                        val user = auth.currentUser
+                        // Replace the current fragment with the StartQuizController fragment
+                        replaceFragment(StartQuizController())
+                    } else {
+                        // If sign in fails, display a message to the user
+                        Log.w(TAG, "signInWithCustomToken:failure", task.exception)
+                        Toast.makeText(context, "Authentication failed.", Toast.LENGTH_SHORT).show()
+                    }
+                }
         }
+
+        // When the sign up text is clicked, replace the current fragment with the SignUp fragment
         signuptxt.setOnClickListener {
             replaceFragment(SignUp())
         }
 
-        return  view
+        return view
     }
 
     companion object {
@@ -116,6 +120,8 @@ class Login : Fragment() {
                 }
             }
     }
+
+    // Replace the current fragment with the provided fragment
     private fun replaceFragment(fragment: Fragment){
         parentFragmentManager.beginTransaction().replace(R.id.fragment_container3,fragment).addToBackStack("null").commit()
     }

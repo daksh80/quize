@@ -51,7 +51,7 @@ class McqQuizView :  McqQuizController() {
         option3.text = questions[count].option3
         option4.text = questions[count].option4
 
-
+        countdownTimer?.cancel() // Stop the countdown timer
         startCountdownTimer(questions,
         context,
         question_text,
@@ -62,6 +62,7 @@ class McqQuizView :  McqQuizController() {
         previous_question,
         next_question
         )
+
 
 
         option1.setOnClickListener {
@@ -96,16 +97,16 @@ class McqQuizView :  McqQuizController() {
                 next_question
 
             )
-            startCountdownTimer(questions,
-                context,
-                question_text,
-                option1,
-                option2,
-                option3,
-                option4,
-                previous_question,
-                next_question
-            )
+//            startCountdownTimer(questions,
+//                context,
+//                question_text,
+//                option1,
+//                option2,
+//                option3,
+//                option4,
+//                previous_question,
+//                next_question
+//            )
         }
 
         previous_question.setOnClickListener {

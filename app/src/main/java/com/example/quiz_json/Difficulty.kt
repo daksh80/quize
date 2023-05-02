@@ -29,22 +29,31 @@ class Difficulty : Fragment(), DifficultyItemClickListner {
     lateinit var subjectModel: SubjectModel
     lateinit var adapter: DifficultyAdapter
 
+    // Called when the Fragment is first created
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        // Inflate the layout for this Fragment
         binding = DifficultyBinding.inflate(layoutInflater)
+
+        // Create an instance of SubjectModel
         subjectModel = SubjectModel()
+
+        // Create a DifficultyAdapter with the Difficulty data and attach it to the RecyclerView
         adapter = context?.let { DifficultyAdapter(subjectModel.Difficulty(it), it) }!!
         adapter.listener = this
-
     }
+
+    // This function is called when a difficulty item is clicked
     override fun Difficulty(item: SubjectModel.Difficulty,position: Int) {
+        // Retrieve data from the arguments Bundle
         val args = this.arguments
         val Subject = args?.get("Subject")
         val SubjectPos = args?.get("SubjectPos")
-       // Toast.makeText(context,"MCQQuiZQ Controller ${Subject.toString()} , ${SubjectPos.toString()}",Toast.LENGTH_LONG).show()
         val Range = args?.get("Range")
         val RangePos = args?.get("RangePos")
-      //  Toast.makeText(context,"test ${Range.toString()} , ${RangePos.toString()}",Toast.LENGTH_LONG).show()
+
+        // Create a new Bundle with the selected difficulty and other data
         var bundle = Bundle()
         bundle.putString("Diff",item.Difficult)
         bundle.putInt("DiffPos",position)
@@ -52,21 +61,28 @@ class Difficulty : Fragment(), DifficultyItemClickListner {
         bundle.putString("RangePos",RangePos.toString())
         bundle.putString("Subject", Subject.toString())
         bundle.putString("SubjectPos", SubjectPos.toString())
+
+        // Create a new instance of the Setting Fragment and pass the data to it
         val Diff = Setting()
         Diff.arguments = bundle
+
+        // Replace the current Fragment with the new Setting Fragment
         replaceFragment(Diff)
     }
 
-
+    // Called when the Fragment should create its UI
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
+        // Inflate the layout for this Fragment
         val view =  inflater.inflate(R.layout.fragment_start_quize2, container, false)
+
+        // Get a reference to the RecyclerView and set its layout manager and adapter
         val recyview1 = view.findViewById<RecyclerView>(R.id.rvquize)
         recyview1.layoutManager = LinearLayoutManager(requireContext(),LinearLayoutManager.HORIZONTAL,false)
         recyview1.adapter = adapter
+
         return view
     }
 

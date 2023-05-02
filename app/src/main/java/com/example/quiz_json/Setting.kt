@@ -22,6 +22,7 @@ private const val ARG_PARAM2 = "param2"
  * create an instance of this fragment.
  */
 class Setting : Fragment() {
+
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
@@ -29,7 +30,6 @@ class Setting : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
     }
 
     override fun onCreateView(
@@ -38,27 +38,32 @@ class Setting : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         val view =  inflater.inflate(R.layout.setting, container, false)
+
+        // Get references to UI elements
         var test_type = "null"
         val boolean_test = view.findViewById<RadioButton>(R.id.boolean_test)
         val mcq_test = view.findViewById<RadioButton>(R.id.Mcq_test)
         val start_quiz = view.findViewById<Button>(R.id.start_test)
 
-
+        // Set up click listeners for radio buttons
         boolean_test.setOnClickListener {
             test_type = "t/f"
         }
         mcq_test.setOnClickListener {
             test_type = "mcq"
         }
+
+        // Set up click listener for start button
         start_quiz.setOnClickListener{
 
+            // Check which radio button was selected and start the appropriate quiz
             if (test_type == "t/f") {
-//                val intent = Intent(this, BooleanQuizController::class.java)
-//                startActivity(intent)
-//                Toast.makeText(this,"Welcome to T/F test",Toast.LENGTH_SHORT).show()
+                // Start a true/false quiz
                 replaceFragment(BooleanQuizController())
             }
             if (test_type == "mcq") {
+                // Start a multiple-choice quiz
+                // Get the quiz parameters from the arguments bundle
                 var bundle = Bundle()
                 val args = this.arguments
                 val Subject = args?.get("Subject")
@@ -73,14 +78,19 @@ class Setting : Fragment() {
                 bundle.putString("RangePos",RangePos.toString())
                 bundle.putString("Subject", Subject.toString())
                 bundle.putString("SubjectPos", SubjectPos.toString())
+
+                // Start the quiz with the selected parameters
                 mcqQuiz = McqQuizController()
                 mcqQuiz.arguments = bundle
                 replaceFragment(mcqQuiz)
             }
             if(test_type == "null") {
+                // Display an error message if no radio button was selected
                 Toast.makeText(context,"Please make a selection", Toast.LENGTH_SHORT).show()
             }
         }
+
+        // Get quiz parameters from arguments bundle (if any)
         val args = this.arguments
         val inputData1 = args?.get("Diff")
         val inputPos1 = args?.get("DiffPos")
@@ -90,7 +100,9 @@ class Setting : Fragment() {
     }
 
     companion object {
-        /**
+
+
+/**
          * Use this factory method to create a new instance of
          * this fragment using the provided parameters.
          *
